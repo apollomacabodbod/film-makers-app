@@ -17,7 +17,7 @@ export default function HomeHeader(){
 
 
 
-          <div className="flex flex-col">
+          <div className="flex flex-col border border-[#50B498] green">
 
             <div className="flex items-center">
 
@@ -31,7 +31,7 @@ export default function HomeHeader(){
 
 
 
-          <div className="lg:flex lg:flex-col hidden">
+          <div className="lg:flex lg:flex-col hidden border border-[#50B498] green">
 
 
             <div className="flex items-center gap-[1.5em] ">
@@ -46,6 +46,19 @@ export default function HomeHeader(){
             </div>
 
 
+          </div>
+
+
+          <div className="flex flex-col lg:hidden border border-[#50B498] green">
+
+
+            <div className="flex items-center">
+
+              <img src="/humberger.svg" alt="home-header-humberger" width={23} height={0} className="cursor-pointer"/>
+
+            </div>
+
+          
           </div>
 
 
