@@ -12,7 +12,7 @@ export default function HomeHeroSection(){
     <div className="flex flex-col border border-[#50B498] green">
 
 
-      <p>One scene at a time - the movie maker director.</p>
+      <p className="font-roboto-condensed text-[0.875rem] not-italic font-bold uppercase text-[#FF5E3A]">One scene at a time - the movie maker director.</p>
 
       <p>Behind Every Great Film is a Visionary.</p>
 
