@@ -7,7 +7,8 @@ module.exports = {
 
 
       fontFamily: {
-        'roboto': ["Roboto", "sans-serif"]
+        'roboto': ["Roboto", "sans-serif"],
+        'roboto-condensed': ["Roboto Condensed", "sans-serif"],
        },
 
 

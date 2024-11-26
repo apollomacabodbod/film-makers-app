@@ -36,7 +36,7 @@ export default function HomeHeader(){
 
             <div className="flex items-center gap-[1.5em] ">
 
-              <Link to={"/contact"} >Home </Link>
+              <Link to={"/contact"} className="font-roboto-condensed">Home </Link>
               <Link to={"/contact"} >About </Link>
               <Link to={"/contact"} >Services </Link>
               <Link to={"/contact"} >Works </Link>
