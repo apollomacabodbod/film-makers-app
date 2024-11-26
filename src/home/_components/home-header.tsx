@@ -14,7 +14,7 @@ export default function HomeHeader(){
     
     <>
 
-      <div className="flex flex-col border border-[#50B498] green py-[0.8em]">
+      <div className="relative flex flex-col border border-[#50B498] green py-[0.8em]">
 
 
         <div className="flex items-center justify-between ">
