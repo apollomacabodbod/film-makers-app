@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from "./home/page";
 import About from "./about/page";
 import Contact from "./contact/page";
+import HomeSmoothScroll from "./home/_components/home-smooth-scroll";
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
           </li>
         </ul>
       </nav> */}
-
+      <HomeSmoothScroll/>
       
 
       <Routes>
