@@ -8,7 +8,7 @@ export default function Home() {
 
       <HomeSmoothScroll/>
 
-      <div className="flex flex-col border border-[#50B498] green bg-[rgba(26,27,42,0.40)]">
+      <div className="flex flex-col border border-[#50B498] green bg-[rgba(26,27,42,0.40)] px-[10.6875em]">
 
         <HomeHeader/>
 
