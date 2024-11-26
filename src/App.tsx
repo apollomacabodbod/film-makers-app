@@ -7,7 +7,8 @@ import Contact from "./contact/page";
 function App() {
   return (
     <Router>
-      <nav>
+     
+      {/* <nav>
         <ul>
           <li>
             <Link to="/">Home</Link>
@@ -19,7 +20,7 @@ function App() {
             <Link to="/contact">Contact</Link>
           </li>
         </ul>
-      </nav>
+      </nav> */}
 
       <Routes>
         <Route path="/" element={<Home />} />
@@ -27,7 +28,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
 
-      <div>footer</div>
+      {/* <div>footer</div> */}
 
 
     </Router>
