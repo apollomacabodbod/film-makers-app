@@ -50,10 +50,10 @@ export default function HomeAboutUs(){
 
 
 
-          <div className="flex items-center justify-center border border-[#50B498] green relative lg:top-[-9em] md:top-[-7em] mt-[2em] lg:mt-[0em]">
+          <div className="flex items-center justify-center  relative lg:top-[-9em] md:top-[-7em] mt-[2em] lg:mt-[0em]">
 
 
-            <div className="bg-center bg-cover bg-no-repeat  xl:w-[530px] lg:w-[520px] md:w-[400px] md:h-[670px]  h-[25em] transition-all duration-1000 ease-in-out"
+            <div className="bg-center bg-cover bg-no-repeat  xl:w-[530px] lg:w-[520px] md:w-[400px] md:h-[670px]  h-[25em] transition-all duration-1000 ease-in-out rounded-[0.3125em]"
  
               style={{
                 backgroundImage: 'url("videographer-man.jpg")',
@@ -64,7 +64,7 @@ export default function HomeAboutUs(){
 
 
               <div
-                className="relative bg-cover bg-no-repeat bg-center w-[100px] h-[100px]  mt-[18em] md:mt-[35em] ml-[12em] xl:ml-[27em] lg:ml-[26em] md:ml-[18.7em]"
+                className="relative bg-cover bg-no-repeat bg-center w-[100px] h-[100px]  mt-[18em] md:mt-[35em] ml-[12em] xl:ml-[26.9em] lg:ml-[26em] md:ml-[18.7em]"
                 style={{
                   backgroundImage: 'url("home-about-us-ornament.svg")',
                 }}
