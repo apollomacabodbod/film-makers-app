@@ -21,12 +21,22 @@ export default function HomeAboutUs(){
         </div>
 
 
-        <p className="text-white font-roboto-condensed text-[4rem] lg:text-[4.5rem] not-italic font-bold leading-[1em] lg:max-w-[8em]">We Are a Team of Passionate Filmmakers</p>
+        <p className="text-white font-roboto-condensed text-[4rem] lg:text-[4.5rem] not-italic font-bold leading-[1em] lg:max-w-[8em] mt-[0.1em]">We Are a Team of Passionate Filmmakers</p>
 
-        <p className="text-[#82869A] font-roboto-condensed text-[1.5rem] not-italic font-bold leading-[1.2em] lg:max-w-[23em]">Dedicated to bringing creative and compelling stories to life on screen</p>
+        <p className="text-[#82869A] font-roboto-condensed text-[1.5rem] not-italic font-bold leading-[1.2em] lg:max-w-[23em] mt-[1.875em]">Dedicated to bringing creative and compelling stories to life on screen</p>
        
 
-        <p className="text-[#82869A] font-inter">Proin et magna blandit arcu pellentesque scelerisque sit amet a sapien. Aenean purus nunc, cursus in ante in, vehicula facilisis dui. Integer consequat consectetur est id blandit. Proin et magna blandit arcu pellentesque scelerisque sit amet.</p>
+        <p className="text-[#82869A] font-inter text-[1rem] not-italic font-normal leading-[1.5em] max-w-[34em] mt-[1.875em]">Proin et magna blandit arcu pellentesque scelerisque sit amet a sapien. Aenean purus nunc, cursus in ante in, vehicula facilisis dui. Integer consequat consectetur est id blandit. Proin et magna blandit arcu pellentesque scelerisque sit amet.</p>
+
+     
+        <div className="flex items-center mt-[1.875em]">
+
+
+          <button className="py-[1.0625em] px-[1.5625em] bg-[#FF5E3A] text-white rounded-[0.1875em] font-roboto-condensed text-[0.875rem] not-italic font-bold uppercase">learn more</button>
+
+
+        </div>
+
 
       </div>
 
