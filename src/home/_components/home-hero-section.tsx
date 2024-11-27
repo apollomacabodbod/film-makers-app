@@ -8,10 +8,10 @@ export default function HomeHeroSection(){
   return (<>
 
 
-    <div className="flex flex-col border border-[#50B498] green z-10 my-[7em] ">
+    <div className="flex flex-col  z-10 my-[7em] ">
 
 
-      <motion.p className="font-roboto-condensed text-[0.875rem] not-italic font-bold uppercase text-[#FF5E3A] border border-[#50B498] green transition-all duration-1000 ease-in-out "
+      <motion.p className="font-roboto-condensed text-[0.875rem] not-italic font-bold uppercase text-[#FF5E3A]  transition-all duration-1000 ease-in-out "
       
       
         initial="hidden"
@@ -29,7 +29,7 @@ export default function HomeHeroSection(){
       
       >One scene at a time - the movie maker director.</motion.p>
 
-      <motion.p className="font-roboto-condensed text-[4rem] lg:text-[6rem] not-italic font-bold leading-[1em] lg:max-w-[8em] text-white border border-[#50B498] green transition-all duration-1000 ease-in-out"
+      <motion.p className="font-roboto-condensed text-[4rem] lg:text-[6rem] not-italic font-bold leading-[1em] lg:max-w-[8em] text-white  transition-all duration-1000 ease-in-out"
       
         initial="hidden"
         whileInView="visible"
@@ -45,7 +45,7 @@ export default function HomeHeroSection(){
       >Behind Every Great Film is a Visionary.</motion.p>
 
 
-      <motion.p className="font-source-sans-pro text-white text-[1.25rem] not-italic font-normal border border-[#50B498] green lg:max-w-[29em] mt-[1.875em] transition-all duration-1000 ease-in-out"
+      <motion.p className="font-source-sans-pro text-white text-[1.25rem] not-italic font-normal  lg:max-w-[29em] mt-[1.875em] transition-all duration-1000 ease-in-out"
       
         initial="hidden"
         whileInView="visible"
