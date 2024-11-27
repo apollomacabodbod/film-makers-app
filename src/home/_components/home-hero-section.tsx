@@ -29,37 +29,31 @@ export default function HomeHeroSection(){
       
       >One scene at a time - the movie maker director.</motion.p>
 
-      <motion.p className="font-roboto-condensed text-[4rem] lg:text-[6rem] not-italic font-bold leading-[1em] lg:max-w-[8em] text-white border border-[#50B498] green"
-      
+      <motion.p className="font-roboto-condensed text-[4rem] lg:text-[6rem] not-italic font-bold leading-[1em] lg:max-w-[8em] text-white border border-[#50B498] green transition-all duration-1000 ease-in-out"
       
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.5 }}
+        transition={{ duration: 0 }}
         variants={{
           hidden: { opacity: 0, y: 10 },
-          visible: { 
-            opacity: 1, 
-            y: 0,
-            transition: { duration: 1, ease: "easeInOut" }, // Applying duration and easing
-          },
+          visible: { opacity: 1, y: 0 },
         }}
+   
         
       
       >Behind Every Great Film is a Visionary.</motion.p>
 
 
-      <motion.p className="font-source-sans-pro text-white text-[1.25rem] not-italic font-normal border border-[#50B498] green lg:max-w-[29em] mt-[1.875em]"
+      <motion.p className="font-source-sans-pro text-white text-[1.25rem] not-italic font-normal border border-[#50B498] green lg:max-w-[29em] mt-[1.875em] transition-all duration-1000 ease-in-out"
       
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.5 }}
+        transition={{ duration: 0 }}
         variants={{
           hidden: { opacity: 0, y: 10 },
-          visible: { 
-            opacity: 1, 
-            y: 0,
-            transition: { duration: 1, ease: "easeInOut" }, // Applying duration and easing
-          },
+          visible: { opacity: 1, y: 0 },
         }}
       
       >Crafting unforgettable stories bringing their creative vision to life on the big screen - the movie maker director</motion.p>
