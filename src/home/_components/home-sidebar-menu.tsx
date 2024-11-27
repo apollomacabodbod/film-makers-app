@@ -48,7 +48,7 @@ const Sidebar: FC<SidebarProps> = ({ sidebarOpen, setSidebarOpen }) => {
   return (
     <div
       ref={sidebarRef}
-      className={`lg:hidden fixed top-0 right-0 w-[75%] max-w-[18em] min-h-screen z-40 transition-transform duration-500 ${
+      className={`lg:hidden fixed top-0 right-0 w-[75%] max-w-[18em] min-h-screen z-50 transition-transform duration-500 ${
         sidebarOpen ? 'translate-x-0' : 'translate-x-full'
       }`}
     >

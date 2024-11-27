@@ -32,7 +32,7 @@ export default function HomeHeader(){
 
 
       <header
-        className={`fixed top-0 left-0 w-full  transition-all duration-1000 ease-in-out z-50 ${
+        className={`fixed top-0 left-0 w-full  transition-all duration-1000 ease-in-out z-40 ${
           scrolling
             ? 'backdrop-blur-lg bg-black/40 shadow-lg'
             : 'bg-transparent backdrop-blur-none shadow-none'
