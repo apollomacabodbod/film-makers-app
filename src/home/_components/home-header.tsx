@@ -32,7 +32,7 @@ export default function HomeHeader(){
 
 
       <header
-        className={`fixed top-0 left-0 w-full  transition-all duration-1000 ease-in-out z-20 ${
+        className={`fixed top-0 left-0 w-full  transition-all duration-1000 ease-in-out z-50 ${
           scrolling
             ? 'backdrop-blur-lg bg-black/40 shadow-lg'
             : 'bg-transparent backdrop-blur-none shadow-none'
@@ -41,7 +41,7 @@ export default function HomeHeader(){
 
 
 
-        <div className="relative flex flex-col py-[1em] xl:px-[5.5em] lg:px-[4.2em] px-[1.25em]">
+        <div className="relative flex flex-col py-[1.2em] xl:px-[5.5em] lg:px-[4.2em] px-[1.25em]">
 
 
           <div className="flex items-center justify-between ">
