@@ -81,7 +81,7 @@ export default function HomeHeader(){
             </div>
 
 
-            <div className="flex flex-col lg:hidden border border-[#50B498] green"
+            <div className="flex flex-col lg:hidden "
               onClick={() => setSidebarOpen(!sidebarOpen)}
             >
 
