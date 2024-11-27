@@ -12,7 +12,7 @@ export default function Home() {
       <HomeSmoothScroll/>
 
 
-      <div className="relative flex flex-col border border-[#50B498] green bg-center bg-cover bg-no-repeat xl:px-[10.6875em] lg:px-[4.2em] px-[1.25em] transition-all duration-1000 ease-in-out"
+      <div className="relative flex flex-col border border-[#50B498] green bg-center bg-cover bg-no-repeat xl:px-[5.5em] lg:px-[4.2em] px-[1.25em] transition-all duration-1000 ease-in-out"
       
         style={{
           backgroundImage: 'url("cameraman-shooting.jpg")',
