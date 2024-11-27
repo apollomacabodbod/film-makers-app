@@ -12,17 +12,16 @@ export default function Home() {
       <HomeSmoothScroll/>
 
 
-      <div className="relative flex flex-col border border-[#50B498] green bg-center bg-cover bg-no-repeat xl:px-[5.5em] lg:px-[4.2em] px-[1.25em] transition-all duration-1000 ease-in-out"
+      <div className="relative flex flex-col  bg-center bg-cover bg-no-repeat  transition-all duration-1000 ease-in-out"
       
         style={{
           backgroundImage: 'url("cameraman-shooting.jpg")',
         }}
-    
       
       >
 
         {/* Overlay */}
-        <div className="absolute inset-0 bg-[#1A1B2A66] opacity-90"></div>
+        <div className="absolute inset-0 bg-black opacity-20"></div>
 
           
         <HomeHeader/>
