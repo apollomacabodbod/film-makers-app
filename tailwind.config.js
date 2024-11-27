@@ -9,7 +9,8 @@ module.exports = {
       fontFamily: {
         'roboto': ["Roboto", "sans-serif"],
         'roboto-condensed': ["Roboto Condensed", "sans-serif"],
-        'source-sans-pro': ["Source Sans 3", "serif"],
+         'source-sans-pro': ["Source Sans 3", "serif"],
+         'inter': ["Inter", "sans-serif"],
        },
 
 
