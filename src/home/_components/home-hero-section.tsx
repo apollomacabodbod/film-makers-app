@@ -9,12 +9,12 @@ export default function HomeHeroSection(){
   return (<>
 
 
-    <div className="flex flex-col border border-[#50B498] green">
+    <div className="flex flex-col border border-[#50B498] green z-10">
 
 
       <p className="font-roboto-condensed text-[0.875rem] not-italic font-bold uppercase text-[#FF5E3A]">One scene at a time - the movie maker director.</p>
 
-      <p className="font-roboto-condensed text-[6rem] not-italic font-bold leading-[1em] max-w-[8em] text-white">Behind Every Great Film is a Visionary.</p>
+      <p className="font-roboto-condensed text-[6rem] not-italic font-bold leading-[1em] max-w-[8em] text-white ">Behind Every Great Film is a Visionary.</p>
 
 
       <p>Crafting unforgettable stories bringing their creative vision to life on the big screen - the movie maker director</p>
