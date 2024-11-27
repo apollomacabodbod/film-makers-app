@@ -38,7 +38,7 @@ export default function HomeHeroSection(){
 
             <p className="font-roboto-condensed text-[0.875rem] not-italic font-bold uppercase text-white">view our works</p>
 
-            <img src="home-hero-section-play.svg" alt="" width={13} height={0} className="min-w-[0.8125em] mt-[-0.1em] md:mt-[-0.2em] "/>
+            <img src="home-hero-section-play.svg" alt="" width={13} height={0} className="min-w-[0.8125em] mt-[-0.2em]  "/>
 
           </div>
 
