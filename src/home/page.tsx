@@ -1,3 +1,4 @@
+import HomeAboutUs from "./_components/home-about-us";
 import HomeHeader from "./_components/home-header";
 import HomeHeroSection from "./_components/home-hero-section";
 import HomeSmoothScroll from "./_components/home-smooth-scroll";
@@ -21,6 +22,13 @@ export default function Home() {
         <HomeHeroSection/>
 
 
+      </div>
+
+
+      <div className="flex flex-col border border-[#50B498] green bg-[#232639] lg:px-[10.6875em]  px-[1.25em] transition-all duration-1000 ease-in-out">
+
+        <HomeAboutUs/>
+        
       </div>
 
 
