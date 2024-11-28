@@ -68,18 +68,24 @@ export default function HomePartners(){
 
       </div> */}
 
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 border border-[#50B498] green mt-[3.5em] transiton-all duration-1000 ease-in-out">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6  gap-[1em] sm:gap-[2em] xl:gap-[6.25em] border border-[#50B498] green mt-[3.5em] transiton-all duration-1000 ease-in-out">
 
         {images.map((item) => (
 
-          <div key={item.id} className="flex flex-col">
+          <div key={item.id} className="flex flex-col border border-[#50B498] green  ">
 
-            <div className="flex items-center justify-center   sm:gap-[3em] md:gap-[6.25em] mb-[1.5em]">
+            <div className="flex items-center justify-center    border border-[#50B498] green">
 
               <img src={item.image} alt="home-partners-brand" width={`
               ${item.id === 1 && 90 || item.id === 2 && 60 || item.id === 3 && 60 || item.id === 4 && 75
               || item.id === 5 && 89.388 || item.id === 6 && 61.25
           }`} 
+
+              className={`${item.id === 1 && 'min-w-[5.625em]' || item.id === 2 && 'min-w-[3.75em]' || item.id === 3 && 'min-w-[3.75em]'
+            || item.id === 4 && 'min-w-[4.6875em]' || item.id === 5 && 'min-w-[5.58675em]' || item.id === 6 && 'min-w-[3.828125em]'
+            
+            
+              }`}
               
               height={60}/>
 
