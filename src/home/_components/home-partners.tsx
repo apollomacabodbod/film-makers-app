@@ -1,8 +1,26 @@
 
-
+import { useState } from "react";
 import { motion } from "framer-motion";
 
 export default function HomePartners(){
+
+
+  type data = {
+    id: number;
+    image: string;
+  }
+
+  const [images, setImages] = useState<data[]>([
+
+    {id: 1, image: '/home-partners-image1.svg'},
+    {id: 2, image: '/home-partners-image2.svg'},
+    {id: 3, image: '/home-partners-image3.svg'},
+    {id: 4, image: '/home-partners-image4.svg'},
+    {id: 5, image: '/home-partners-image5.svg'},
+    {id: 6, image: '/home-partners-image6.svg'},
+    
+  ])
+
 
 
   return (<>
@@ -38,7 +56,7 @@ export default function HomePartners(){
       <p className="font-roboto-condensed text-white text-[2.8125rem] not-italic font-bold text-center">Trusted by the Best Brands</p>
 
 
-      <div className="flex items-center justify-center gap-[6.25em]">
+      {/* <div className="flex items-center justify-center xl:gap-[6.25em]">
 
         <img src="/home-partners-image1.svg" alt="" width={90} height={60}/>
         <img src="/home-partners-image2.svg" alt="" width={60} height={60}/>
@@ -46,6 +64,36 @@ export default function HomePartners(){
         <img src="/home-partners-image4.svg" alt="" width={75} height={60}/>
         <img src="/home-partners-image5.svg" alt="" width={89.388} height={60}/>
         <img src="/home-partners-image6.svg" alt="" width={61.25} height={60}/>
+
+
+      </div> */}
+
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 border border-[#50B498] green mt-[3.5em] transiton-all duration-1000 ease-in-out">
+
+        {images.map((item) => (
+
+          <div key={item.id} className="flex flex-col">
+
+            <div className="flex items-center justify-center   sm:gap-[3em] md:gap-[6.25em] mb-[1.5em]">
+
+              <img src={item.image} alt="home-partners-brand" width={`
+              ${item.id === 1 && 90 || item.id === 2 && 60 || item.id === 3 && 60 || item.id === 4 && 75
+              || item.id === 5 && 89.388 || item.id === 6 && 61.25
+          }`} 
+              
+              height={60}/>
+
+
+            </div>
+
+        
+
+          </div>
+
+
+        ))}
+
+
 
 
 

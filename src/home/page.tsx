@@ -1,4 +1,5 @@
 import HomeAboutUs from "./_components/home-about-us";
+import HomeDirectors from "./_components/home-directors";
 import HomeHeader from "./_components/home-header";
 import HomeHeroSection from "./_components/home-hero-section";
 import HomePartners from "./_components/home-partners";
@@ -36,6 +37,7 @@ export default function Home() {
 
         <HomeAboutUs/>
         <HomePartners/>
+        <HomeDirectors/>
 
       </div>
 
