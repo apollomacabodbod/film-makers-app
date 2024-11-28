@@ -128,7 +128,7 @@ export default function HomeAboutUs(){
           <div className="flex items-center justify-center  relative lg:top-[-9em] md:top-[-7em] mt-[2em] lg:mt-[0em]">
 
 
-            <motion.div className="bg-center bg-cover bg-no-repeat  xl:w-[530px] lg:w-[520px] md:w-[400px] md:h-[670px] w-full h-[25em] transition-all duration-1000 ease-in-out rounded-[0.3125em]"
+            <motion.div className="bg-center bg-cover bg-no-repeat  lg:w-[530px] md:w-[400px] md:h-[670px] w-full h-[25em] transition-all duration-1000 ease-in-out rounded-[0.3125em]"
  
               style={{
                 backgroundImage: 'url("videographer-man.jpg")',
