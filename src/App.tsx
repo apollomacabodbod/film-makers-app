@@ -1,11 +1,20 @@
-import React from "react";
-import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import React, { useEffect } from "react";
+import { BrowserRouter as Router, Routes, Route, useLocation} from "react-router-dom";
 import Home from "./home/page";
 import About from "./about/page";
 import Contact from "./contact/page";
 import HomeHeader from "./home/_components/home-header";
 
 function App() {
+
+
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
+
+
   return (
 
     <>
