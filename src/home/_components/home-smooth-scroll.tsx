@@ -4,8 +4,9 @@ import { useEffect } from "react";
 import Lenis from "lenis";
 
 
-
 export default function HomeSmoothScroll(){
+
+
 
   useEffect(() => {
     // Initialize Lenis for smooth scrolling

@@ -1,20 +1,15 @@
 import { useEffect, useState } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Sidebar from "./home-sidebar-menu";
 
 
 
 export default function HomeHeader(){
 
-  const location = useLocation();
 
   const [scrolling, setScrolling] = useState(false);
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
-
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [location]);
 
 
   useEffect(() => {
