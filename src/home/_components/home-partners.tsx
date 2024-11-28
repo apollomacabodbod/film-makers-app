@@ -38,6 +38,21 @@ export default function HomePartners(){
       <p className="font-roboto-condensed text-white text-[2.8125rem] not-italic font-bold text-center">Trusted by the Best Brands</p>
 
 
+      <div className="flex items-center justify-center gap-[6.25em]">
+
+        <img src="/home-partners-image1.svg" alt="" width={90} height={60}/>
+        <img src="/home-partners-image2.svg" alt="" width={60} height={60}/>
+        <img src="/home-partners-image3.svg" alt="" width={60} height={60}/>
+        <img src="/home-partners-image4.svg" alt="" width={75} height={60}/>
+        <img src="/home-partners-image5.svg" alt="" width={89.388} height={60}/>
+        <img src="/home-partners-image6.svg" alt="" width={61.25} height={60}/>
+
+
+
+      </div>
+
+
+
     </div>
     
     
