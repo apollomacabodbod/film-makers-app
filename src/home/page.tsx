@@ -1,6 +1,5 @@
 import HomeAboutUs from "./_components/home-about-us";
 import HomeDirectors from "./_components/home-directors";
-import HomeHeader from "./_components/home-header";
 import HomeHeroSection from "./_components/home-hero-section";
 import HomePartners from "./_components/home-partners";
 import HomeSmoothScroll from "./_components/home-smooth-scroll";

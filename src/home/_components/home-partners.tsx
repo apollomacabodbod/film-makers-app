@@ -10,6 +10,7 @@ export default function HomePartners(){
     image: string;
   }
 
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [images, setImages] = useState<data[]>([
 
     {id: 1, image: '/home-partners-image1.svg'},
@@ -56,17 +57,6 @@ export default function HomePartners(){
       <p className="font-roboto-condensed text-white text-[2.8125rem] not-italic font-bold text-center">Trusted by the Best Brands</p>
 
 
-      {/* <div className="flex items-center justify-center xl:gap-[6.25em]">
-
-        <img src="/home-partners-image1.svg" alt="" width={90} height={60}/>
-        <img src="/home-partners-image2.svg" alt="" width={60} height={60}/>
-        <img src="/home-partners-image3.svg" alt="" width={60} height={60}/>
-        <img src="/home-partners-image4.svg" alt="" width={75} height={60}/>
-        <img src="/home-partners-image5.svg" alt="" width={89.388} height={60}/>
-        <img src="/home-partners-image6.svg" alt="" width={61.25} height={60}/>
-
-
-      </div> */}
 
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6  gap-[1em] sm:gap-[2em] xl:gap-[6.25em] border border-[#50B498] green mt-[3.5em] transiton-all duration-1000 ease-in-out">
 
@@ -77,12 +67,12 @@ export default function HomePartners(){
             <div className="flex items-center justify-center    border border-[#50B498] green">
 
               <img src={item.image} alt="home-partners-brand" width={`
-              ${item.id === 1 && 90 || item.id === 2 && 60 || item.id === 3 && 60 || item.id === 4 && 75
-              || item.id === 5 && 89.388 || item.id === 6 && 61.25
-          }`} 
+  ${(item.id === 1 && 90) || (item.id === 2 && 60) || (item.id === 3 && 60) || (item.id === 4 && 75) ||
+   (item.id === 5 && 89.388) || (item.id === 6 && 61.25)}
+`}
 
-              className={`${item.id === 1 && 'min-w-[5.625em]' || item.id === 2 && 'min-w-[3.75em]' || item.id === 3 && 'min-w-[3.75em]'
-            || item.id === 4 && 'min-w-[4.6875em]' || item.id === 5 && 'min-w-[5.58675em]' || item.id === 6 && 'min-w-[3.828125em]'
+              className={`${(item.id === 1 && 'min-w-[5.625em]') || (item.id === 2 && 'min-w-[3.75em]') || (item.id === 3 && 'min-w-[3.75em]')
+            || (item.id === 4 && 'min-w-[4.6875em]') || (item.id === 5 && 'min-w-[5.58675em]') || (item.id === 6 && 'min-w-[3.828125em]')
             
             
               }`}
