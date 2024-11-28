@@ -11,7 +11,7 @@ export default function HomeAboutUs(){
 
       <div className="flex flex-col lg:mt-[6.25em] md:mt-[3em] my-[6em] border border-[#50B498] green ">
 
-        <div className="md:flex md:item-center md:justify-between xl:gap-[3.125em] lg:gap-[3em] md:gap-[0.9em]">
+        <div className="md:flex md:item-center md:justify-between xl:gap-[3.125em] lg:gap-[3em] md:gap-[1.2em]">
 
 
 
@@ -53,7 +53,7 @@ export default function HomeAboutUs(){
           <div className="flex items-center justify-center  relative lg:top-[-9em] md:top-[-7em] mt-[2em] lg:mt-[0em]">
 
 
-            <div className="bg-center bg-cover bg-no-repeat  xl:w-[530px] lg:w-[520px] md:w-[400px] md:h-[670px]  h-[25em] transition-all duration-1000 ease-in-out rounded-[0.3125em]"
+            <div className="bg-center bg-cover bg-no-repeat  xl:w-[530px] lg:w-[520px] md:w-[400px] md:h-[670px] w-full h-[25em] transition-all duration-1000 ease-in-out rounded-[0.3125em]"
  
               style={{
                 backgroundImage: 'url("videographer-man.jpg")',
@@ -64,7 +64,7 @@ export default function HomeAboutUs(){
 
 
               <div
-                className="relative bg-cover bg-no-repeat bg-center w-[100px] h-[100px]  mt-[18em] md:mt-[35em] ml-[12em] xl:ml-[26.9em] lg:ml-[26em] md:ml-[18.7em]"
+                className="absolute bg-cover bg-no-repeat bg-center w-[100px] h-[100px]  top-[18em] md:top-[35em] right-[-0.1%] xl:right-[-0.1%] lg:right-[-0.1%] md:right-[-0.1%]"
                 style={{
                   backgroundImage: 'url("home-about-us-ornament.svg")',
                 }}
