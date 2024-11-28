@@ -123,48 +123,37 @@ export default function HomeAboutUs(){
 
 
 
-
-
-          <div className="flex items-center justify-center  relative lg:top-[-9em] md:top-[-7em] mt-[2em] lg:mt-[0em]">
-
-
-            <motion.div className="bg-center bg-cover bg-no-repeat  lg:w-[530px] md:w-[400px] md:h-[670px] w-full h-[25em] transition-all duration-1000 ease-in-out rounded-[0.3125em]"
- 
-              style={{
-                backgroundImage: 'url("videographer-man.jpg")',
-              }}
-
-
+          <div className="flex items-center justify-center relative lg:top-[-9em] md:top-[-7em] mt-[2em] lg:mt-[0em]">
+            <motion.div
+              className="relative overflow-hidden lg:w-[530px] md:w-[400px] md:h-[670px] w-full h-[25em] rounded-[0.3125em] group"
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true, amount: 0.5 }}
               variants={{
                 hidden: { opacity: 0, y: 10 },
-                visible: { 
-                  opacity: 1, 
+                visible: {
+                  opacity: 1,
                   y: 0,
-                  transition: { duration: 0, ease: "easeInOut" }, // Applying duration and easing
+                  transition: { duration: 0, ease: "easeInOut" },
                 },
               }}
-
             >
-
-
-
               <div
-                className="absolute bg-cover bg-no-repeat bg-center w-[100px] h-[100px]  top-[18em] md:top-[35em] right-[-0.1%] xl:right-[-0.0%] lg:right-[-0.1%] md:right-[-0.1%]"
+                className="absolute inset-0 bg-center bg-cover transition-transform duration-500 ease-in-out group-hover:scale-110"
+                style={{
+                  backgroundImage: 'url("videographer-man.jpg")',
+                }}
+              ></div>
+              <div
+                className="absolute bg-cover bg-no-repeat bg-center w-[100px] h-[100px] top-[18em] md:top-[35em] right-[-0.1%] xl:right-[-0.0%] lg:right-[-0.1%] md:right-[-0.1%]"
                 style={{
                   backgroundImage: 'url("home-about-us-ornament.svg")',
                 }}
-              >
-
-              </div>
-
-
+              ></div>
             </motion.div>
-
-
           </div>
+
+
 
 
           
