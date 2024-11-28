@@ -9,13 +9,13 @@ export default function HomeAboutUs(){
     
     <>
 
-      <div className="flex flex-col lg:mt-[6.25em] md:mt-[3em] my-[6em] border border-[#50B498] green ">
+      <div className="flex flex-col lg:mt-[6.25em] md:mt-[3em] my-[6em]  ">
 
         <div className="md:flex md:item-center md:justify-between xl:gap-[3.125em] lg:gap-[3em] md:gap-[1.2em]">
 
 
 
-          <div className="flex flex-col border border-[#50B498] green">
+          <div className="flex flex-col ">
 
             <motion.div className="flex items-center gap-[0.625em] transiton-all duration-1000 ease-in-out"
             
@@ -152,7 +152,7 @@ export default function HomeAboutUs(){
 
 
               <div
-                className="absolute bg-cover bg-no-repeat bg-center w-[100px] h-[100px]  top-[18em] md:top-[35em] right-[-0.1%] xl:right-[-0.1%] lg:right-[-0.1%] md:right-[-0.1%]"
+                className="absolute bg-cover bg-no-repeat bg-center w-[100px] h-[100px]  top-[18em] md:top-[35em] right-[-0.1%] xl:right-[-0.0%] lg:right-[-0.1%] md:right-[-0.1%]"
                 style={{
                   backgroundImage: 'url("home-about-us-ornament.svg")',
                 }}
