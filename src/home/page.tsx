@@ -4,6 +4,7 @@ import HomeHeroSection from "./_components/home-hero-section";
 import HomeOurCinema from "./_components/home-our-cinema";
 import HomePartners from "./_components/home-partners";
 import HomeSmoothScroll from "./_components/home-smooth-scroll";
+import HomeWorks from "./_components/home-works";
 
 export default function Home() {
   return (
@@ -39,6 +40,7 @@ export default function Home() {
         <HomePartners/>
         <HomeDirectors/>
         <HomeOurCinema/>
+        <HomeWorks/>
 
       </div>
 
