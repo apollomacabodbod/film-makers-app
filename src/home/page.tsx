@@ -1,6 +1,7 @@
 import HomeAboutUs from "./_components/home-about-us";
 import HomeDirectors from "./_components/home-directors";
 import HomeHeroSection from "./_components/home-hero-section";
+import HomeOurCinema from "./_components/home-our-cinema";
 import HomePartners from "./_components/home-partners";
 import HomeSmoothScroll from "./_components/home-smooth-scroll";
 
@@ -37,6 +38,7 @@ export default function Home() {
         <HomeAboutUs/>
         <HomePartners/>
         <HomeDirectors/>
+        <HomeOurCinema/>
 
       </div>
 
