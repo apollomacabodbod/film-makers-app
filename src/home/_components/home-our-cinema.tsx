@@ -68,7 +68,7 @@ export default function HomeOurCinema(){
           </motion.div>
 
 
-          <motion.p className="font-roboto-condensed text-[2.8rem] sm:text-[4.5rem] not-italic font-bold leading-[1em] text-white transiton-all duration-1000 ease-in-out"
+          <motion.p className="font-roboto-condensed text-[2.8rem] sm0:text-[3.8rem] sm:text-[4rem] sm1:text-[4.5rem] not-italic font-bold leading-[1em] text-white transiton-all duration-1000 ease-in-out"
           
             initial="hidden"
             whileInView="visible"

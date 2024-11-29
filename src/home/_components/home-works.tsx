@@ -44,7 +44,7 @@ export default function HomeWorks(){
           </motion.div>
 
 
-          <motion.p className="font-roboto-condensed text-[2.7rem]  lg:text-[3.5rem] xl:text-[4.5rem] not-italic font-bold leading-[1em] text-white sm:whitespace-nowrap transiton-all duration-1000 ease-in-out"
+          <motion.p className="font-roboto-condensed text-[3rem]  lg:text-[3.5rem] xl:text-[4.5rem] not-italic font-bold leading-[1em] text-white sm2:whitespace-nowrap transiton-all duration-1000 ease-in-out"
           
             initial="hidden"
             whileInView="visible"

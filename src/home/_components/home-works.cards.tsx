@@ -36,7 +36,7 @@ export default function HomeWorksCards(){
        {data.map((item) => (
 
 
-         <div className="bg-cover bg-center bg-no-repeat  h-[20.0625em] border border-[#50B498] green"
+         <div key={item.id} className="bg-cover bg-center bg-no-repeat  h-[20.0625em] border border-[#50B498] green"
            style={{
              backgroundImage: `url(${item.image})`, 
            }}
@@ -44,14 +44,14 @@ export default function HomeWorksCards(){
          >
 
 
-           <div className="relative flex flex-col border border-[#50B498] green top-[13.4em] sm:top-[14.4em] py-[1.25em] px-[1.875em]">
+           <div className="relative flex flex-col border border-[#50B498] green top-[13.4em] sm:top-[12.9em] sm1:top-[14.4em] py-[1.25em] px-[1.875em]">
 
              <p>{item.title}</p>
 
 
              <div className="flex items-center justify-between">
 
-               <p className="text-[0.8rem]  sm:text-[1rem] lg:text-[0.8rem] xl:text-[1rem]">{item.description}</p>
+               <p className="text-[0.8rem]  sm:text-[1rem] sm1:text-[0.8rem] xl:text-[1rem]">{item.description}</p>
                <p>{item.year}</p>
 
              </div>
