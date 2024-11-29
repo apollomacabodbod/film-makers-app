@@ -15,7 +15,7 @@ export default function HomeWorksCards(){
    }
 
 
-   const [data, setData] = useState<HomeCards[]>([
+   const [data] = useState<HomeCards[]>([
 
      {id: 1 , title: "TV Commecial", description: 'Proin et magna blandit arcu pellentes scelerisque.', image: '/home-works-card.svg',year: "2023"},
      {id: 2 , title: "Indie Movie", description: 'Proin et magna blandit arcu pellentes sceleris ameta.', image: '/home-works-card.svg',year: "2023"},
