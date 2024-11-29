@@ -44,8 +44,41 @@ export default function HomeWorks(){
           </motion.div>
 
 
-          <p className="font-roboto-condensed text-[3rem] lg:text-[3.5rem] xl:text-[4.5rem] not-italic font-bold leading-[1em] text-white sm:whitespace-nowrap ">Check Out Our Latest Works</p>
-          <p className="text-[#82869A] font-inter text-[1rem] font-normal mt-[1.25em] ">Proin et magna blandit arcu pellentesque scelerisque sit amet a sapien aenean</p>
+          <motion.p className="font-roboto-condensed text-[3rem] lg:text-[3.5rem] xl:text-[4.5rem] not-italic font-bold leading-[1em] text-white sm:whitespace-nowrap transiton-all duration-1000 ease-in-out"
+          
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }}
+            variants={{
+              hidden: { opacity: 0, y: 10 },
+              visible: { 
+                opacity: 1, 
+                y: 0,
+                transition: { duration: 0, ease: "easeInOut" }, // Applying duration and easing
+              },
+            }}
+        
+          
+          
+          >Check Out Our Latest Works</motion.p>
+          <motion.p className="text-[#82869A] font-inter text-[1rem] font-normal mt-[1.25em] transiton-all duration-1000 ease-in-out"
+          
+          
+          
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }}
+            variants={{
+              hidden: { opacity: 0, y: 10 },
+              visible: { 
+                opacity: 1, 
+                y: 0,
+                transition: { duration: 0, ease: "easeInOut" }, // Applying duration and easing
+              },
+            }}
+        
+          
+          >Proin et magna blandit arcu pellentesque scelerisque sit amet a sapien aenean</motion.p>
    
 
 
