@@ -1,5 +1,6 @@
 import HomeAboutUs from "./_components/home-about-us";
 import HomeBlog from "./_components/home-blog";
+import HomeBlogCards from "./_components/home-blog-cards";
 import HomeDirectors from "./_components/home-directors";
 import HomeHeroSection from "./_components/home-hero-section";
 import HomeOurCinema from "./_components/home-our-cinema";
