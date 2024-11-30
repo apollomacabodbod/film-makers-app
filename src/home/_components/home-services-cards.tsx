@@ -18,27 +18,26 @@ export default function HomeServicesCards(){
     const [cards] = useState<ServicesCards[]>([
 
       {id: 1, title: 'Movie Production', description: 'Proin et magna blandit arcu pellent esque sceleri bandio wasikolo.'
-        ,image: '/home-services-cards.svg' , iconOuter: 'home-services-icon-outer.svg', iconInner: 'home-services-icon-inner.svg'},
+        ,image: '/professional-camera.jpg' , iconOuter: 'home-services-icon-outer.svg', iconInner: 'home-movie-production.svg'},
 
       {id: 2, title: 'Movie Directing', description: 'Proin et magna blandit arcu pellent esque sceleri bandio wasikolo.'
-        ,image: '/home-services-cards.svg' , iconOuter: 'home-services-icon-outer.svg', iconInner: 'home-services-icon-inner.svg'},
+        ,image: '/cameraman-shooting.jpg' , iconOuter: 'home-services-icon-outer.svg', iconInner: 'home-movie-directing.svg'},
 
 
       {id: 3, title: 'High Quality Work', description: 'Proin et magna blandit arcu pellent esque sceleri bandio wasikolo.'
-        ,image: '/home-services-cards.svg' , iconOuter: 'home-services-icon-outer.svg', iconInner: 'home-services-icon-inner.svg'},
+        ,image: '/videographer-filming.jpeg' , iconOuter: 'home-services-icon-outer.svg', iconInner: 'home-high-quality.svg'},
 
 
 
       {id: 4, title: 'Sound Effects', description: 'Proin et magna blandit arcu pellent esque sceleri bandio wasikolo.'
-        ,image: '/home-services-cards.svg' , iconOuter: 'home-services-icon-outer.svg', iconInner: 'home-services-icon-inner.svg'},
-
+        ,image: '/professional-recording.jpg' , iconOuter: 'home-services-icon-outer.svg', iconInner: 'home-sound-effects.svg'},
 
       {id: 5, title: 'Live Streaming', description: 'Proin et magna blandit arcu pellent esque sceleri bandio wasikolo.'
-        ,image: '/home-services-cards.svg' , iconOuter: 'home-services-icon-outer.svg', iconInner: 'home-services-icon-inner.svg'},
+        ,image: '/body-part.jpg' , iconOuter: 'home-services-icon-outer.svg', iconInner: 'home-live-streaming.svg'},
 
 
       {id: 6, title: 'Video Converting', description: 'Proin et magna blandit arcu pellent esque sceleri bandio wasikolo.'
-        ,image: '/home-services-cards.svg' , iconOuter: 'home-services-icon-outer.svg', iconInner: 'home-services-icon-inner.svg'},
+        ,image: '/videographer-editing.JPG' , iconOuter: 'home-services-icon-outer.svg', iconInner: 'home-video-converting.svg'},
     ])
 
 
@@ -50,7 +49,7 @@ export default function HomeServicesCards(){
 
         {cards.map((item) => (
 
-          <div key={item.id} className="bg-center bg-no-repeat bg-cover h-[25em] border border-[#50B498] green px-[1.25em]"
+          <div key={item.id} className="bg-center bg-no-repeat bg-cover h-[25em] border border-[#50B498] green "
 
             style={{
               backgroundImage: `url(${item.image})`
@@ -60,9 +59,12 @@ export default function HomeServicesCards(){
 
 
 
-            <div className="relative bg-center bg-no-repeat bg-cover w-full  xs:top-[15.8em] sm:top-[16.6em] sm3:top-[15.8em] md1:top-[16.7em]  lg:top-[15.4em] xl:top-[14.7em]  pb-[0.9375em] border border-[#50B498] green bg-[linear-gradient(180deg,rgba(17,18,30,0.00)_0%,rgba(17, 18, 30, 0.80)_100%)]"
+            <div className="px-[1.25em] relative bg-center bg-no-repeat bg-cover w-full  xs:top-[15.8em] sm:top-[16.6em] sm3:top-[15.8em] md1:top-[16.7em]  lg:top-[15.4em] xl:top-[14.7em]  pb-[0.9375em] border border-[#50B498] green "
 
-
+              style={{
+                background: "linear-gradient(180deg, rgba(17, 18, 30, 0.00) 0%, rgba(17, 18, 30, 0.80) 100%)",
+              }}
+             
             >
 
 
@@ -74,6 +76,20 @@ export default function HomeServicesCards(){
                 }}
 
               >
+
+
+                <div className="relative top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-center bg-no-repeat  w-[30px] h-[30px]  border border-[#50B498] green"
+
+                  style={{
+
+                    backgroundImage: `url(${item.iconInner})`
+                  }}
+
+                >
+
+
+                </div>
+
 
         
               </div>
