@@ -63,7 +63,7 @@ export default function Home() {
 
       >
 
-        <div className="flex flex-col bg-no-repeat h-auto"
+        <div className="flex flex-col bg-no-repeat h-auto xl:px-[5.5em] lg:px-[2.75em] px-[1.25em] transition-all duration-1000 ease-in-out py-[6.25em]"
 
           style={{
             backgroundImage: "url('/home-testimontials-vector2.svg')"

@@ -7,7 +7,7 @@ export default function HomeTestimontials(){
   return (<>
 
 
-    <div className="flex flex-col xl:px-[5.5em] lg:px-[2.75em] px-[1.25em] transition-all duration-1000 ease-in-out mt-[6.25em] w-[43.75em]">
+    <div className="flex flex-col   w-[43.75em] border border-[#50B498] green">
 
       <motion.div className="flex items-center  gap-[0.625em] transiton-all duration-1000 ease-in-out"
             
