@@ -1,4 +1,5 @@
 import HomeAboutUs from "./_components/home-about-us";
+import HomeBlog from "./_components/home-blog";
 import HomeDirectors from "./_components/home-directors";
 import HomeHeroSection from "./_components/home-hero-section";
 import HomeOurCinema from "./_components/home-our-cinema";
@@ -102,7 +103,11 @@ export default function Home() {
 
 
 
+      <div className="flex flex-col border border-[#50B498] green bg-[#232639] xl:px-[5.5em] lg:px-[2.75em] px-[1.25em] transition-all duration-1000 ease-in-out">
 
+        <HomeBlog/>
+      
+      </div>
     
     
     </>)
