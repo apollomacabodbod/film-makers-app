@@ -6,6 +6,7 @@ import HomePartners from "./_components/home-partners";
 import HomeServices from "./_components/home-services";
 import HomeServicesCards from "./_components/home-services-cards";
 import HomeSmoothScroll from "./_components/home-smooth-scroll";
+import HomeTestimontialCards from "./_components/home-testimontial-cards";
 import HomeTestimontials from "./_components/home-testimontials";
 import HomeWorks from "./_components/home-works";
 import HomeWorksCards from "./_components/home-works.cards";
@@ -72,6 +73,7 @@ export default function Home() {
 
           {/* components */}
           <HomeTestimontials/>
+          <HomeTestimontialCards/>
 
 
 
