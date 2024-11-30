@@ -3,6 +3,7 @@ import HomeDirectors from "./_components/home-directors";
 import HomeHeroSection from "./_components/home-hero-section";
 import HomeOurCinema from "./_components/home-our-cinema";
 import HomePartners from "./_components/home-partners";
+import HomeServices from "./_components/home-services";
 import HomeSmoothScroll from "./_components/home-smooth-scroll";
 import HomeWorks from "./_components/home-works";
 import HomeWorksCards from "./_components/home-works.cards";
@@ -43,6 +44,7 @@ export default function Home() {
         <HomeOurCinema/>
         <HomeWorks/>
         <HomeWorksCards/>
+        <HomeServices/>
 
       </div>
 
