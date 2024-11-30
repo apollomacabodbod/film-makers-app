@@ -6,6 +6,7 @@ import HomePartners from "./_components/home-partners";
 import HomeServices from "./_components/home-services";
 import HomeServicesCards from "./_components/home-services-cards";
 import HomeSmoothScroll from "./_components/home-smooth-scroll";
+import HomeTestimontialsVector from "./_components/home-testimontials-vector";
 import HomeWorks from "./_components/home-works";
 import HomeWorksCards from "./_components/home-works.cards";
 
@@ -49,6 +50,37 @@ export default function Home() {
         <HomeServicesCards/>
 
       </div>
+
+
+
+      <div className="flex flex-col bg-no-repeat h-auto bg-[#232639]"
+
+        style={{
+          backgroundImage: "url('/home-testimontials-vector1.svg')"
+        }}
+
+
+      >
+
+        <div className="flex flex-col bg-no-repeat h-auto"
+
+          style={{
+            backgroundImage: "url('/home-testimontials-vector2.svg')"
+          }}
+
+        >
+
+          {/* components */}
+
+
+
+        </div>
+
+
+
+      </div>
+
+
 
 
     
