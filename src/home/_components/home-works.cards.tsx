@@ -44,7 +44,7 @@ export default function HomeWorksCards(){
          >
 
 
-           <div className="relative flex flex-col border border-[#50B498] green top-[8em] sm0:top-[7.3em] sm1:top-[8.5em] sm:top-[8.6em] 
+           <div className="relative flex flex-col border border-[#50B498] green xs:top-[8em]  sm0:top-[7.9em] sm1:top-[8.5em] sm:top-[8.6em] 
            
            pt-[4.8125em] pb-[2em] px-[1.875em] bg-[linear-gradient(180deg,rgba(17,18,30,0)_0%,rgba(17,18,30,0.8)_100%)]">
 
@@ -53,7 +53,7 @@ export default function HomeWorksCards(){
 
              <div className="flex items-center justify-between mt-[0.5em]">
 
-               <p className="text-[0.8rem]  sm:text-[1rem] sm1:text-[0.8rem] xl:text-[1rem] text-white font-inter  not-italic font-normal">{item.description}</p>
+               <p className="text-[0.8rem]  sm:text-[0.8rem] sm1:text-[0.8rem] xl:text-[1rem] text-white font-inter  not-italic font-normal">{item.description}</p>
                <p className="font-roboto-condensed text-[1.25rem] not-italic font-bold text-white">{item.year}</p>
 
              </div>

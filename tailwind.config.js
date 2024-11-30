@@ -61,16 +61,29 @@ module.exports = {
 
 
     screens: {
-      'sm': '445px',
+
+      'xs': '344px',
+
+
+      'sm': '449px',
 
       'sm0': '447px',
       // => @media (min-width: 640px) { ... }
-      'sm1': '516px',
+      'sm1': '516px', //common use
 
 
       'sm2': '603px',
 
+      'sm3': '640px',
+
+
+
+
+
       'md': '768px',
+
+
+      'md1': '872px',
       // => @media (min-width: 768px) { ... }
 
       'lg': '1024px',
