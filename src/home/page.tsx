@@ -54,7 +54,7 @@ export default function Home() {
 
 
 
-      <div className="flex flex-col bg-no-repeat h-auto bg-[#232639] "
+      <div className="flex flex-col bg-no-repeat h-auto bg-[#232639] border border-[#50B498] green"
 
         style={{
           backgroundImage: "url('/home-testimontials-vector1.svg')"
@@ -63,7 +63,7 @@ export default function Home() {
 
       >
 
-        <div className="flex flex-col bg-no-repeat h-auto xl:px-[5.5em] lg:px-[2.75em] px-[1.25em] transition-all duration-1000 ease-in-out py-[6.25em]"
+        <div className="lg:relative flex flex-col bg-no-repeat h-auto xl:px-[5.5em] lg:px-[2.75em] px-[1.25em] transition-all duration-1000 ease-in-out py-[6.25em] border border-[#50B498] green"
 
           style={{
             backgroundImage: "url('/home-testimontials-vector2.svg')"
@@ -74,6 +74,23 @@ export default function Home() {
           {/* components */}
           <HomeTestimontials/>
           <HomeTestimontialCards/>
+
+
+          <div
+            className="relative lg:z-10 lg:absolute lg:top-[6.4em] lg:right-[3.8%] xl:top-[5.8em] xl:right-[7%] bg-center bg-no-repeat bg-cover w-full lg:w-[20em] h-[20em] lg:h-[35.8em] mt-[2em] lg:mt-[0em]"
+            style={{
+              backgroundImage: "url('/home-testimontials-image.svg')",
+            }}
+          >
+            {/* Ornament */}
+            <div
+              className="absolute bg-center bg-no-repeat bg-cover w-[6.25em] h-[6.25em] top-[13.7em] right-[-0.1%] lg:top-[29.6em] lg:right-[-0.1%]"
+              style={{
+                backgroundImage: "url('/home-testimontials-ornament.svg')",
+              }}
+            ></div>
+          </div>
+
 
 
 

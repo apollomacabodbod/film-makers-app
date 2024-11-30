@@ -8,14 +8,14 @@ export default function HomeTestimontialCards(){
 
 
 
-    <div className="flex flex-col">
+    <div className="z-30 flex flex-col border border-[#50B498] green">
 
 
-      <div className="flex items-center gap-[1.875em]">
+      <div className="lg:flex lg:items-center lg:gap-[1.875em] lg:max-w-[82%]">
 
 
 
-        <div className="flex flex-col border border-[#50B498] green bg-white w-[27.1875em] px-[1.875em] py-[1.875em] gap-[1.25em] rounded-[0.3125em] 
+        <div className="flex flex-col border border-[#50B498] green bg-white  w-full  px-[1.875em] py-[1.875em] gap-[1.25em] rounded-[0.3125em] 
     
     mt-[1.875em]
     ">
@@ -30,7 +30,7 @@ export default function HomeTestimontialCards(){
 
           <p className="text-[#11121E] font-roboto-condensed not-italic font-bold leading-[1em] text-[2.25rem] ">I Really Like the Idea of the Movies</p>
 
-          <p className="text-[#82869A] font-inter text-[1rem] not-italic font-normal" >Proin magna blandit arcu pellent esque sceleri sque sit amet sapien purus nunc cursus antein vehicula facilisis Integer conse tetur est id.</p>
+          <p className="text-[#82869A] font-inter lg:text-[0.8rem] xl:text-[1rem] not-italic font-normal " >Proin magna blandit arcu pellent esque sceleri sque sit amet sapien purus nunc cursus antein vehicula facilisis Integer conse tetur est id.</p>
    
           <div className="flex items-center ">
 
@@ -51,7 +51,9 @@ export default function HomeTestimontialCards(){
 
 
 
-        <div className="flex flex-col border border-[#50B498] green bg-white w-[27.1875em] px-[1.875em] py-[1.875em] gap-[1.25em] rounded-[0.3125em] 
+
+
+        <div className="z-20 flex flex-col border border-[#50B498] green bg-white  w-full  px-[1.875em] py-[1.875em] gap-[1.25em] rounded-[0.3125em] 
     
     mt-[1.875em]
     ">
@@ -66,7 +68,7 @@ export default function HomeTestimontialCards(){
 
           <p className="text-[#11121E] font-roboto-condensed not-italic font-bold leading-[1em] text-[2.25rem] ">I Really Like the Idea of the Movies</p>
 
-          <p className="text-[#82869A] font-inter text-[1rem] not-italic font-normal" >Proin magna blandit arcu pellent esque sceleri sque sit amet sapien purus nunc cursus antein vehicula facilisis Integer conse tetur est id.</p>
+          <p className="text-[#82869A] font-inter lg:text-[0.8rem] xl:text-[1rem] not-italic font-normal" >Proin magna blandit arcu pellent esque sceleri sque sit amet sapien purus nunc cursus antein vehicula facilisis Integer conse tetur est id.</p>
    
           <div className="flex items-center ">
 
@@ -79,18 +81,36 @@ export default function HomeTestimontialCards(){
             <p className="text-[#FF5E3A] font-roboto-condensed text-[0.875rem] not-italic font-bold uppercase">Business</p>
 
           </div>
+
+
+
+        
      
         </div>
 
 
 
 
+        
+
+
+
       </div>
+
+       
+
+
+
+      
 
 
 
 
     </div>
+
+
+
+
 
 
   
