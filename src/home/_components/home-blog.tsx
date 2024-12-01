@@ -13,10 +13,10 @@ export default function HomeBlog(){
     <div className="flex flex-col border border-[#50B498] green ">
 
 
-      <div className='flex items-center'>
+      <div className='lg:flex lg:items-center'>
 
 
-        <div className='flex flex-col max-w-[286px] border border-[#50B498] green '>
+        <div className='flex flex-col lg:max-w-[230px] xl:max-w-[286px] border border-[#50B498] green lg:mr-[3.125em]'>
 
 
           <motion.div className="flex items-center  gap-[0.625em] transiton-all duration-1000 ease-in-out"
@@ -44,10 +44,10 @@ export default function HomeBlog(){
     
     
     
-          <p className='font-roboto-condensed text-[4.5rem] not-italic font-bold leading-[1em] text-white'>Our Latest Blog</p>
+          <p className='font-roboto-condensed text-[4.2rem] xl:text-[4.5rem] not-italic font-bold leading-[1em] text-white'>Our Latest Blog</p>
     
     
-          <p className='text-[#82869A] font-inter text-[1rem] not-italic font-normal mt-[1.875em]'>Proin et magna blandit arcu pellentes scelerisque sit amet a sapien. Aenean purus nunc cursus in ante</p>
+          <p className='text-[#82869A] font-inter text-[0.9rem] xl:text-[1rem] not-italic font-normal mt-[1.875em]'>Proin et magna blandit arcu pellentes scelerisque sit amet a sapien. Aenean purus nunc cursus in ante</p>
        
        
           <motion.div className="flex items-center mt-[1.875em] transiton-all duration-1000 ease-in-out"

@@ -104,7 +104,7 @@ export default function Home() {
 
 
 
-      <div className="flex flex-col border border-[#50B498] green bg-[#232639] xl:px-[5.5em] lg:px-[2.75em] px-[1.25em] transition-all duration-1000 ease-in-out">
+      <div className="flex flex-col border border-[#50B498] green bg-[#232639] xl:px-[5.5em] lg:px-[2.75em] px-[1.25em] pb-[5.875em] transition-all duration-1000 ease-in-out">
 
         <HomeBlog/>
       
