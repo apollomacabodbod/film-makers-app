@@ -18,7 +18,6 @@ export default function Home() {
     <>
 
      
-      <HomeSmoothScroll/>
 
 
       <div className="relative flex flex-col  bg-center bg-cover bg-no-repeat  transition-all duration-1000 ease-in-out"
