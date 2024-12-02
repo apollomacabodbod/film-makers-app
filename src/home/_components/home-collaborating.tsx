@@ -6,7 +6,7 @@ export default function HomeCollaborating() {
 
   return (
     <>
-      <div className="relative flex flex-col border border-[#50B498] green  bg-[#BDBDBD] rounded-[0.3125em] mt-[5.875em] py-[5em]">
+      <div className="relative flex flex-col border border-[#50B498] green  bg-[#BDBDBD] rounded-[0.3125em] mt-[5.875em] py-[5em] px-[1em]">
         {/* Overlay */}
         <div className="absolute inset-0 bg-gradient-to-r from-[rgba(26,27,43,0.8)] to-[rgba(26,27,43,0)]"></div>
 
@@ -26,7 +26,7 @@ export default function HomeCollaborating() {
           
         </div>
 
-        <p className="mt-[0.1em] text-white z-10 font-roboto-condensed text-[3.4rem] lg:text-[4rem] xl:text-[4.5rem] not-italic font-bold leading-[1em] lg:max-w-[10em] border border-[#50B498] green">We Love Collaborating With Other Creatives</p>
+        <p className="mt-[0.1em] text-white z-10 font-roboto-condensed text-[3.2rem] lg:text-[4rem] xl:text-[4.5rem] not-italic font-bold leading-[1em] lg:max-w-[10em] border border-[#50B498] green">We Love Collaborating With Other Creatives</p>
 
 
         <motion.div className="z-10 flex items-center mt-[1.875em] transiton-all duration-1000 ease-in-out"
@@ -55,7 +55,7 @@ export default function HomeCollaborating() {
 
         {/* Ornament */}
         <div
-          className="absolute bg-center bg-no-repeat bg-cover w-[6.25em] h-[6.25em] top-[24em] sm1:top-[17.3em] lg:top-[18.6em] right-[-0.1%] xl:top-[19.7em] xl:right-[-0.1%]"
+          className="absolute bg-center bg-no-repeat bg-cover w-[6.25em] h-[6.25em] top-[23.4em] sm1:top-[17.1em] lg:top-[18.6em] right-[-0.1%] xl:top-[19.7em] xl:right-[-0.1%]"
           style={{
             backgroundImage: "url('/home-testimontials-ornament.svg')",
           }}
