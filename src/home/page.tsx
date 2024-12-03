@@ -2,6 +2,7 @@ import HomeAboutUs from "./_components/home-about-us";
 import HomeBlog from "./_components/home-blog";
 import HomeColaborating from "./_components/home-collaborating";
 import HomeDirectors from "./_components/home-directors";
+import HomeFooter from "./_components/home-footer";
 import HomeHeroSection from "./_components/home-hero-section";
 import HomeOurCinema from "./_components/home-our-cinema";
 import HomePartners from "./_components/home-partners";
@@ -102,12 +103,36 @@ export default function Home() {
 
 
 
-      <div className="flex flex-col border border-[#50B498] green bg-[#232639] xl:px-[5.5em] lg:px-[2.75em] px-[1.25em] pb-[5.875em] transition-all duration-1000 ease-in-out">
+      <div className="flex flex-col  bg-[#232639] xl:px-[5.5em] lg:px-[2.75em] px-[1.25em] pb-[5.875em] transition-all duration-1000 ease-in-out">
 
         <HomeBlog/>
         <HomeColaborating/>
       
       </div>
+
+
+    
+      <div
+        className="flex flex-col bg-no-repeat bg-right h-[538px] bg-[#232639] xl:px-[5.5em] lg:px-[2.75em] px-[1.25em] border border-[#50B498] relative"
+        style={{
+          backgroundImage: "url('/home-footer-victor.svg')",
+        }}
+      >
+        {/* Adding an overlay image for the border */}
+        <img
+          src="/home-footer-border.svg"
+          alt=""
+          width={0}
+          height={2}
+          className="absolute inset-0 top-[-7.8em] w-full h-full pointer-events-none"
+        />
+
+        <HomeFooter/>
+
+      </div>
+
+
+
     
     
     </>)
