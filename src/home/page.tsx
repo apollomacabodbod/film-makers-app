@@ -121,27 +121,8 @@ export default function Home() {
 
 
 
-        <div
-          className="absolute inset-0 w-full h-[2px] top-[9em] bg-cover "
-          style={{
-            backgroundImage: "url('/home-footer-border.svg')",
-          }}
-        >
 
 
-        </div>
-
-
-
-        <div
-          className="absolute inset-0 w-full h-[2px] top-[27.7em] bg-cover "
-          style={{
-            backgroundImage: "url('/home-footer-border.svg')",
-          }}
-        >
-
-
-        </div>
 
 
         <HomeFooter/>
