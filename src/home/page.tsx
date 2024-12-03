@@ -112,8 +112,8 @@ export default function Home() {
 
 
     
-      <div
-        className="flex flex-col bg-no-repeat bg-right h-[538px] bg-[#232639] xl:px-[5.5em] lg:px-[2.75em] px-[1.25em] border border-[#50B498] relative"
+      < div
+        className="flex flex-col bg-no-repeat bg-right  bg-fixed lg:bg-scroll  lg:h-[538px] bg-[#232639] xl:px-[5.5em] lg:px-[2.75em] px-[1.25em] border border-[#50B498] relative"
         style={{
           backgroundImage: "url('/home-footer-victor.svg')",
         }}
@@ -122,7 +122,7 @@ export default function Home() {
 
 
         <div
-          className="absolute inset-0 w-full h-[2px] top-[9em] "
+          className="absolute inset-0 w-full h-[2px] top-[9em] bg-cover "
           style={{
             backgroundImage: "url('/home-footer-border.svg')",
           }}
@@ -134,7 +134,7 @@ export default function Home() {
 
 
         <div
-          className="absolute inset-0 w-full h-[2px] top-[27.7em] "
+          className="absolute inset-0 w-full h-[2px] top-[27.7em] bg-cover "
           style={{
             backgroundImage: "url('/home-footer-border.svg')",
           }}

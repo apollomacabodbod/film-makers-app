@@ -1,3 +1,4 @@
+import HomefooterFilmina from "./home-footer-filmina";
 
 
 
@@ -13,7 +14,7 @@ export default function HomeFooter(){
       <div className="lg:flex lg:items-center">
 
 
-        <div className="flex flex-col">
+        <div className="flex flex-col border border-[#50B498] green">
 
 
           <div className="lg:flex lg:items-center">
@@ -57,6 +58,9 @@ export default function HomeFooter(){
      
      
       </div>
+
+
+      <HomefooterFilmina/>
 
 
 
