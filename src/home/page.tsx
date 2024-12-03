@@ -118,16 +118,36 @@ export default function Home() {
           backgroundImage: "url('/home-footer-victor.svg')",
         }}
       >
-        {/* Adding an overlay image for the border */}
-        <img
-          src="/home-footer-border.svg"
-          alt=""
-          width={0}
-          height={2}
-          className="absolute inset-0 top-[-7.8em] w-full h-full pointer-events-none"
-        />
+
+
+
+        <div
+          className="absolute inset-0 w-full h-[2px] top-[9em] "
+          style={{
+            backgroundImage: "url('/home-footer-border.svg')",
+          }}
+        >
+
+
+        </div>
+
+
+
+        <div
+          className="absolute inset-0 w-full h-[2px] top-[27.7em] "
+          style={{
+            backgroundImage: "url('/home-footer-border.svg')",
+          }}
+        >
+
+
+        </div>
+
 
         <HomeFooter/>
+
+
+
 
       </div>
 
