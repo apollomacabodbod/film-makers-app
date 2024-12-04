@@ -64,6 +64,10 @@ module.exports = {
 
       'xs': '344px',
 
+      'xs1': '443px',
+
+
+
 
       'sm': '449px',
 
@@ -86,6 +90,11 @@ module.exports = {
 
 
       'md1': '872px',
+
+
+      'md2': '862px',
+
+
       // => @media (min-width: 768px) { ... }
 
       'md1-1': '980px',

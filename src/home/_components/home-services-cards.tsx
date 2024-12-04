@@ -45,11 +45,11 @@ export default function HomeServicesCards(){
 
 
 
-      <div className="grid grid-cols-1 sm3:grid-cols-2 lg:grid-cols-3 border border-[#50B498] green gap-[1.875em] mt-[3.125em]">
+      <div className="grid grid-cols-1 sm3:grid-cols-2 lg:grid-cols-3  gap-[1.875em] mt-[3.125em]">
 
         {cards.map((item) => (
 
-          <motion.div key={item.id} className="bg-center bg-no-repeat bg-cover h-[25em] border border-[#50B498] green transition-all duration-1000 ease-in-out"
+          <motion.div key={item.id} className="bg-center bg-no-repeat bg-cover h-[25em]  transition-all duration-1000 ease-in-out"
 
             style={{
               backgroundImage: `url(${item.image})`
@@ -72,7 +72,7 @@ export default function HomeServicesCards(){
 
 
 
-            <div className="px-[1.25em] relative bg-center bg-no-repeat bg-cover w-full  xs:top-[15.8em] sm:top-[16.6em] sm3:top-[15.8em] md1:top-[16.7em]  lg:top-[15.4em] xl:top-[14.7em]  pb-[0.9375em] border border-[#50B498] green "
+            <div className="px-[1.25em] relative bg-center bg-no-repeat bg-cover w-full  xs:top-[16.1em] xs1:top-[16.9em]  sm:top-[16.9em] sm3:top-[16.1em] md1:top-[16.9em] md2:top-[16.9em] lg:top-[15.7em] xl:top-[15em]  pb-[0.9375em] "
 
               style={{
                 background: "linear-gradient(180deg, rgba(17, 18, 30, 0.00) 0%, rgba(17, 18, 30, 0.80) 100%)",
@@ -81,7 +81,7 @@ export default function HomeServicesCards(){
             >
 
 
-              <motion.div className="bg-center bg-no-repeat bg-cover w-[3.125em] h-[3.125em]  border border-[#50B498] green transition-all duration-1000 ease-in-out"
+              <motion.div className="bg-center bg-no-repeat bg-cover w-[3.125em] h-[3.125em]   transition-all duration-1000 ease-in-out"
 
                 style={{
 
@@ -104,7 +104,7 @@ export default function HomeServicesCards(){
               >
 
 
-                <div className="relative top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-center bg-no-repeat  w-[30px] h-[30px]  border border-[#50B498] green"
+                <div className="relative top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-center bg-no-repeat  w-[30px] h-[30px]  "
 
                   style={{
 

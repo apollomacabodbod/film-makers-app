@@ -7,7 +7,7 @@ export default function HomeServices(){
 
   return (<>
 
-    <div className="flex flex-col border border-[#50B498] green mt-[6.25em]">
+    <div className="flex flex-col  mt-[6.25em]">
 
       <motion.div className="flex items-center justify-center gap-[0.625em] transiton-all duration-1000 ease-in-out"
             
