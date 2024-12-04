@@ -73,6 +73,9 @@ module.exports = {
 
       'sm0': '447px',
 
+      'sm0-1': '462px',
+
+      
       'sm0-0': '468px',
       // => @media (min-width: 640px) { ... }
       'sm1': '516px', //common use
