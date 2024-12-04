@@ -49,7 +49,7 @@ export default function HomeServicesCards(){
 
         {cards.map((item) => (
 
-          <motion.div key={item.id} className="bg-center bg-no-repeat bg-cover h-[25em]  transition-all duration-1000 ease-in-out"
+          <motion.div key={item.id} className="bg-center bg-no-repeat bg-cover h-[25em]  transition-all duration-1000 ease-in-out rounded-[0.3125em]"
 
             style={{
               backgroundImage: `url(${item.image})`
