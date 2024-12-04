@@ -1,5 +1,5 @@
 
-
+import { motion } from 'framer-motion'
 
 export default function HomeFooterCards(){
 
@@ -16,17 +16,112 @@ export default function HomeFooterCards(){
 
         <div  className="flex flex-col lg:max-w-[16.4375em] mt-[1em] lg:mt-[0em] border border-[#50B498] green">
 
-          <p className="text-white font-roboto-condensed text-[1.25rem] not-italic font-bold ">Services</p>
+          <motion.p className="text-white font-roboto-condensed text-[1.25rem] not-italic font-bold transition-all duration-1000 ease-in-out"
+          
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }}
+            variants={{
+              hidden: { opacity: 0, y: 10 },
+              visible: { 
+                opacity: 1, 
+                y: 0,
+                transition: { duration: 0, ease: "easeInOut" }, // Applying duration and easing
+              },
+            }}
+          
+          
+          >Services</motion.p>
 
-          <p className="text-[#82869A] mt-[0.625em] lg:mt-[0em] font-inter text-[1rem] not-italic font-normal whitespace-nowrap">Movie production</p>
+          <motion.p className="text-[#82869A] mt-[0.625em] lg:mt-[0em] font-inter text-[1rem] not-italic font-normal whitespace-nowrap transition-all duration-1000 ease-in-out"
+          
+          
+          
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }}
+            variants={{
+              hidden: { opacity: 0, y: 10 },
+              visible: { 
+                opacity: 1, 
+                y: 0,
+                transition: { duration: 0, ease: "easeInOut" }, // Applying duration and easing
+              },
+            }}
+          
+          >Movie production</motion.p>
 
-          <p className="text-[#82869A] mt-[0.625em] font-inter text-[1rem] not-italic font-normal">Movie directing</p>
+          <motion.p className="text-[#82869A] mt-[0.625em] font-inter text-[1rem] not-italic font-normal transition-all duration-1000 ease-in-out"
+          
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }}
+            variants={{
+              hidden: { opacity: 0, y: 10 },
+              visible: { 
+                opacity: 1, 
+                y: 0,
+                transition: { duration: 0, ease: "easeInOut" }, // Applying duration and easing
+              },
+            }}
+          
+          
+          
+          >Movie directing</motion.p>
 
-          <p className="text-[#82869A] mt-[0.625em] font-inter text-[1rem] not-italic font-normal">High quality work</p>
+          <motion.p className="text-[#82869A] mt-[0.625em] font-inter text-[1rem] not-italic font-normal transition-all duration-1000 ease-in-out"
+          
+          
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }}
+            variants={{
+              hidden: { opacity: 0, y: 10 },
+              visible: { 
+                opacity: 1, 
+                y: 0,
+                transition: { duration: 0, ease: "easeInOut" }, // Applying duration and easing
+              },
+            }}
+          
+          
+          >High quality work</motion.p>
 
-          <p className="text-[#82869A] mt-[0.625em] font-inter text-[1rem] not-italic font-normal">Sound effect</p>
+          <motion.p className="text-[#82869A] mt-[0.625em] font-inter text-[1rem] not-italic font-normal transition-all duration-1000 ease-in-out"
+          
+          
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }}
+            variants={{
+              hidden: { opacity: 0, y: 10 },
+              visible: { 
+                opacity: 1, 
+                y: 0,
+                transition: { duration: 0, ease: "easeInOut" }, // Applying duration and easing
+              },
+            }}
+          
+          
+          >Sound effect</motion.p>
 
-          <p className="text-[#82869A] mt-[0.625em] font-inter text-[1rem] not-italic font-normal">Live streaming</p>
+          <motion.p className="text-[#82869A] mt-[0.625em] font-inter text-[1rem] not-italic font-normal transition-all duration-1000 ease-in-out"
+          
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }}
+            variants={{
+              hidden: { opacity: 0, y: 10 },
+              visible: { 
+                opacity: 1, 
+                y: 0,
+                transition: { duration: 0, ease: "easeInOut" }, // Applying duration and easing
+              },
+            }}
+          
+          
+          
+          >Live streaming</motion.p>
 
         </div>
 
@@ -35,17 +130,114 @@ export default function HomeFooterCards(){
 
         <div className="flex flex-col lg:max-w-[16.4375em] mt-[1em] lg:mt-[0em] border border-[#50B498] green">
 
-          <p className="text-white font-roboto-condensed text-[1.25rem] not-italic font-bold ">Quick links</p>
+          <motion.p className="text-white font-roboto-condensed text-[1.25rem] not-italic font-bold transition-all duration-1000 ease-in-out"
+          
+          
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }}
+            variants={{
+              hidden: { opacity: 0, y: 10 },
+              visible: { 
+                opacity: 1, 
+                y: 0,
+                transition: { duration: 0, ease: "easeInOut" }, // Applying duration and easing
+              },
+            }}
+          
+          
+          >Quick links</motion.p>
 
-          <p className="text-[#82869A] mt-[0.625em] lg:mt-[0em] font-inter text-[1rem] not-italic font-normal">About</p>
+          <motion.p className="text-[#82869A] mt-[0.625em] lg:mt-[0em] font-inter text-[1rem] not-italic font-normal transition-all duration-1000 ease-in-out"
+          
+          
+          
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }}
+            variants={{
+              hidden: { opacity: 0, y: 10 },
+              visible: { 
+                opacity: 1, 
+                y: 0,
+                transition: { duration: 0, ease: "easeInOut" }, // Applying duration and easing
+              },
+            }}
+          
+          
+          >About</motion.p>
 
-          <p className="text-[#82869A] mt-[0.625em] font-inter text-[1rem] not-italic font-normal">Services</p>
+          <motion.p className="text-[#82869A] mt-[0.625em] font-inter text-[1rem] not-italic font-normal transition-all duration-1000 ease-in-out"
+          
+          
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }}
+            variants={{
+              hidden: { opacity: 0, y: 10 },
+              visible: { 
+                opacity: 1, 
+                y: 0,
+                transition: { duration: 0, ease: "easeInOut" }, // Applying duration and easing
+              },
+            }}
+          
+          
+          >Services</motion.p>
 
-          <p className="text-[#82869A] mt-[0.625em] font-inter text-[1rem] not-italic font-normal">Works</p>
+          <motion.p className="text-[#82869A] mt-[0.625em] font-inter text-[1rem] not-italic font-normal transition-all duration-1000 ease-in-out"
+          
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }}
+            variants={{
+              hidden: { opacity: 0, y: 10 },
+              visible: { 
+                opacity: 1, 
+                y: 0,
+                transition: { duration: 0, ease: "easeInOut" }, // Applying duration and easing
+              },
+            }}
+          
+          
+          
+          >Works</motion.p>
 
-          <p className="text-[#82869A] mt-[0.625em] font-inter text-[1rem] not-italic font-normal">Blog</p>
+          <motion.p className="text-[#82869A] mt-[0.625em] font-inter text-[1rem] not-italic font-normal transition-all duration-1000 ease-in-out"
+          
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }}
+            variants={{
+              hidden: { opacity: 0, y: 10 },
+              visible: { 
+                opacity: 1, 
+                y: 0,
+                transition: { duration: 0, ease: "easeInOut" }, // Applying duration and easing
+              },
+            }}
+          
+          
+          
+          >Blog</motion.p>
 
-          <p className="text-[#82869A] mt-[0.625em] font-inter text-[1rem] not-italic font-normal">Testimonials</p>
+          <motion.p className="text-[#82869A] mt-[0.625em] font-inter text-[1rem] not-italic font-normal transition-all duration-1000 ease-in-out"
+          
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }}
+            variants={{
+              hidden: { opacity: 0, y: 10 },
+              visible: { 
+                opacity: 1, 
+                y: 0,
+                transition: { duration: 0, ease: "easeInOut" }, // Applying duration and easing
+              },
+            }}
+          
+          
+          
+          >Testimonials</motion.p>
 
         </div>
 
@@ -53,17 +245,111 @@ export default function HomeFooterCards(){
 
         <div className="flex flex-col lg:max-w-[16.4375em] mt-[1em] lg:mt-[0em] border border-[#50B498] green">
 
-          <p className="text-white font-roboto-condensed text-[1.25rem] not-italic font-bold ">Supports</p>
+          <motion.p className="text-white font-roboto-condensed text-[1.25rem] not-italic font-bold transition-all duration-1000 ease-in-out"
+          
+          
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }}
+            variants={{
+              hidden: { opacity: 0, y: 10 },
+              visible: { 
+                opacity: 1, 
+                y: 0,
+                transition: { duration: 0, ease: "easeInOut" }, // Applying duration and easing
+              },
+            }}
+          
+          >Supports</motion.p>
 
-          <p className="text-[#82869A] mt-[0.625em] lg:mt-[0em] font-inter text-[1rem] not-italic font-normal whitespace-nowrap">Help center</p>
+          <motion.p className="text-[#82869A] mt-[0.625em] lg:mt-[0em] font-inter text-[1rem] not-italic font-normal whitespace-nowrap transition-all duration-1000 ease-in-out"
+          
+          
+          
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }}
+            variants={{
+              hidden: { opacity: 0, y: 10 },
+              visible: { 
+                opacity: 1, 
+                y: 0,
+                transition: { duration: 0, ease: "easeInOut" }, // Applying duration and easing
+              },
+            }}
+          
+          >Help center</motion.p>
 
-          <p className="text-[#82869A] mt-[0.625em] font-inter text-[1rem] not-italic font-normal">Disclaimer</p>
+          <motion.p className="text-[#82869A] mt-[0.625em] font-inter text-[1rem] not-italic font-normal transition-all duration-1000 ease-in-out"
+          
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }}
+            variants={{
+              hidden: { opacity: 0, y: 10 },
+              visible: { 
+                opacity: 1, 
+                y: 0,
+                transition: { duration: 0, ease: "easeInOut" }, // Applying duration and easing
+              },
+            }}
+          
+          
+          >Disclaimer</motion.p>
 
-          <p className="text-[#82869A] mt-[0.625em] font-inter text-[1rem] not-italic font-normal">FAQs</p>
+          <motion.p className="text-[#82869A] mt-[0.625em] font-inter text-[1rem] not-italic font-normal transition-all duration-1000 ease-in-out"
+          
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }}
+            variants={{
+              hidden: { opacity: 0, y: 10 },
+              visible: { 
+                opacity: 1, 
+                y: 0,
+                transition: { duration: 0, ease: "easeInOut" }, // Applying duration and easing
+              },
+            }}
+          
+          
+          
+          >FAQs</motion.p>
 
-          <p className="text-[#82869A] mt-[0.625em] font-inter text-[1rem] not-italic font-normal">Contact</p>
+          <motion.p className="text-[#82869A] mt-[0.625em] font-inter text-[1rem] not-italic font-normal transition-all duration-1000 ease-in-out"
+          
+          
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }}
+            variants={{
+              hidden: { opacity: 0, y: 10 },
+              visible: { 
+                opacity: 1, 
+                y: 0,
+                transition: { duration: 0, ease: "easeInOut" }, // Applying duration and easing
+              },
+            }}
+          
+          
+          >Contact</motion.p>
 
-          <p className="text-[#82869A] mt-[0.625em] font-inter text-[1rem] not-italic font-normal whitespace-nowrap">Privacy Policy</p>
+          <motion.p className="text-[#82869A] mt-[0.625em] font-inter text-[1rem] not-italic font-normal whitespace-nowrap transition-all duration-1000 ease-in-out"
+          
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }}
+            variants={{
+              hidden: { opacity: 0, y: 10 },
+              visible: { 
+                opacity: 1, 
+                y: 0,
+                transition: { duration: 0, ease: "easeInOut" }, // Applying duration and easing
+              },
+            }}
+          
+          
+          
+          >Privacy Policy</motion.p>
 
         </div>
 

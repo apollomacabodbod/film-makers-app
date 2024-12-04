@@ -44,10 +44,41 @@ export default function HomeBlog(){
     
     
     
-          <p className='font-roboto-condensed text-[4.2rem] xl:text-[4.5rem] not-italic font-bold leading-[1em] text-white'>Our Latest Blog</p>
+          <motion.p className='font-roboto-condensed text-[4.2rem] xl:text-[4.5rem] not-italic font-bold leading-[1em] text-white transition-all duration-1000 ease-in-out'
+          
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }}
+            variants={{
+              hidden: { opacity: 0, y: 10 },
+              visible: { 
+                opacity: 1, 
+                y: 0,
+                transition: { duration: 0, ease: "easeInOut" }, // Applying duration and easing
+              },
+            }}
+          
+          
+          >Our Latest Blog</motion.p>
     
     
-          <p className='text-[#82869A] font-inter text-[0.9rem] xl:text-[1rem] not-italic font-normal mt-[1.875em]'>Proin et magna blandit arcu pellentes scelerisque sit amet a sapien. Aenean purus nunc cursus in ante</p>
+          <motion.p className='text-[#82869A] font-inter text-[0.9rem] xl:text-[1rem] not-italic font-normal mt-[1.875em] transition-all duration-1000 ease-in-out'
+          
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }}
+            variants={{
+              hidden: { opacity: 0, y: 10 },
+              visible: { 
+                opacity: 1, 
+                y: 0,
+                transition: { duration: 0, ease: "easeInOut" }, // Applying duration and easing
+              },
+            }}
+          
+          
+          
+          >Proin et magna blandit arcu pellentes scelerisque sit amet a sapien. Aenean purus nunc cursus in ante</motion.p>
        
        
           <motion.div className="flex items-center mt-[1.875em] transiton-all duration-1000 ease-in-out"

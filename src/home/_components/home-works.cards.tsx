@@ -1,4 +1,4 @@
-
+import { motion } from 'framer-motion'
 import { useState } from "react"
 
 
@@ -36,11 +36,24 @@ export default function HomeWorksCards(){
        {data.map((item) => (
 
 
-         <div key={item.id} className="bg-cover bg-center bg-no-repeat  h-[20.0625em] border border-[#50B498] green"
+         <motion.div key={item.id} className="bg-cover bg-center bg-no-repeat  h-[20.0625em] border border-[#50B498] green transition-all duration-1000 ease-in-out"
            style={{
              backgroundImage: `url(${item.image})`, 
            }}
-   
+
+
+           initial="hidden"
+           whileInView="visible"
+           viewport={{ once: true, amount: 0.5 }}
+           variants={{
+             hidden: { opacity: 0, y: 10 },
+             visible: { 
+               opacity: 1, 
+               y: 0,
+               transition: { duration: 0, ease: "easeInOut" }, // Applying duration and easing
+             },
+           }}
+                 
          >
 
 
@@ -48,13 +61,60 @@ export default function HomeWorksCards(){
            
            pt-[4.8125em] pb-[2em] px-[1.875em] bg-[linear-gradient(180deg,rgba(17,18,30,0)_0%,rgba(17,18,30,0.8)_100%)]">
 
-             <p className={`font-roboto-condensed text-white text-[2.25rem] not-italic font-bold leading-[1em] ${item.title === "Company Profile" && "whitespace-nowrap"}`}>{item.title}</p>
+             <motion.p className={`transition-all duration-1000 ease-in-out font-roboto-condensed text-white text-[2.25rem] not-italic font-bold leading-[1em] ${item.title === "Company Profile" && "whitespace-nowrap"}`}
+             
+             
+               initial="hidden"
+               whileInView="visible"
+               viewport={{ once: true, amount: 0.5 }}
+               variants={{
+                 hidden: { opacity: 0, y: 10 },
+                 visible: { 
+                   opacity: 1, 
+                   y: 0,
+                   transition: { duration: 0, ease: "easeInOut" }, // Applying duration and easing
+                 },
+               }}
+             
+             
+             >{item.title}</motion.p>
 
 
              <div className="flex items-center justify-between mt-[0.5em]">
 
-               <p className="text-[0.8rem]  sm:text-[0.8rem] sm1:text-[0.8rem] xl:text-[1rem] text-white font-inter  not-italic font-normal">{item.description}</p>
-               <p className="font-roboto-condensed text-[1.25rem] not-italic font-bold text-white">{item.year}</p>
+               <motion.p className="text-[0.8rem]  sm:text-[0.8rem] sm1:text-[0.8rem] xl:text-[1rem] text-white font-inter  not-italic font-normal transition-all duration-1000 ease-in-out"
+               
+               
+                 initial="hidden"
+                 whileInView="visible"
+                 viewport={{ once: true, amount: 0.5 }}
+                 variants={{
+                   hidden: { opacity: 0, y: 10 },
+                   visible: { 
+                     opacity: 1, 
+                     y: 0,
+                     transition: { duration: 0, ease: "easeInOut" }, // Applying duration and easing
+                   },
+                 }}
+               
+               >{item.description}</motion.p>
+               <motion.p className="font-roboto-condensed text-[1.25rem] not-italic font-bold text-white transition-all duration-1000 ease-in-out"
+               
+               
+               
+                 initial="hidden"
+                 whileInView="visible"
+                 viewport={{ once: true, amount: 0.5 }}
+                 variants={{
+                   hidden: { opacity: 0, y: 10 },
+                   visible: { 
+                     opacity: 1, 
+                     y: 0,
+                     transition: { duration: 0, ease: "easeInOut" }, // Applying duration and easing
+                   },
+                 }}
+               
+               >{item.year}</motion.p>
 
              </div>
 
@@ -62,7 +122,7 @@ export default function HomeWorksCards(){
            </div>
 
 
-         </div>
+         </motion.div>
 
 
   

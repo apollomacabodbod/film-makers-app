@@ -6,18 +6,48 @@ export default function HomeCollaborating() {
 
   return (
     <>
-      <div className="relative flex flex-col border border-[#50B498] green bg-cover bg-center  rounded-[0.3125em] mt-[5.875em] py-[5em] px-[1em]"
+      <motion.div className="relative flex flex-col border border-[#50B498] green bg-cover bg-center  rounded-[0.3125em] mt-[5.875em] py-[5em] px-[1em] transtion-all duration-1000 ease-in-out"
       
       
         style={{
           backgroundImage: "url('/professional-camera3.jpg')"
         }}
+
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.5 }}
+        variants={{
+          hidden: { opacity: 0, y: 10 },
+          visible: { 
+            opacity: 1, 
+            y: 0,
+            transition: { duration: 0, ease: "easeInOut" }, // Applying duration and easing
+          },
+        }}
+
+
       >
         {/* Overlay */}
         <div className="absolute inset-0 bg-gradient-to-r from-[rgba(26,27,43,0.8)] to-[rgba(26,27,43,0)]"></div>
 
         {/* Content */}
-        <div className="z-10 relative flex items-center gap-[0.625em] ">
+        <motion.div className="z-10 relative flex items-center gap-[0.625em] transition-all duration-1000 ease-in-out"
+        
+        
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.5 }}
+          variants={{
+            hidden: { opacity: 0, y: 10 },
+            visible: { 
+              opacity: 1, 
+              y: 0,
+              transition: { duration: 0, ease: "easeInOut" }, // Applying duration and easing
+            },
+          }}
+        
+        
+        >
           <img
             src="/home-collaborating-image.svg"
             alt="Collaborating"
@@ -30,9 +60,26 @@ export default function HomeCollaborating() {
           </p>
 
           
-        </div>
+        </motion.div>
 
-        <p className="mt-[0.1em] text-white z-10 font-roboto-condensed text-[3.2rem] lg:text-[4rem] xl:text-[4.5rem] not-italic font-bold leading-[1em] lg:max-w-[10em] border border-[#50B498] green">We Love Collaborating With Other Creatives</p>
+        <motion.p className="mt-[0.1em] text-white z-10 font-roboto-condensed text-[3.2rem] lg:text-[4rem] xl:text-[4.5rem] not-italic font-bold leading-[1em] lg:max-w-[10em] border border-[#50B498] green transition-all duration-1000 ease-in-out"
+        
+        
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.5 }}
+          variants={{
+            hidden: { opacity: 0, y: 10 },
+            visible: { 
+              opacity: 1, 
+              y: 0,
+              transition: { duration: 0, ease: "easeInOut" }, // Applying duration and easing
+            },
+          }}
+            
+        
+        
+        >We Love Collaborating With Other Creatives</motion.p>
 
 
         <motion.div className="z-10 flex items-center mt-[1.875em] transiton-all duration-1000 ease-in-out"
@@ -68,7 +115,7 @@ export default function HomeCollaborating() {
         ></div>
 
 
-      </div>
+      </motion.div>
     </>
   );
 }

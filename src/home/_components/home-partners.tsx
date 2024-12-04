@@ -82,7 +82,7 @@ export default function HomePartners(){
 
             <div className="flex items-center justify-center    border border-[#50B498] green">
 
-              <img src={item.image} alt="home-partners-brand" width={`
+              <motion.img src={item.image} alt="home-partners-brand" width={`
   ${(item.id === 1 && 90) || (item.id === 2 && 60) || (item.id === 3 && 60) || (item.id === 4 && 75) ||
    (item.id === 5 && 89.388) || (item.id === 6 && 61.25)}
 `}
@@ -94,7 +94,17 @@ export default function HomePartners(){
               } transiton-all duration-1000 ease-in-out` }
 
 
-                
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.5 }}
+              variants={{
+                hidden: { opacity: 0, y: 10 },
+                visible: { 
+                  opacity: 1, 
+                  y: 0,
+                  transition: { duration: 0, ease: "easeInOut" }, // Applying duration and easing
+                },
+              }}
 
               
               height={60}/>

@@ -11,10 +11,25 @@ export default function HomeDirectors(){
     <div className="flex flex-col mt-[6.25em] mb-[22em]  md:mb-[15em] lg:mb-[10em] border border-[#50B498] green">
 
 
-      <div className="bg-right sm:bg-center bg-no-repeat bg-cover w-full md:h-[31.25em] h-[25.25em] pr-[6.25em]"
+      <motion.div className="bg-right sm:bg-center bg-no-repeat bg-cover w-full md:h-[31.25em] h-[25.25em] pr-[6.25em] transiton-all duration-1000 ease-in-out"
 
         style={{
           backgroundImage: "url('/operator-working.jpg')"
+        }}
+
+
+
+
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.5 }}
+        variants={{
+          hidden: { opacity: 0, y: 10 },
+          visible: { 
+            opacity: 1, 
+            y: 0,
+            transition: { duration: 0, ease: "easeInOut" }, // Applying duration and easing
+          },
         }}
         
       >
@@ -164,7 +179,7 @@ export default function HomeDirectors(){
         </div>
 
 
-      </div>
+      </motion.div>
 
 
 

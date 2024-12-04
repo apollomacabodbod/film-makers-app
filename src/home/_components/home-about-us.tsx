@@ -125,22 +125,56 @@ export default function HomeAboutUs(){
 
           <div className="flex items-center justify-center relative lg:top-[-9em] md:top-[-7em] mt-[2em] lg:mt-[0em]">
             <div
-              className="relative overflow-hidden lg:w-[530px] md:w-[400px] md:h-[670px] w-full h-[25em] rounded-[0.3125em] group"
+              className="relative  lg:w-[530px] md:w-[400px] md:h-[670px] w-full h-[25em] rounded-[0.3125em] "
             >
-              <div
-                className="absolute inset-0 bg-center bg-cover transition-transform duration-500 ease-in-out group-hover:scale-110"
+              <motion.div
+                className="absolute inset-0 bg-center bg-cover transition-all duration-1000 ease-in-out"
                 style={{
                   backgroundImage: 'url("videographer-man.jpg")',
                 }}
 
 
-              ></div>
-              <div
-                className="absolute bg-cover bg-no-repeat bg-center w-[100px] h-[100px] top-[18em] md:top-[35em] right-[-0.1%] xl:right-[-0.0%] lg:right-[-0.1%] md:right-[-0.1%]"
+
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, amount: 0.5 }}
+                variants={{
+                  hidden: { opacity: 0, y: 10 },
+                  visible: { 
+                    opacity: 1, 
+                    y: 0,
+                    transition: { duration: 0, ease: "easeInOut" }, // Applying duration and easing
+                  },
+                }}
+
+
+              ></motion.div>
+              <motion.div
+                className="absolute bg-cover bg-no-repeat bg-center w-[100px] h-[100px] top-[18em] md:top-[35em] right-[-0.1%] xl:right-[-0.0%] lg:right-[-0.1%] md:right-[-0.1%] transition-all duration-1000 ease-in-out"
                 style={{
                   backgroundImage: 'url("home-about-us-ornament.svg")',
                 }}
-              ></div>
+
+
+
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, amount: 0.5 }}
+                variants={{
+                  hidden: { opacity: 0, y: 10 },
+                  visible: { 
+                    opacity: 1, 
+                    y: 0,
+                    transition: { duration: 0, ease: "easeInOut" }, // Applying duration and easing
+                  },
+                }}
+  
+
+              >
+
+
+
+              </motion.div>
             </div>
           </div>
 

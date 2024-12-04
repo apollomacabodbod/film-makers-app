@@ -16,28 +16,59 @@ export default function HomeOurCinema(){
 
 
 
-        <div className="bg-center bg-no-repeat bg-cover w-full md:h-[33.5em] h-[16em]"
+        <motion.div className="bg-center bg-no-repeat bg-cover w-full md:h-[33.5em] h-[16em] transiton-all duration-1000 ease-in-out"
           style={{
             backgroundImage: "url('/cameraman-big-cinema.jpg')"
+          }}
+
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.5 }}
+          variants={{
+            hidden: { opacity: 0, y: 10 },
+            visible: { 
+              opacity: 1, 
+              y: 0,
+              transition: { duration: 0, ease: "easeInOut" }, // Applying duration and easing
+            },
           }}
         
         >
 
 
-          <div className="relative bg-center bg-no-repeat bg-cover w-[6.25em] h-[6.25em] md:top-[27.3em] top-[9.6em]"
+          <motion.div className="relative bg-center bg-no-repeat bg-cover w-[6.25em] h-[6.25em] md:top-[27.3em] top-[9.6em] transiton-all duration-1000 ease-in-out"
 
             style={{
               backgroundImage: "url('/home-directors-image2.svg')"
             }}
 
+
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }}
+            variants={{
+              hidden: { opacity: 0, y: 10 },
+              visible: { 
+                opacity: 1, 
+                y: 0,
+                transition: { duration: 0, ease: "easeInOut" }, // Applying duration and easing
+              },
+            }}
+
+
+
           >
 
 
-          </div>
+
             
 
 
-        </div>
+          </motion.div>
+            
+
+
+        </motion.div>
 
 
 

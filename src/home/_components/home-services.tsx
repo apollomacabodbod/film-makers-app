@@ -34,9 +34,39 @@ export default function HomeServices(){
         
 
 
-      <p className='text-white font-roboto-condensed text-[4.5rem] not-italic font-bold leading-[1em] text-center'>Our Services</p>
+      <motion.p className='text-white font-roboto-condensed text-[4.5rem] not-italic font-bold leading-[1em] text-center transiton-all duration-1000 ease-in-out'
+      
+      
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.5 }}
+        variants={{
+          hidden: { opacity: 0, y: 10 },
+          visible: { 
+            opacity: 1, 
+            y: 0,
+            transition: { duration: 0, ease: "easeInOut" }, // Applying duration and easing
+          },
+        }}
+      
+      >Our Services</motion.p>
     
-      <p className='text-[#82869A] font-inter text-[1rem] font-normal text-center mt-[1.25em] '>Proin et magna blandit arcu pellentesque scelerisque sit amet a sapien aenean</p>
+      <motion.p className='text-[#82869A] font-inter text-[1rem] font-normal text-center mt-[1.25em] transiton-all duration-1000 ease-in-out'
+      
+      
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.5 }}
+        variants={{
+          hidden: { opacity: 0, y: 10 },
+          visible: { 
+            opacity: 1, 
+            y: 0,
+            transition: { duration: 0, ease: "easeInOut" }, // Applying duration and easing
+          },
+        }}
+      
+      >Proin et magna blandit arcu pellentesque scelerisque sit amet a sapien aenean</motion.p>
     
     </div>
     

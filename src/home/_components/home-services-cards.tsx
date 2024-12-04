@@ -1,5 +1,5 @@
 
-
+import { motion } from 'framer-motion'
 import { useState } from "react"
 
 export default function HomeServicesCards(){
@@ -49,10 +49,23 @@ export default function HomeServicesCards(){
 
         {cards.map((item) => (
 
-          <div key={item.id} className="bg-center bg-no-repeat bg-cover h-[25em] border border-[#50B498] green "
+          <motion.div key={item.id} className="bg-center bg-no-repeat bg-cover h-[25em] border border-[#50B498] green transition-all duration-1000 ease-in-out"
 
             style={{
               backgroundImage: `url(${item.image})`
+            }}
+
+
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }}
+            variants={{
+              hidden: { opacity: 0, y: 10 },
+              visible: { 
+                opacity: 1, 
+                y: 0,
+                transition: { duration: 0, ease: "easeInOut" }, // Applying duration and easing
+              },
             }}
             
           >
@@ -68,11 +81,24 @@ export default function HomeServicesCards(){
             >
 
 
-              <div className="bg-center bg-no-repeat bg-cover w-[3.125em] h-[3.125em]  border border-[#50B498] green"
+              <motion.div className="bg-center bg-no-repeat bg-cover w-[3.125em] h-[3.125em]  border border-[#50B498] green transition-all duration-1000 ease-in-out"
 
                 style={{
 
                   backgroundImage: `url(${item.iconOuter})`
+                }}
+
+
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, amount: 0.5 }}
+                variants={{
+                  hidden: { opacity: 0, y: 10 },
+                  visible: { 
+                    opacity: 1, 
+                    y: 0,
+                    transition: { duration: 0, ease: "easeInOut" }, // Applying duration and easing
+                  },
                 }}
 
               >
@@ -92,11 +118,42 @@ export default function HomeServicesCards(){
 
 
         
-              </div>
+              </motion.div>
 
-              <p className="font-roboto-condensed text-white  text-[2rem] lg:text-[2rem] xl:text-[2.25rem] not-italic font-bold mt-[0.1em]">{item.title}</p>
+              <motion.p className="font-roboto-condensed text-white  text-[2rem] lg:text-[2rem] xl:text-[2.25rem] not-italic font-bold mt-[0.1em] transition-all duration-1000 ease-in-out"
+              
+              
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, amount: 0.5 }}
+                variants={{
+                  hidden: { opacity: 0, y: 10 },
+                  visible: { 
+                    opacity: 1, 
+                    y: 0,
+                    transition: { duration: 0, ease: "easeInOut" }, // Applying duration and easing
+                  },
+                }}
+              
+              >{item.title}</motion.p>
 
-              <p className="text-white font-inter text-[0.7rem] lg:text-[0.9rem] xl:text-[1rem] not-italic font-normal leading-[1.2em]">{item.description}</p>
+              <motion.p className="text-white font-inter text-[0.7rem] lg:text-[0.9rem] xl:text-[1rem] not-italic font-normal leading-[1.2em] transition-all duration-1000 ease-in-out"
+              
+              
+              
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, amount: 0.5 }}
+                variants={{
+                  hidden: { opacity: 0, y: 10 },
+                  visible: { 
+                    opacity: 1, 
+                    y: 0,
+                    transition: { duration: 0, ease: "easeInOut" }, // Applying duration and easing
+                  },
+                }}
+              
+              >{item.description}</motion.p>
         
             </div>
 
@@ -106,7 +163,7 @@ export default function HomeServicesCards(){
             
 
 
-          </div>
+          </motion.div>
         ))}
 
 
