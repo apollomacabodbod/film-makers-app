@@ -67,6 +67,10 @@ module.exports = {
 
       'xs10': '441px',
 
+      'xs11': '429px',
+
+      'xs12': '430px',
+
       'xs1': '443px',
 
 
