@@ -8,7 +8,7 @@ export default function HomeFooter(){
 
   return (<>
 
-    <div className="z-10 flex flex-col border border-[#50B498] green mt-[3.375em]">
+    <div className="z-10 flex flex-col border border-[#50B498] green mt-[3.375em] mb-[2em]">
 
 
       <div className="lg:flex lg:items-center">

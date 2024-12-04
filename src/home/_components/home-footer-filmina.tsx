@@ -1,4 +1,5 @@
 import HomeFooterCards from "./home-footer-cards";
+import HomeFooterCopyright from "./home-footer-copyright";
 
 
 
@@ -47,10 +48,14 @@ export default function HomefooterFilmina(){
 
 
         <HomeFooterCards/>
+        
 
 
 
       </div>
+
+
+      <HomeFooterCopyright/>
 
 
        
