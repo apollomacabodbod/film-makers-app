@@ -72,7 +72,7 @@ export default function HomeServicesCards(){
 
 
 
-            <div className="px-[1.25em] relative bg-center bg-no-repeat bg-cover w-full  xs:top-[17em] xs11:top-[16.2em] xs12:top-[16.1em] xs10:top-[17em] xs1:top-[17em]  sm:top-[16.9em] sm3:top-[16.1em] md1:top-[16.9em] md2:top-[16.9em] lg:top-[15.7em] xl:top-[15em]  pb-[0.9375em] "
+            <div className="px-[1.25em] relative bg-center bg-no-repeat bg-cover w-full  top-[14.8em] sm0-10:top-[16.3em] sm3:top-[14.8em] md1-2:top-[16.3em] lg:top-[14.8em] xl:top-[14.4em] pb-[0.9375em] "
 
               style={{
                 background: "linear-gradient(180deg, rgba(17, 18, 30, 0.00) 0%, rgba(17, 18, 30, 0.80) 100%)",
@@ -137,7 +137,7 @@ export default function HomeServicesCards(){
               
               >{item.title}</motion.p>
 
-              <motion.p className="text-white font-inter text-[0.7rem] lg:text-[0.9rem] xl:text-[1rem] not-italic font-normal leading-[1.2em] transition-all duration-1000 ease-in-out"
+              <motion.p className="text-white font-roboto-condensed text-[1rem] not-italic font-normal transition-all duration-1000 ease-in-out"
               
               
               
