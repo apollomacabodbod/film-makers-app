@@ -53,7 +53,7 @@ export default function HomeDirectors(){
         >
 
 
-          <div className="flex flex-col px-[1em] sm:px-[2em] xl:px-[3.125em] py-[3.125em]">
+          <div className="flex flex-col px-[1em] sm:px-[2em] xl:px-[3.125em] py-[2em]">
 
 
             <div className="lg:flex lg:items-center lg:justify-between  lg:gap-[1.875em]">
