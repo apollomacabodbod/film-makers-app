@@ -78,7 +78,7 @@ export default function Home() {
 
 
           <div
-            className="relative lg:z-10 lg:absolute lg:top-[6.4em] lg:right-[3.8%] xl:top-[5.8em] xl:right-[7%] bg-center bg-no-repeat bg-cover w-full lg:w-[20em] h-[35em] lg:h-[35.8em] mt-[2em] lg:mt-[0em]"
+            className="relative lg:z-10 lg:absolute lg:top-[6.4em] lg:right-[3.8%] xl:top-[5.8em] xl:right-[7%] bg-center bg-no-repeat bg-cover w-full lg:w-[20em] h-[35em] lg:h-[35.8em] mt-[2em] lg:mt-[0em] rounded-[0.3125em]"
             style={{
               backgroundImage: "url('/videographer-man1.jpg')",
             }}
