@@ -57,7 +57,7 @@ export default function HomeWorksCards(){
          >
 
 
-           <div className="relative flex flex-col  xs:top-[8.2em]  sm0:top-[8.1em] sm1:top-[8.7em] sm0-1:top-[8.7em] sm0-11:top-[8.7em] sm:top-[8.1em] 
+           <div className="relative flex flex-col top-[7.6em] sm0-0:top-[8.7em] 
            
            pt-[4.8125em] pb-[2em] px-[1.875em] bg-[linear-gradient(180deg,rgba(17,18,30,0)_0%,rgba(17,18,30,0.8)_100%)]">
 
@@ -82,7 +82,7 @@ export default function HomeWorksCards(){
 
              <div className="flex items-center justify-between mt-[0.5em]">
 
-               <motion.p className="text-[0.8rem]  sm:text-[0.8rem] sm1:text-[0.8rem] xl:text-[1rem] text-white font-inter  not-italic font-normal transition-all duration-1000 ease-in-out"
+               <motion.p className="text-[1rem] text-white font-roboto-condensed  not-italic font-normal transition-all duration-1000 ease-in-out"
                
                
                  initial="hidden"
