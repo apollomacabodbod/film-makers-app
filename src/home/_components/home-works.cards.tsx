@@ -36,7 +36,7 @@ export default function HomeWorksCards(){
        {data.map((item) => (
 
 
-         <motion.div key={item.id} className="bg-cover bg-center bg-no-repeat  h-[20.0625em]  transition-all duration-1000 ease-in-out"
+         <motion.div key={item.id} className="bg-cover bg-center bg-no-repeat  h-[20.0625em]  transition-all duration-1000 ease-in-out rounded-[0.3125em]"
            style={{
              backgroundImage: `url(${item.image})`, 
            }}
