@@ -35,12 +35,12 @@ export default function HomeFooter(){
           <div className="sm3:flex sm3:items-center">
 
  
-            <input type="text" className="mt-[1em] py-[0.625em] px-[1.5em] rounded-[0.1875em] font-inter text-[1rem] not-italic font-normal focus:outline-none  w-full sm1:w-[18.75em]  sm1:mr-[0.625em]"/>
+            <input type="text" className="mt-[1em] sm3:mt-[0em] py-[0.625em] px-[1.5em] rounded-[0.1875em] font-inter text-[1rem] not-italic font-normal focus:outline-none  w-full sm1:w-[18.75em]  sm1:mr-[0.625em]"/>
      
      
      
         
-            <button className="mt-[2em] sm3:mt-[0em] py-[0.9em] px-[1.5625em] bg-[#FF5E3A] text-white rounded-[0.1875em] font-roboto-condensed text-[0.875rem] not-italic font-bold uppercase">subscribe</button>
+            <button className="mt-[2em]  sm3:mt-[0em] py-[0.9em] px-[1.5625em] bg-[#FF5E3A] text-white rounded-[0.1875em] font-roboto-condensed text-[0.875rem] not-italic font-bold uppercase">subscribe</button>
      
 
 
