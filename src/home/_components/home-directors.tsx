@@ -87,7 +87,7 @@ export default function HomeDirectors(){
 
 
 
-                <motion.p className="text-white font-roboto-condensed text-[1.7rem] sm:text-[3.2rem]  lg:text-[3.1em]  xl:text-[4rem]  not-italic font-bold  leading-[1em] whitespace-nowrap transiton-all duration-1000 ease-in-out"
+                <motion.p className="text-white font-roboto-condensed text-[1.7rem] sm:text-[2.7rem]  lg:text-[3.1em]  xl:text-[4rem]  not-italic font-bold  leading-[1em] whitespace-nowrap transiton-all duration-1000 ease-in-out mt-[0.2em]"
                 
                   initial="hidden"
                   whileInView="visible"
@@ -103,7 +103,7 @@ export default function HomeDirectors(){
                 
                 
                 >Meet the Our</motion.p>
-                <motion.p className="text-white font-roboto-condensed text-[1.7rem] sm:text-[3.2rem] lg:text-[3.1rem]  xl:text-[4rem]  not-italic font-bold  leading-[1em] whitespace-nowrap transiton-all duration-1000 ease-in-out"
+                <motion.p className="text-white font-roboto-condensed mt-[0.1em] text-[1.7rem] sm:text-[2.7rem] lg:text-[3.1rem]  xl:text-[4rem]  not-italic font-bold  leading-[1em] whitespace-nowrap transiton-all duration-1000 ease-in-out"
                 
                 
                   initial="hidden"
@@ -128,7 +128,7 @@ export default function HomeDirectors(){
               <div className="flex flex-col  mt-[1em] lg:mt-[0em]">
 
 
-                <motion.p className="text-white font-roboto-condensed text-[1rem] lg:text-[1rem] xl:text-[1.2rem] not-italic font-bold transiton-all duration-1000 ease-in-out"
+                <motion.p className="text-white font-roboto-condensed text-[1rem] lg:text-[1rem] xl:text-[1.2rem] not-italic font-bold transiton-all duration-1000 ease-in-out mt-[0.2em]"
                 
                   initial="hidden"
                   whileInView="visible"
@@ -145,7 +145,7 @@ export default function HomeDirectors(){
                 
                 >Our team is made up of experienced and talented filmmakers who share a common goal</motion.p>
 
-                <motion.p className="text-[#82869A] font-inter text-[1rem] lg:text-[1rem] xl:text-[1.2rem] not-italic font-normal transiton-all duration-1000 ease-in-out"
+                <motion.p className="text-[#82869A] font-inter text-[1rem] lg:text-[1rem] xl:text-[1.2rem] not-italic font-normal transiton-all duration-1000 ease-in-out mt-[0.7em]"
                 
                 
                   initial="hidden"
