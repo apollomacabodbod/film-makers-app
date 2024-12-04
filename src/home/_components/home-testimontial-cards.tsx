@@ -34,9 +34,15 @@ export default function HomeTestimontialCards(){
    
           <div className="flex items-center ">
 
-            <img src="/home-testimontials-circle.svg" alt="" width={60} height={60} className="mr-[0.9375em]"/>
+            <img 
+              src="/home-testimontials-user1.png" 
+              alt="" 
+              width={0} 
+              height={0} 
+              className="mr-[0.9375em]  w-16 h-16 rounded-full object-cover " 
+            />
 
-            <p className="text-[#11121E] font-roboto-condensed text-[0.875rem] not-italic font-bold uppercase">John Williams</p>
+            <p className="text-[#11121E] font-roboto-condensed text-[0.875rem] not-italic font-bold uppercase">Swann Nevve</p>
            
             <img src="/home-testimontials-dash.svg" alt="" width={4} height={15} className="mx-[0.3125em]"/>
 
@@ -72,9 +78,15 @@ export default function HomeTestimontialCards(){
    
           <div className="flex items-center ">
 
-            <img src="/home-testimontials-circle.svg" alt="" width={60} height={60} className="mr-[0.9375em]"/>
+            <img 
+              src="/home-testimontials-user2.png" 
+              alt="" 
+              width={0} 
+              height={0} 
+              className="mr-[0.9375em]  w-16 h-16 rounded-full object-cover " 
+            />
 
-            <p className="text-[#11121E] font-roboto-condensed text-[0.875rem] not-italic font-bold uppercase">John Williams</p>
+            <p className="text-[#11121E] font-roboto-condensed text-[0.875rem] not-italic font-bold uppercase">Ashen Fairlane</p>
            
             <img src="/home-testimontials-dash.svg" alt="" width={4} height={15} className="mx-[0.3125em]"/>
 

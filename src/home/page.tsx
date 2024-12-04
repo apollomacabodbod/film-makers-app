@@ -113,16 +113,8 @@ export default function Home() {
 
     
       < div
-        className="flex flex-col bg-no-repeat bg-right  bg-fixed lg:bg-scroll  lg:h-[538px] bg-[#232639] xl:px-[5.5em] lg:px-[2.75em] px-[1.25em] border border-[#50B498] relative"
-        style={{
-          backgroundImage: "url('/home-footer-victor.svg')",
-        }}
+        className="flex flex-col  bg-[#11121E] xl:px-[5.5em] lg:px-[2.75em] px-[1.25em] border border-[#50B498] "
       >
-
-
-
-
-
 
 
         <HomeFooter/>
