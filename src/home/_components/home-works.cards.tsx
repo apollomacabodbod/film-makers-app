@@ -57,7 +57,7 @@ export default function HomeWorksCards(){
          >
 
 
-           <div className="relative flex flex-col  xs:top-[8.3em]  sm0:top-[8.1em] sm1:top-[8.7em] sm0-1:top-[8.7em] sm0-11:top-[8.7em] sm:top-[8.1em] 
+           <div className="relative flex flex-col  xs:top-[8.1em]  sm0:top-[8.1em] sm1:top-[8.7em] sm0-1:top-[8.7em] sm0-11:top-[8.7em] sm:top-[8.1em] 
            
            pt-[4.8125em] pb-[2em] px-[1.875em] bg-[linear-gradient(180deg,rgba(17,18,30,0)_0%,rgba(17,18,30,0.8)_100%)]">
 
