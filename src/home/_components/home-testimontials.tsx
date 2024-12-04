@@ -50,7 +50,7 @@ export default function HomeTestimontials(){
       
       >What People Says?</motion.p>
 
-      <motion.p className='text-[#82869A] font-roboto-condensed text-[1.5rem] font-bold not-italic mt-[0.2em] lg:mt-[0em] transiton-all duration-1000 ease-in-out'
+      <motion.p className='text-[#82869A] font-roboto-condensed text-[1.5rem] font-bold not-italic mt-[1em] lg:mt-[0em] transiton-all duration-1000 ease-in-out'
       
        
         initial="hidden"
@@ -67,7 +67,7 @@ export default function HomeTestimontials(){
       
       
       >What they say about us?</motion.p>
-      <motion.p className='text-[#82869A] font-inter text-[1rem] not-italic font-normal mt-[0.2em] lg:mt-[0em] transiton-all duration-1000 ease-in-out'
+      <motion.p className='text-[#82869A] font-inter text-[1rem] not-italic font-normal mt-[1em] lg:mt-[0em] transiton-all duration-1000 ease-in-out'
       
       
        
