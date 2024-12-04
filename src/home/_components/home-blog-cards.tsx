@@ -15,11 +15,11 @@ export default function HomeBlogCards(){
       <div className="lg:flex lg:items-center lg:gap-[1.875em] w-full">
 
 
-        <div className="flex flex-col  border border-[#50B498] green mt-[1.5em] lg:mt-[0em] ">
+        <div className="flex flex-col  mt-[1.5em] lg:mt-[0em] ">
 
           <div className="flex items-center">
 
-            <img src="/home-blog-image.svg" alt="" width={0} height={0} className="w-full"/>
+            <img src="/home-blog-image1.webp" alt="" width={0} height={0} className="w-[258px] h-[258px] object-cover"/>
   
           </div>
 
@@ -32,11 +32,11 @@ export default function HomeBlogCards(){
 
 
 
-        <div className="flex flex-col border border-[#50B498] green mt-[1.5em] lg:mt-[0em] ">
+        <div className="flex flex-col  mt-[1.5em] lg:mt-[0em] ">
 
           <div className="flex items-center">
 
-            <img src="/home-blog-image.svg" alt="" width={0} height={0} className="w-full "/>
+            <img src="/home-blog-image4.jpeg" alt="" width={0} height={0} className="w-[258px] h-[258px] object-cover "/>
   
           </div>
 
@@ -50,11 +50,11 @@ export default function HomeBlogCards(){
 
 
 
-        <div className="flex flex-col  border border-[#50B498] green mt-[1.5em] lg:mt-[0em] ">
+        <div className="flex flex-col   mt-[1.5em] lg:mt-[0em] ">
 
           <div className="flex items-center">
 
-            <img src="/home-blog-image.svg" alt="" width={0} height={0} className="w-full"/>
+            <img src="/home-blog-image2.webp" alt="" width={0} height={0} className="w-[258px] h-[258px] object-cover "/>
   
           </div>
 

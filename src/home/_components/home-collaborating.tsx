@@ -6,7 +6,13 @@ export default function HomeCollaborating() {
 
   return (
     <>
-      <div className="relative flex flex-col border border-[#50B498] green  bg-[#BDBDBD] rounded-[0.3125em] mt-[5.875em] py-[5em] px-[1em]">
+      <div className="relative flex flex-col border border-[#50B498] green bg-cover bg-center  rounded-[0.3125em] mt-[5.875em] py-[5em] px-[1em]"
+      
+      
+        style={{
+          backgroundImage: "url('/professional-camera3.jpg')"
+        }}
+      >
         {/* Overlay */}
         <div className="absolute inset-0 bg-gradient-to-r from-[rgba(26,27,43,0.8)] to-[rgba(26,27,43,0)]"></div>
 
