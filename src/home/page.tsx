@@ -78,14 +78,14 @@ export default function Home() {
 
 
           <div
-            className="relative lg:z-10 lg:absolute lg:top-[6.1em] lg:right-[3.8%] xl:top-[5.5em] xl:right-[7%] bg-center bg-no-repeat bg-cover w-full lg:w-[20em] h-[35em] lg:h-[35.8em] mt-[2em] lg:mt-[0em] rounded-[0.3125em]"
+            className="relative lg:z-10 lg:absolute lg:top-[6.1em] lg:right-[3.8%] xl:top-[5.5em] xl:right-[7%] bg-top bg-no-repeat bg-cover w-full lg:w-[20em] h-[26em] lg:h-[35.8em] mt-[2em] lg:mt-[0em] rounded-[0.3125em]"
             style={{
               backgroundImage: "url('/videographer-man1.jpg')",
             }}
           >
             {/* Ornament */}
             <div
-              className="absolute bg-center bg-no-repeat bg-cover w-[6.25em] h-[6.25em] top-[28.7em] right-[-0.1%] lg:top-[29.6em] lg:right-[-0.1%]"
+              className="absolute bg-center bg-no-repeat bg-cover w-[6.25em] h-[6.25em] top-[19.8em] right-[-0.1%] lg:top-[29.6em] lg:right-[-0.1%]"
               style={{
                 backgroundImage: "url('/home-testimontials-ornament.svg')",
               }}
