@@ -6,7 +6,7 @@ export default function HomeCollaborating() {
 
   return (
     <>
-      <motion.div className="relative flex flex-col border border-[#50B498] green bg-cover bg-center  rounded-[0.3125em] mt-[5.875em] py-[5em] px-[1em] transtion-all duration-1000 ease-in-out"
+      <motion.div className="relative flex flex-col  bg-cover bg-center  rounded-[0.3125em] mt-[5.875em] py-[5em] px-[1em] transtion-all duration-1000 ease-in-out"
       
       
         style={{
@@ -62,7 +62,7 @@ export default function HomeCollaborating() {
           
         </motion.div>
 
-        <motion.p className="mt-[0.1em] text-white z-10 font-roboto-condensed text-[3.2rem] lg:text-[4rem] xl:text-[4.5rem] not-italic font-bold leading-[1em] lg:max-w-[10em] border border-[#50B498] green transition-all duration-1000 ease-in-out"
+        <motion.p className="mt-[0.1em] text-white z-10 font-roboto-condensed text-[3.2rem] lg:text-[4rem] xl:text-[4.5rem] not-italic font-bold leading-[1em] lg:max-w-[10em]  transition-all duration-1000 ease-in-out"
         
         
           initial="hidden"
@@ -108,7 +108,7 @@ export default function HomeCollaborating() {
 
         {/* Ornament */}
         <div
-          className="absolute bg-center bg-no-repeat bg-cover w-[6.25em] h-[6.25em] top-[23.4em] sm0-0:top-[20.2em] sm1:top-[20em] sm1-1:top-[17em]  md1-1:top-[13.8em]  lg:top-[18.6em] right-[-0.1%] xl:top-[19.7em] xl:right-[-0.1%]"
+          className="absolute bg-center bg-no-repeat bg-cover w-[6.25em] h-[6.25em] top-[23.4em] sm0-0:top-[20.2em] sm1:top-[20em] sm1-1:top-[17em]  md1-1:top-[13.8em]  lg:top-[18.5em] right-[-0.0%] xl:top-[19.6em] xl:right-[-0.0%]"
           style={{
             backgroundImage: "url('/home-testimontials-ornament.svg')",
           }}

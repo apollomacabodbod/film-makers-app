@@ -10,13 +10,13 @@ export default function HomeBlog(){
   return (<>
 
 
-    <div className="flex flex-col border border-[#50B498] green ">
+    <div className="flex flex-col  ">
 
 
       <div className='lg:flex lg:items-center'>
 
 
-        <div className='flex flex-col lg:max-w-[230px] xl:max-w-[286px] border border-[#50B498] green lg:mr-[3.125em]'>
+        <div className='flex flex-col lg:max-w-[230px] xl:max-w-[286px]  lg:mr-[3.125em]'>
 
 
           <motion.div className="flex items-center  gap-[0.625em] transiton-all duration-1000 ease-in-out"
