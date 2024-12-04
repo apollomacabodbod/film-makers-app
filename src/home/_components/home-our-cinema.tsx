@@ -6,7 +6,7 @@ export default function HomeOurCinema(){
   return (<>
     
 
-    <div className="flex flex-col border border-[#50B498] green mb-[6.25em] ">
+    <div className="flex flex-col  mb-[6.25em] ">
 
 
 
@@ -16,7 +16,7 @@ export default function HomeOurCinema(){
 
 
 
-        <motion.div className="bg-center bg-no-repeat bg-cover w-full md:h-[33.5em] h-[16em] transiton-all duration-1000 ease-in-out"
+        <motion.div className="bg-center bg-no-repeat bg-cover w-full md:h-[33.5em] h-[16em] transiton-all duration-1000 ease-in-out rounded-[0.3125em]"
           style={{
             backgroundImage: "url('/cameraman-big-cinema.jpg')"
           }}
@@ -72,7 +72,7 @@ export default function HomeOurCinema(){
 
 
 
-        <div className="flex flex-col border border-[#50B498] green lg:w-[32.5em] mt-[2em] lg:mt-[0em]">
+        <div className="flex flex-col  lg:w-[32.5em] mt-[2em] lg:mt-[0em]">
 
 
           <motion.div className="flex items-center gap-[0.625em] transiton-all duration-1000 ease-in-out"

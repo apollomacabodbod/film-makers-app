@@ -27,7 +27,7 @@ export default function HomePartners(){
   return (<>
 
 
-    <div className="flex flex-col border border-[#50B498] green mt-[5.875em]">
+    <div className="flex flex-col  mt-[5.875em]">
 
 
       <motion.div className="flex items-center justify-center gap-[0.625em] transiton-all duration-1000 ease-in-out"
@@ -74,13 +74,13 @@ export default function HomePartners(){
 
 
 
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6  gap-[1em] sm:gap-[2em] xl:gap-[6.25em] border border-[#50B498] green mt-[3.5em] transiton-all duration-1000 ease-in-out">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6  gap-[1em] sm:gap-[2em] xl:gap-[6.25em]  mt-[3.5em] transiton-all duration-1000 ease-in-out">
 
         {images.map((item) => (
 
-          <div key={item.id} className="flex flex-col border border-[#50B498] green  ">
+          <div key={item.id} className="flex flex-col   ">
 
-            <div className="flex items-center justify-center    border border-[#50B498] green">
+            <div className="flex items-center justify-center    ">
 
               <motion.img src={item.image} alt="home-partners-brand" width={`
   ${(item.id === 1 && 90) || (item.id === 2 && 60) || (item.id === 3 && 60) || (item.id === 4 && 75) ||

@@ -8,10 +8,10 @@ export default function HomeDirectors(){
 
   return (<>
 
-    <div className="flex flex-col mt-[6.25em] mb-[22em]  md:mb-[15em] lg:mb-[10em] border border-[#50B498] green">
+    <div className="flex flex-col mt-[6.25em] mb-[22em]  md:mb-[15em] lg:mb-[10em] ">
 
 
-      <motion.div className="bg-right sm:bg-center bg-no-repeat bg-cover w-full md:h-[31.25em] h-[25.25em] pr-[6.25em] transiton-all duration-1000 ease-in-out"
+      <motion.div className="bg-right sm:bg-center bg-no-repeat bg-cover w-full md:h-[31.25em] h-[25.25em] pr-[6.25em] transiton-all duration-1000 ease-in-out rounded-[0.3125em]"
 
         style={{
           backgroundImage: "url('/operator-working.jpg')"
@@ -48,7 +48,7 @@ export default function HomeDirectors(){
 
 
 
-        <div className="relative bg-[#11121E] w-full h-auto md:top-[16em] top-[10em]"
+        <div className="relative bg-[#11121E] w-full h-auto md:top-[16em] top-[10em] rounded-[0.3125em]"
 
         >
 
@@ -59,7 +59,7 @@ export default function HomeDirectors(){
             <div className="lg:flex lg:items-center lg:justify-between  lg:gap-[1.875em]">
 
 
-              <div className="flex flex-col border border-[#50B498] green ">
+              <div className="flex flex-col ">
 
 
                 <motion.div className="flex items-center  gap-[0.625em] transiton-all duration-1000 ease-in-out"
@@ -125,7 +125,7 @@ export default function HomeDirectors(){
               </div>
 
 
-              <div className="flex flex-col border border-[#50B498] green mt-[1em] lg:mt-[0em]">
+              <div className="flex flex-col  mt-[1em] lg:mt-[0em]">
 
 
                 <motion.p className="text-white font-roboto-condensed text-[1rem] lg:text-[1rem] xl:text-[1.2rem] not-italic font-bold transiton-all duration-1000 ease-in-out"

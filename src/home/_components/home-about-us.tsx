@@ -9,13 +9,13 @@ export default function HomeAboutUs(){
     
     <>
 
-      <div className="flex flex-col lg:mt-[6.25em] md:mt-[3em] border border-[#50B498] green  ">
+      <div className="flex flex-col lg:mt-[6.25em] md:mt-[3em]  ">
 
-        <div className="md:flex md:item-center md:justify-between xl:gap-[3.125em] lg:gap-[3em] md:gap-[1.2em] border border-[#50B498] green ">
+        <div className="md:flex md:item-center md:justify-between xl:gap-[3.125em] lg:gap-[3em] md:gap-[1.2em]  ">
 
 
 
-          <div className="flex flex-col border border-[#50B498] green ">
+          <div className="flex flex-col  ">
 
             <motion.div className="flex items-center gap-[0.625em] transiton-all duration-1000 ease-in-out"
             
@@ -128,7 +128,7 @@ export default function HomeAboutUs(){
               className="relative  lg:w-[530px] md:w-[400px] md:h-[670px] w-full h-[25em] rounded-[0.3125em] "
             >
               <motion.div
-                className="absolute inset-0 bg-center bg-cover transition-all duration-1000 ease-in-out"
+                className="absolute inset-0 bg-center bg-cover transition-all duration-1000 ease-in-out rounded-[0.3125em]"
                 style={{
                   backgroundImage: 'url("videographer-man.jpg")',
                 }}
