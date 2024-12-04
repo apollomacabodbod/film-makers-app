@@ -31,7 +31,7 @@ export default function HomeFooterCopyright(){
               },
             }}
           
-          >© 2023 Filmina. Designed by ThemeWarrior</motion.p>
+          >© 2024 Filmina. All Rights Reserved.</motion.p>
 
         </div>
 
