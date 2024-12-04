@@ -16,7 +16,7 @@ export default function HomeOurCinema(){
 
 
 
-        <motion.div className="bg-center bg-no-repeat bg-cover w-full lg:w-[35em] md:h-[33.5em] h-[16em] transiton-all duration-1000 ease-in-out rounded-[0.3125em]"
+        <motion.div className="bg-center bg-no-repeat bg-cover w-full  md:h-[33.5em] h-[16em] transiton-all duration-1000 ease-in-out rounded-[0.3125em]"
           style={{
             backgroundImage: "url('/cameraman-big-cinema.jpg')"
           }}
@@ -99,7 +99,7 @@ export default function HomeOurCinema(){
           </motion.div>
 
 
-          <motion.p className="font-roboto-condensed  text-[3rem] xl:text-[4.2rem] not-italic font-bold leading-[1em] text-white transiton-all duration-1000 ease-in-out"
+          <motion.p className="font-roboto-condensed  text-[3rem] lg:text-[3.4rem] xl:text-[4.4rem] not-italic font-bold leading-[1em] text-white transiton-all duration-1000 ease-in-out"
           
             initial="hidden"
             whileInView="visible"
@@ -114,7 +114,7 @@ export default function HomeOurCinema(){
             }}
           
           >Cinematography</motion.p>
-          <motion.p className="font-roboto-condensed text-[3rem] xl:text-[4.2rem] not-italic font-bold leading-[1em] text-white transiton-all duration-1000 ease-in-out"
+          <motion.p className="font-roboto-condensed text-[3rem] lg:text-[3.4rem] xl:text-[4.4rem] not-italic font-bold leading-[1em] text-white transiton-all duration-1000 ease-in-out"
           
           
             initial="hidden"
@@ -130,7 +130,7 @@ export default function HomeOurCinema(){
             }}
           
           >and Film</motion.p>
-          <motion.p className="font-roboto-condensed text-[3rem] xl:text-[4.2rem] not-italic font-bold leading-[1em] text-white transiton-all duration-1000 ease-in-out"
+          <motion.p className="font-roboto-condensed text-[3rem] lg:text-[3.4rem] xl:text-[4.4rem] not-italic font-bold leading-[1em] text-white transiton-all duration-1000 ease-in-out"
           
           
             initial="hidden"
