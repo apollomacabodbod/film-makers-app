@@ -15,7 +15,7 @@ export default function HomeAboutUs(){
 
 
 
-          <div className="flex flex-col  ">
+          <div className="flex flex-col mt-[3em] md:mt-[0em]">
 
             <motion.div className="flex items-center gap-[0.625em] transiton-all duration-1000 ease-in-out"
             
