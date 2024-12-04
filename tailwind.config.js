@@ -68,9 +68,11 @@ module.exports = {
       'sm': '449px',
 
       'sm0': '447px',
+
+      'sm0-0': '468px',
       // => @media (min-width: 640px) { ... }
       'sm1': '516px', //common use
-
+      'sm1-1': '546px', //common use
 
       'sm2': '603px',
 
@@ -85,6 +87,9 @@ module.exports = {
 
       'md1': '872px',
       // => @media (min-width: 768px) { ... }
+
+      'md1-1': '980px',
+
 
       'lg': '1024px',
       // => @media (min-width: 1024px) { ... }

@@ -55,7 +55,7 @@ export default function HomeCollaborating() {
 
         {/* Ornament */}
         <div
-          className="absolute bg-center bg-no-repeat bg-cover w-[6.25em] h-[6.25em] top-[23.4em] sm1:top-[17.1em] lg:top-[18.6em] right-[-0.1%] xl:top-[19.7em] xl:right-[-0.1%]"
+          className="absolute bg-center bg-no-repeat bg-cover w-[6.25em] h-[6.25em] top-[23.4em] sm0-0:top-[20.2em] sm1:top-[20em] sm1-1:top-[17em]  md1-1:top-[13.8em]  lg:top-[18.6em] right-[-0.1%] xl:top-[19.7em] xl:right-[-0.1%]"
           style={{
             backgroundImage: "url('/home-testimontials-ornament.svg')",
           }}
