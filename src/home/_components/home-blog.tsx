@@ -62,7 +62,7 @@ export default function HomeBlog(){
           >Our Latest Blog</motion.p>
     
     
-          <motion.p className='text-[#82869A] font-inter text-[0.9rem] xl:text-[1rem] not-italic font-normal mt-[1.875em] transition-all duration-1000 ease-in-out'
+          <motion.p className='text-[#82869A] font-inter text-[1rem] xl:text-[1rem] not-italic font-normal mt-[1.875em] transition-all duration-1000 ease-in-out'
           
             initial="hidden"
             whileInView="visible"

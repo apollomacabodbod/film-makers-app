@@ -39,7 +39,7 @@ export default function HomefooterFilmina(){
 
           </motion.div>
 
-          <motion.p className="text-[#82869A] transtion-all duration-1000 ease-in-out"
+          <motion.p className="text-[#82869A] text-[1rem] font-inter font-normal transtion-all duration-1000 ease-in-out"
           
              
             initial="hidden"
