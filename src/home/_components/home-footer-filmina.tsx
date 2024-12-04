@@ -9,10 +9,10 @@ export default function HomefooterFilmina(){
   return (<>
 
 
-    <div className="flex flex-col border border-[#50B498] green mt-[6.5em]">
+    <div className="flex flex-col  mt-[6.5em]">
 
 
-      <div className="lg:flex lg:items-center lg:gap-[2.2em] xl:gap-[3.125em] border border-[#50B498] green w-full ">
+      <div className="lg:flex lg:items-center lg:gap-[2.2em] xl:gap-[3.125em]  w-full ">
 
 
 
@@ -61,7 +61,7 @@ export default function HomefooterFilmina(){
 
 
 
-        <div className="flex flex-col border border-[#50B498] green h-[190px] mt-[1.5em] lg:mt-[0em]">
+        <div className="flex flex-col  h-[190px] mt-[1.5em] lg:mt-[0em]">
 
           <motion.p className="text-white font-roboto-condensed text-[1.25rem] not-italic font-bold transition-all duration-1000 ease-in-out"
           

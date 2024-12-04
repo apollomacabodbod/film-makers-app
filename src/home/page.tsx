@@ -55,7 +55,7 @@ export default function Home() {
 
 
 
-      <div className="flex flex-col bg-no-repeat h-auto bg-[#232639] border border-[#50B498] green"
+      <div className="flex flex-col bg-no-repeat h-auto bg-[#232639] "
 
         style={{
           backgroundImage: "url('/home-testimontials-vector1.svg')"
@@ -64,7 +64,7 @@ export default function Home() {
 
       >
 
-        <div className="lg:relative flex flex-col bg-no-repeat h-auto xl:px-[5.5em] lg:px-[2.75em] px-[1.25em] transition-all duration-1000 ease-in-out py-[6.25em] border border-[#50B498] green"
+        <div className="lg:relative flex flex-col bg-no-repeat h-auto xl:px-[5.5em] lg:px-[2.75em] px-[1.25em] transition-all duration-1000 ease-in-out py-[6.25em] "
 
           style={{
             backgroundImage: "url('/home-testimontials-vector2.svg')"
@@ -113,7 +113,7 @@ export default function Home() {
 
     
       < div
-        className="flex flex-col  bg-[#11121E] xl:px-[5.5em] lg:px-[2.75em] px-[1.25em] border border-[#50B498] "
+        className="flex flex-col  bg-[#11121E] xl:px-[5.5em] lg:px-[2.75em] px-[1.25em]  "
       >
 
 
