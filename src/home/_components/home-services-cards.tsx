@@ -72,7 +72,7 @@ export default function HomeServicesCards(){
 
 
 
-            <div className="px-[1.25em] relative bg-center bg-no-repeat bg-cover w-full  xs:top-[16.9em] xs11:top-[16.2em] xs12:top-[16.1em] xs10:top-[17em] xs1:top-[17em]  sm:top-[16.9em] sm3:top-[16.1em] md1:top-[16.9em] md2:top-[16.9em] lg:top-[15.7em] xl:top-[15em]  pb-[0.9375em] "
+            <div className="px-[1.25em] relative bg-center bg-no-repeat bg-cover w-full  xs:top-[17em] xs11:top-[16.2em] xs12:top-[16.1em] xs10:top-[17em] xs1:top-[17em]  sm:top-[16.9em] sm3:top-[16.1em] md1:top-[16.9em] md2:top-[16.9em] lg:top-[15.7em] xl:top-[15em]  pb-[0.9375em] "
 
               style={{
                 background: "linear-gradient(180deg, rgba(17, 18, 30, 0.00) 0%, rgba(17, 18, 30, 0.80) 100%)",
