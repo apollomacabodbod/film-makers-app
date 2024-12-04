@@ -147,7 +147,7 @@ export default function HomeOurCinema(){
           
           >Production</motion.p>
 
-          <motion.p className="mt-[1.875em] text-[#82869A] font-roboto-condensed text-[1.5rem] not-italic font-bold leading-[1.2em] transiton-all duration-1000 ease-in-out"
+          <motion.p className="mt-[1em] text-[#82869A] font-roboto-condensed text-[1.5rem] not-italic font-bold leading-[1.2em] transiton-all duration-1000 ease-in-out"
          
             initial="hidden"
             whileInView="visible"
@@ -164,7 +164,7 @@ export default function HomeOurCinema(){
          
           >Our video production company is here to help you create stunning images from start to finish.</motion.p>
 
-          <motion.p className="mt-[1.875em] text-[#82869A] font-inter text-[1rem] not-italic font-normal  transiton-all duration-1000 ease-in-out"
+          <motion.p className="mt-[1em] text-[#82869A] font-inter text-[1rem] not-italic font-normal  transiton-all duration-1000 ease-in-out"
           
           
             initial="hidden"
