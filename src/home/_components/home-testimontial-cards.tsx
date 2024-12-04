@@ -8,14 +8,14 @@ export default function HomeTestimontialCards(){
 
 
 
-    <div className="z-30 flex flex-col border border-[#50B498] green">
+    <div className="z-30 flex flex-col ">
 
 
       <div className="lg:flex lg:items-center lg:gap-[1.875em] lg:max-w-[82%]">
 
 
 
-        <div className="flex flex-col border border-[#50B498] green bg-white  w-full  px-[1.875em] py-[1.875em] gap-[1.25em] rounded-[0.3125em] 
+        <div className="flex flex-col  bg-white  w-full  px-[1.875em] py-[1.875em] gap-[1.25em] rounded-[0.3125em] 
     
     mt-[1.875em]
     ">
@@ -167,7 +167,7 @@ export default function HomeTestimontialCards(){
 
 
 
-        <div className="z-20 flex flex-col border border-[#50B498] green bg-white  w-full  px-[1.875em] py-[1.875em] gap-[1.25em] rounded-[0.3125em] 
+        <div className="z-20 flex flex-col  bg-white  w-full  px-[1.875em] py-[1.875em] gap-[1.25em] rounded-[0.3125em] 
     
     mt-[1.875em]
     ">
