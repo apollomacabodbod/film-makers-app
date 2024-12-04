@@ -89,7 +89,7 @@ export default function HomeFooter(){
      
      
         
-            <motion.button className="mt-[2em]  sm3:mt-[0em] py-[0.9em] px-[1.5625em] bg-[#FF5E3A] text-white rounded-[0.1875em] font-roboto-condensed text-[0.875rem] not-italic font-bold uppercase transtion-all duration-1000 ease-in-out"
+            <motion.button className="mt-[2em]  sm3:mt-[0em] py-[0.9em] px-[1.5625em] bg-[#FF5E3A] text-white rounded-[0.1875em] font-roboto-condensed text-[1rem] not-italic font-bold uppercase transtion-all duration-1000 ease-in-out"
             
             
               initial="hidden"
