@@ -16,7 +16,7 @@ export default function HomeOurCinema(){
 
 
 
-        <motion.div className="bg-center bg-no-repeat bg-cover w-full md:h-[33.5em] h-[16em] transiton-all duration-1000 ease-in-out rounded-[0.3125em]"
+        <motion.div className="bg-center bg-no-repeat bg-cover w-full lg:w-[35em] md:h-[33.5em] h-[16em] transiton-all duration-1000 ease-in-out rounded-[0.3125em]"
           style={{
             backgroundImage: "url('/cameraman-big-cinema.jpg')"
           }}
@@ -72,7 +72,7 @@ export default function HomeOurCinema(){
 
 
 
-        <div className="flex flex-col  lg:w-[32.5em] mt-[2em] lg:mt-[0em]">
+        <div className="flex flex-col  lg:w-[32em] mt-[2em] lg:mt-[0em] ">
 
 
           <motion.div className="flex items-center gap-[0.625em] transiton-all duration-1000 ease-in-out"
@@ -99,7 +99,7 @@ export default function HomeOurCinema(){
           </motion.div>
 
 
-          <motion.p className="font-roboto-condensed text-[2.8rem] sm0:text-[3.8rem] sm:text-[4rem] sm1:text-[4.5rem] not-italic font-bold leading-[1em] text-white transiton-all duration-1000 ease-in-out"
+          <motion.p className="font-roboto-condensed  text-[3rem] xl:text-[4.2rem] not-italic font-bold leading-[1em] text-white transiton-all duration-1000 ease-in-out"
           
             initial="hidden"
             whileInView="visible"
@@ -114,7 +114,7 @@ export default function HomeOurCinema(){
             }}
           
           >Cinematography</motion.p>
-          <motion.p className="font-roboto-condensed text-[2.8rem] sm:text-[4.5rem] not-italic font-bold leading-[1em] text-white transiton-all duration-1000 ease-in-out"
+          <motion.p className="font-roboto-condensed text-[3rem] xl:text-[4.2rem] not-italic font-bold leading-[1em] text-white transiton-all duration-1000 ease-in-out"
           
           
             initial="hidden"
@@ -130,7 +130,7 @@ export default function HomeOurCinema(){
             }}
           
           >and Film</motion.p>
-          <motion.p className="font-roboto-condensed text-[2.8rem] sm:text-[4.5rem] not-italic font-bold leading-[1em] text-white transiton-all duration-1000 ease-in-out"
+          <motion.p className="font-roboto-condensed text-[3rem] xl:text-[4.2rem] not-italic font-bold leading-[1em] text-white transiton-all duration-1000 ease-in-out"
           
           
             initial="hidden"
@@ -147,7 +147,7 @@ export default function HomeOurCinema(){
           
           >Production</motion.p>
 
-          <motion.p className="mt-[1.875em] text-[#82869A] font-roboto-condensed text-[1.5rem] not-italic font-bold leading-[1.1em] transiton-all duration-1000 ease-in-out"
+          <motion.p className="mt-[1.875em] text-[#82869A] font-roboto-condensed text-[1.5rem] not-italic font-bold leading-[1.2em] transiton-all duration-1000 ease-in-out"
          
             initial="hidden"
             whileInView="visible"
@@ -164,7 +164,7 @@ export default function HomeOurCinema(){
          
           >Our video production company is here to help you create stunning images from start to finish.</motion.p>
 
-          <motion.p className="mt-[1.875em] text-[#82869A] font-inter text-[1rem] not-italic font-normal leading-[1.1em] transiton-all duration-1000 ease-in-out"
+          <motion.p className="mt-[1.875em] text-[#82869A] font-inter text-[1rem] not-italic font-normal  transiton-all duration-1000 ease-in-out"
           
           
             initial="hidden"
