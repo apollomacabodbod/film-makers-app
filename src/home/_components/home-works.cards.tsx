@@ -30,13 +30,13 @@ export default function HomeWorksCards(){
    return (<>
 
 
-     <div className="grid grid-cols-1 lg:grid-cols-2 border border-[#50B498] green gap-[1.875em] mt-[3.125em]">
+     <div className="grid grid-cols-1 lg:grid-cols-2  gap-[1.875em] mt-[3.125em]">
 
       
        {data.map((item) => (
 
 
-         <motion.div key={item.id} className="bg-cover bg-center bg-no-repeat  h-[20.0625em] border border-[#50B498] green transition-all duration-1000 ease-in-out"
+         <motion.div key={item.id} className="bg-cover bg-center bg-no-repeat  h-[20.0625em]  transition-all duration-1000 ease-in-out"
            style={{
              backgroundImage: `url(${item.image})`, 
            }}
@@ -57,7 +57,7 @@ export default function HomeWorksCards(){
          >
 
 
-           <div className="relative flex flex-col border border-[#50B498] green xs:top-[8em]  sm0:top-[7.9em] sm1:top-[8.5em] sm0-1:top-[8.4em]  sm:top-[7.9em] 
+           <div className="relative flex flex-col  xs:top-[8.1em]  sm0:top-[8.1em] sm1:top-[8.7em] sm0-1:top-[8.7em] sm0-11:top-[8.7em] sm:top-[8.1em] 
            
            pt-[4.8125em] pb-[2em] px-[1.875em] bg-[linear-gradient(180deg,rgba(17,18,30,0)_0%,rgba(17,18,30,0.8)_100%)]">
 

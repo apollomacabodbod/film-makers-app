@@ -8,7 +8,7 @@ export default function HomeWorks(){
   return (<>
 
 
-    <div className="flex flex-col border border-[#50B498] green">
+    <div className="flex flex-col ">
 
 
 
@@ -87,7 +87,7 @@ export default function HomeWorks(){
 
 
 
-        <div className="flex flex-col border border-[#50B498] green mt-[2em] lg:mt-[0em]">
+        <div className="flex flex-col  mt-[2em] lg:mt-[0em]">
 
 
           <motion.div className="flex items-center  transiton-all duration-1000 ease-in-out"
