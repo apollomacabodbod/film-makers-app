@@ -6,7 +6,7 @@ export default function AboutAboutUs(){
 
   return(<>
 
-    <div className="flex flex-col  my-[9em]  transiton-all duration-1000 ease-in-out">
+    <div className="flex flex-col  mt-[5em] mb-[9em]  transiton-all duration-1000 ease-in-out">
 
         
       <div className="lg:flex lg:items-center lg:justify-between gap-[3.125em] w-full ">
