@@ -67,8 +67,8 @@ const Sidebar: FC<SidebarProps> = ({ sidebarOpen, setSidebarOpen }) => {
           className="lg:hidden w-full bg-cover bg-center max-w-[2em] self-end cursor-pointer opacity-70 hover:opacity-100 transition-all duration-1000 ease-in-out"
         />
 
-        <Link to={"#"} className="font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap text-[#FFF] opacity-70 hover:opacity-100 transition-opacity duration-1000 ease-in-out">Home</Link>
-        <Link to={"#"} className="font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap text-[#FFF] opacity-70 hover:opacity-100 transition-opacity duration-1000 ease-in-out">About</Link>
+        <Link to={"/"} className="font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap text-[#FFF] opacity-70 hover:opacity-100 transition-opacity duration-1000 ease-in-out">Home</Link>
+        <Link to={"/about"} className="font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap text-[#FFF] opacity-70 hover:opacity-100 transition-opacity duration-1000 ease-in-out">About</Link>
         <Link to={"#"} className="font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap text-[#FFF] opacity-70 hover:opacity-100 transition-opacity duration-1000 ease-in-out">Services</Link>
         <Link to={"#"} className="font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap text-[#FFF] opacity-70 hover:opacity-100 transition-opacity duration-1000 ease-in-out">Works</Link>
         <Link to={"#"} className="font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap text-[#FFF] opacity-70 hover:opacity-100 transition-opacity duration-1000 ease-in-out">Blog</Link>
