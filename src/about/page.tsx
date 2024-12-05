@@ -1,7 +1,7 @@
 import AboutAboutUs from "./_components/about-about-us";
 import AboutCinema from "./_components/about-cinema";
 import AboutDirectors from "./_components/about-directors";
-import AboutSection from "./_components/about-section";
+import AboutHeroSection from "./_components/about-hero-section";
 import AboutTestimontials from "./_components/about-testimontials";
 import AboutTestimontialCards from "./_components/about-testimontials-cards";
 
@@ -23,7 +23,7 @@ export default function About() {
       <div className="absolute inset-0 bg-black opacity-20"></div>
 
         
-      <AboutSection/>
+      <AboutHeroSection/>
 
 
     </div>
