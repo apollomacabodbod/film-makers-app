@@ -32,11 +32,41 @@ export default function AboutSection(){
       </motion.div>
 
 
-      <p className="text-white font-roboto-condensed text-[6rem] text-center font-bold not-italic leading-[1em]">About</p>
+      <motion.p className="text-white font-roboto-condensed text-[6rem] text-center font-bold not-italic leading-[1em] transiton-all duration-1000 ease-in-out"
+      
+      
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.5 }}
+        variants={{
+          hidden: { opacity: 0, y: 10 },
+          visible: { 
+            opacity: 1, 
+            y: 0,
+            transition: { duration: 0, ease: "easeInOut" }, // Applying duration and easing
+          },
+        }}
+      
+      >About</motion.p>
    
 
 
-      <div className="flex items-baseline justify-center gap-[1.25em]">
+      <motion.div className="flex items-baseline justify-center gap-[1.25em] transiton-all duration-1000 ease-in-out"
+      
+       
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.5 }}
+        variants={{
+          hidden: { opacity: 0, y: 10 },
+          visible: { 
+            opacity: 1, 
+            y: 0,
+            transition: { duration: 0, ease: "easeInOut" }, // Applying duration and easing
+          },
+        }}
+      
+      >
 
         <img src="/about-home.svg" alt="" width={20} height={11}/>
 
@@ -46,7 +76,7 @@ export default function AboutSection(){
 
         <p className="font-roboto-condensed text-[0.875rem] not-italic font-bold uppercase text-white">About</p>
 
-      </div>
+      </motion.div>
    
    
     </div>
