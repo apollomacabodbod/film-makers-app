@@ -14,7 +14,7 @@ export default function Works(){
     <div className="relative flex flex-col  bg-top bg-cover bg-no-repeat transition-all duration-1000 ease-in-out"
       
       style={{
-        backgroundImage: 'url("director-of-production.jpg")',
+        backgroundImage: 'url("professional-camera3.jpg")',
       }}
   
     >
