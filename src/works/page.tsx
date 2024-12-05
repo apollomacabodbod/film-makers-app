@@ -1,4 +1,5 @@
 import WorksCards from "./_components/works-cards";
+import WorksHeroSection from "./_components/works-hero-section";
 import WorksOurWorks from "./_components/works-our-works";
 
 
@@ -10,6 +11,22 @@ export default function Works(){
   return (<>
 
 
+    <div className="relative flex flex-col  bg-top bg-cover bg-no-repeat transition-all duration-1000 ease-in-out"
+      
+      style={{
+        backgroundImage: 'url("director-of-production.jpg")',
+      }}
+  
+    >
+
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-black opacity-20"></div>
+
+      
+      <WorksHeroSection/>
+
+
+    </div>
 
 
 
