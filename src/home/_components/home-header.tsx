@@ -65,8 +65,8 @@ export default function HomeHeader(){
 
               <div className="flex items-center gap-[1.5em] ">
 
-                <Link to={"#"} className="font-roboto-condensed text-[0.875rem] not-italic font-bold text-white uppercase">Home </Link>
-                <Link to={"#"} className="font-roboto-condensed text-[0.875rem] not-italic font-bold text-white uppercase">About </Link>
+                <Link to={"/"} className="font-roboto-condensed text-[0.875rem] not-italic font-bold text-white uppercase">Home </Link>
+                <Link to={"/about"} className="font-roboto-condensed text-[0.875rem] not-italic font-bold text-white uppercase">About </Link>
                 <Link to={"#"} className="font-roboto-condensed text-[0.875rem] not-italic font-bold text-white uppercase">Services </Link>
                 <Link to={"#"} className="font-roboto-condensed text-[0.875rem] not-italic font-bold text-white uppercase">Works </Link>
                 <Link to={"#"} className="font-roboto-condensed text-[0.875rem] not-italic font-bold text-white uppercase">Blog </Link>
