@@ -132,7 +132,7 @@ export default function AboutAboutUs(){
 
 
         <div
-          className="relative  lg:h-[43.75em] w-full h-[25em]  rounded-[0.3125em] mt-[1em] lg:mt-[0em] "
+          className="relative  lg:h-[43.75em] w-full h-[33.5em]  rounded-[0.3125em] mt-[1em] lg:mt-[0em] "
         >
           <motion.div
             className="absolute inset-0 bg-center bg-cover transition-all duration-1000 ease-in-out rounded-[0.3125em]"
@@ -157,7 +157,7 @@ export default function AboutAboutUs(){
 
           ></motion.div>
           <motion.div
-            className="absolute bg-cover bg-no-repeat bg-center w-[100px] h-[100px] top-[18em] right-[-0.0%] lg:top-[36.9em] lg:right-[-0.0%] transition-all duration-1000 ease-in-out"
+            className="absolute bg-cover bg-no-repeat bg-center w-[100px] h-[100px] top-[26.5em] right-[-0.0%] lg:top-[36.9em] lg:right-[-0.0%] transition-all duration-1000 ease-in-out"
             style={{
               backgroundImage: 'url("home-about-us-ornament.svg")',
             }}
