@@ -8,7 +8,7 @@ export default function HomeFooterCards(){
 
     <div className="flex flex-col ">
 
-      <div className="sm1:flex sm1:items-baseline sm1:justify-between gap-[3.125em] w-full">
+      <div className="md:flex md:items-baseline md:justify-between gap-[3.125em] w-full">
 
 
 
