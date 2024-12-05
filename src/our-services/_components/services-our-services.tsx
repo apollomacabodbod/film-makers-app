@@ -9,7 +9,7 @@ export default function ServicesOurServices(){
 
     <div className="flex flex-col  mt-[6.25em]">
 
-      <motion.div className="flex items-center justify-center gap-[0.625em] transiton-all duration-1000 ease-in-out"
+      <motion.div className="flex items-center  gap-[0.625em] transiton-all duration-1000 ease-in-out"
             
         initial="hidden"
         whileInView="visible"
@@ -34,7 +34,7 @@ export default function ServicesOurServices(){
         
 
 
-      <motion.p className='text-white font-roboto-condensed text-[4.5rem] not-italic font-bold leading-[1em] text-center transiton-all duration-1000 ease-in-out'
+      <motion.p className='text-white font-roboto-condensed text-[4.5rem] not-italic font-bold leading-[1em]  transiton-all duration-1000 ease-in-out'
       
       
         initial="hidden"
@@ -51,7 +51,7 @@ export default function ServicesOurServices(){
       
       >Our Services</motion.p>
     
-      <motion.p className='text-[#82869A] font-inter text-[1rem] font-normal text-center mt-[1.25em] transiton-all duration-1000 ease-in-out'
+      <motion.p className='text-[#82869A] font-inter text-[1rem] font-normal  mt-[1.25em] transiton-all duration-1000 ease-in-out'
       
       
         initial="hidden"
