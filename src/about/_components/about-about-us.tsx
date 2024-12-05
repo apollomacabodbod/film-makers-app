@@ -132,7 +132,7 @@ export default function AboutAboutUs(){
 
 
         <div
-          className="relative  lg:h-[43.75em] w-full h-[17em] md:h-[33.5em]  rounded-[0.3125em] mt-[1em] lg:mt-[0em] "
+          className="relative  lg:h-[43.75em] w-full h-[17em] md:h-[33.5em]  rounded-[0.3125em] mt-[2em] lg:mt-[0em] "
         >
           <motion.div
             className="absolute inset-0 bg-center bg-cover transition-all duration-1000 ease-in-out rounded-[0.3125em]"
