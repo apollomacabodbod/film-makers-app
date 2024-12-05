@@ -70,7 +70,7 @@ const Sidebar: FC<SidebarProps> = ({ sidebarOpen, setSidebarOpen }) => {
         <Link to={"/"} className="font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap text-[#FFF] opacity-70 hover:opacity-100 transition-opacity duration-1000 ease-in-out">Home</Link>
         <Link to={"/about"} className="font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap text-[#FFF] opacity-70 hover:opacity-100 transition-opacity duration-1000 ease-in-out">About</Link>
         <Link to={"/services"} className="font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap text-[#FFF] opacity-70 hover:opacity-100 transition-opacity duration-1000 ease-in-out">Services</Link>
-        <Link to={"#"} className="font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap text-[#FFF] opacity-70 hover:opacity-100 transition-opacity duration-1000 ease-in-out">Works</Link>
+        <Link to={"/works"} className="font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap text-[#FFF] opacity-70 hover:opacity-100 transition-opacity duration-1000 ease-in-out">Works</Link>
         <Link to={"#"} className="font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap text-[#FFF] opacity-70 hover:opacity-100 transition-opacity duration-1000 ease-in-out">Blog</Link>
         <Link to={"#"} className="font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap text-[#FFF] opacity-70 hover:opacity-100 transition-opacity duration-1000 ease-in-out">Testimontials</Link>
 
