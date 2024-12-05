@@ -1,4 +1,3 @@
-import HomeHeroSection from "../home/_components/home-hero-section";
 import AboutAboutUs from "./_components/about-about-us";
 import AboutCinema from "./_components/about-cinema";
 import AboutDirectors from "./_components/about-directors";

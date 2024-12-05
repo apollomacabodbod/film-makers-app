@@ -1,4 +1,3 @@
-import HomeHeroSection from "../home/_components/home-hero-section";
 import ServicesCards from "./_components/services-cards";
 import ServicesCollaborating from "./_components/services-collaborating";
 import ServicesOurServices from "./_components/services-our-services";
