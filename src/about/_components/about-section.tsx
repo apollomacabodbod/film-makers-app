@@ -1,11 +1,12 @@
 
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 export default function AboutSection(){
 
   return(<>
 
-    <div className="flex flex-col mt-[13.0625em] mb-[6.875em]">
+    <div className="z-20 lex flex-col mt-[13.0625em] mb-[6.875em]">
 
       <motion.div className="flex items-center justify-center gap-[0.625em] transiton-all duration-1000 ease-in-out"
             
@@ -25,14 +26,29 @@ export default function AboutSection(){
 
         <img src="/home-about-us-line.svg" alt="" width={40} height={0} className="min-w-[2.5em]"/>
 
-        <p className="text-[#FF5E3A] font-roboto-condensed text-[0.875rem] not-italic font-bold uppercase">About Us</p>
+        <p className="text-[#FF5E3A] font-roboto-condensed text-[0.875rem] not-italic font-bold uppercase">About</p>
 
 
       </motion.div>
 
 
       <p className="text-white font-roboto-condensed text-[6rem] text-center font-bold not-italic leading-[1em]">About</p>
+   
 
+
+      <div className="flex items-baseline justify-center gap-[1.25em]">
+
+        <img src="/about-home.svg" alt="" width={20} height={11}/>
+
+        <Link to={"/"} className="font-roboto-condensed text-[0.875rem] not-italic font-bold uppercase text-white">Home</Link>
+
+        <img src="/about-arrow.svg" alt="" width={7} height={11}/>
+
+        <p className="font-roboto-condensed text-[0.875rem] not-italic font-bold uppercase text-white">About</p>
+
+      </div>
+   
+   
     </div>
     
     
