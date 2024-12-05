@@ -12,7 +12,7 @@ export default function AboutAboutUs(){
       <div className="lg:flex lg:items-center lg:justify-between gap-[3.125em] w-full ">
 
 
-        <div className="flex flex-col lg:max-w-[25em] l-middle:max-w-[30em] xl:max-w-[34.375em] lg:mt-[-0em] l-middle:mt-[-3.7em] xl:mt-[-6.5em] border border-[#50B498] green transiton-all duration-1000 ease-in-out">
+        <div className="flex flex-col lg:max-w-[25em] l-middle:max-w-[30em] xl:max-w-[34.375em] lg:mt-[-3.2em] l-middle:mt-[-5em] xl:mt-[-6.5em] border border-[#50B498] green transiton-all duration-1000 ease-in-out">
 
           <motion.div className="flex items-center gap-[0.625em] transiton-all duration-1000 ease-in-out"
             
@@ -38,7 +38,7 @@ export default function AboutAboutUs(){
           </motion.div>
 
 
-          <motion.p className="font-roboto-condensed text-[4rem] xs10:text-[4.5rem] leading-[1em] font-bold text-white transiton-all duration-1000 ease-in-out" 
+          <motion.p className="font-roboto-condensed text-[4rem] xs10:text-[4.1rem] xl:text-[4.5rem] leading-[1em] font-bold text-white transiton-all duration-1000 ease-in-out" 
           
           
             initial="hidden"
