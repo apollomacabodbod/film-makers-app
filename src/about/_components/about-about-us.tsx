@@ -137,7 +137,7 @@ export default function AboutAboutUs(){
           <motion.div
             className="absolute inset-0 bg-center bg-cover transition-all duration-1000 ease-in-out rounded-[0.3125em]"
             style={{
-              backgroundImage: 'url("videographer-man.jpg")',
+              backgroundImage: 'url("videographer-man3.jpg")',
             }}
 
 
