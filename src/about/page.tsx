@@ -1,5 +1,6 @@
 import AboutAboutUs from "./_components/about-about-us";
 import AboutCinema from "./_components/about-cinema";
+import AboutDirectors from "./_components/about-directors";
 
 export default function About() {
  
@@ -10,6 +11,7 @@ export default function About() {
 
       <AboutAboutUs/>
       <AboutCinema/>
+      <AboutDirectors/>
 
     </div>
 
