@@ -38,11 +38,90 @@ export default function AboutAboutUs(){
           </motion.div>
 
 
-          <p className="font-roboto-condensed text-[4rem] xs10:text-[4.5rem] leading-[1em] font-bold text-white">We Are a Team of Passionate Filmmakers</p>
-          <p className="text-[#82869A] text-[1.5rem] font-bold font-roboto-condensed leading-[1.2em] mt-[1.875em] ">Dedicated to bringing creative and compelling stories to life on screen</p>
-          <p className="text-[#82869A] font-roboto-condensed text-[1rem] font-normal mt-[1.875em]">Proin et magna blandit arcu pellentesque scelerisque sit amet a sapien. Aenean purus nunc, cursus in ante in, vehicula facilisis dui. Integer consequat consectetur est id blandit. Proin et magna blandit arcu pellentesque scelerisque sit amet.</p>
-          <p className="text-[#82869A] font-roboto-condensed text-[1rem] font-normal mt-[1em]">Proin et magna blandit arcu pellentesque scelerisque sit amet a sapien. Aenean purus nunc, cursus in ante in, vehicula facilisis dui. Integer consequat consectetur est id blandit. Proin et magna blandit arcu pellentesque scelerisque sit amet.</p>
-          <p className="text-[#82869A] font-roboto-condensed text-[1rem] font-normal mt-[1em]">Proin et magna blandit arcu pellentesque scelerisque sit amet a sapien. Aenean purus nunc, cursus in ante in, vehicula facilisis dui.</p>
+          <motion.p className="font-roboto-condensed text-[4rem] xs10:text-[4.5rem] leading-[1em] font-bold text-white transiton-all duration-1000 ease-in-out" 
+          
+          
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }}
+            variants={{
+              hidden: { opacity: 0, y: 10 },
+              visible: { 
+                opacity: 1, 
+                y: 0,
+                transition: { duration: 0, ease: "easeInOut" }, // Applying duration and easing
+              },
+            }}
+          
+          >We Are a Team of Passionate Filmmakers</motion.p>
+          <motion.p className="text-[#82869A] text-[1.5rem] font-bold font-roboto-condensed leading-[1.2em] mt-[1.875em] transiton-all duration-1000 ease-in-out"
+          
+          
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }}
+            variants={{
+              hidden: { opacity: 0, y: 10 },
+              visible: { 
+                opacity: 1, 
+                y: 0,
+                transition: { duration: 0, ease: "easeInOut" }, // Applying duration and easing
+              },
+            }}
+          
+          >Dedicated to bringing creative and compelling stories to life on screen</motion.p>
+          <motion.p className="text-[#82869A] font-roboto-condensed text-[1rem] font-normal mt-[1.875em] transiton-all duration-1000 ease-in-out"
+          
+          
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }}
+            variants={{
+              hidden: { opacity: 0, y: 10 },
+              visible: { 
+                opacity: 1, 
+                y: 0,
+                transition: { duration: 0, ease: "easeInOut" }, // Applying duration and easing
+              },
+            }}
+          
+          
+          >Proin et magna blandit arcu pellentesque scelerisque sit amet a sapien. Aenean purus nunc, cursus in ante in, vehicula facilisis dui. Integer consequat consectetur est id blandit. Proin et magna blandit arcu pellentesque scelerisque sit amet.</motion.p>
+          <motion.p className="text-[#82869A] font-roboto-condensed text-[1rem] font-normal mt-[1em] transiton-all duration-1000 ease-in-out"
+          
+          
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }}
+            variants={{
+              hidden: { opacity: 0, y: 10 },
+              visible: { 
+                opacity: 1, 
+                y: 0,
+                transition: { duration: 0, ease: "easeInOut" }, // Applying duration and easing
+              },
+            }}
+          
+          
+          >Proin et magna blandit arcu pellentesque scelerisque sit amet a sapien. Aenean purus nunc, cursus in ante in, vehicula facilisis dui. Integer consequat consectetur est id blandit. Proin et magna blandit arcu pellentesque scelerisque sit amet.</motion.p>
+          <motion.p className="text-[#82869A] font-roboto-condensed text-[1rem] font-normal mt-[1em] transiton-all duration-1000 ease-in-out"
+          
+          
+          
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }}
+            variants={{
+              hidden: { opacity: 0, y: 10 },
+              visible: { 
+                opacity: 1, 
+                y: 0,
+                transition: { duration: 0, ease: "easeInOut" }, // Applying duration and easing
+              },
+            }}
+          
+          
+          >Proin et magna blandit arcu pellentesque scelerisque sit amet a sapien. Aenean purus nunc, cursus in ante in, vehicula facilisis dui.</motion.p>
 
    
 
