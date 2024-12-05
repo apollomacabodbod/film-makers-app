@@ -65,7 +65,7 @@ export default function HomeFooter(){
         <div className="flex flex-col mt-[1em] lg:mt-[0em]">
 
 
-          <div className="sm3:flex sm3:items-center">
+          <div className="sm3:flex sm3:items-baseline">
 
  
             <motion.input type="text" className="mt-[1em] sm3:mt-[0em] py-[0.625em] px-[1.5em] rounded-[0.1875em] font-inter text-[1rem] not-italic font-normal focus:outline-none  w-full sm1:w-[18.75em]  sm1:mr-[0.625em] transtion-all duration-1000 ease-in-out"
