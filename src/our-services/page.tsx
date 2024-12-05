@@ -1,4 +1,5 @@
 import ServicesCards from "./_components/services-cards";
+import ServicesCollaborating from "./_components/services-collaborating";
 import ServicesOurServices from "./_components/services-our-services";
 
 
@@ -13,6 +14,7 @@ export default function Services(){
 
         <ServicesOurServices/>
         <ServicesCards/>
+        <ServicesCollaborating/>
 
       </div>
     
