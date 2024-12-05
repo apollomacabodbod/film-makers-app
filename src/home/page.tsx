@@ -112,7 +112,7 @@ export default function Home() {
 
 
     
-      < div
+      {/* < div
         className="flex flex-col  bg-[#11121E] xl:px-[5.5em] lg:px-[2.75em] px-[1.25em]  "
       >
 
@@ -122,7 +122,7 @@ export default function Home() {
 
 
 
-      </div>
+      </div> */}
 
 
 
