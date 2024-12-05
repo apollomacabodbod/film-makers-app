@@ -9,14 +9,14 @@ export default function HomefooterFilmina(){
   return (<>
 
 
-    <div className="flex flex-col  mt-[6.5em]">
+    <div className="flex flex-col  mt-[6.5em] border border-[#50B498] green">
 
 
       <div className="lg:flex lg:items-center lg:gap-[2.2em] xl:gap-[3.125em]  w-full ">
 
 
 
-        <div className="flex flex-col gap-[1.875em] ">
+        <div className="flex flex-col gap-[1.875em] border border-[#50B498] green lg:mt-[-0em] lg-1:mt-[-1em] lg-2:mt-[-2.4em] lg-3:mt-[-3.9em]  xl:mt-[-4em]">
 
 
           <motion.div className="flex items-baseline transition-all duration-1000 ease-in-out"
