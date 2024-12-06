@@ -24,7 +24,6 @@ function App() {
 
   return (
     <>
-      <HomeSmoothScroll/>
       <ScrollToTop /> {/* Handles scroll-to-top on location change */}
       <HomeHeader />
       
