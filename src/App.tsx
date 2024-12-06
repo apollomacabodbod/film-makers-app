@@ -8,22 +8,18 @@ import HomeFooter from "./home/_components/home-footer";
 import Services from "./our-services/page";
 import Works from "./works/page";
 
-function ScrollToTop() {
-  const location = useLocation();
+
+function App() {
+  const location = useLocation(); // Now safe to use because it's inside a Router
+
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [location]);
 
-  return null; // This component doesn't render anything
-}
-
-function App() {
-  const location = useLocation(); // Now safe to use because it's inside a Router
 
   return (
     <>
-      <ScrollToTop /> {/* Handles scroll-to-top on location change */}
       <HomeHeader />
       
       <Routes > {/* Unique key for re-mounting */}
