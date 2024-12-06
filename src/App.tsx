@@ -7,7 +7,6 @@ import HomeHeader from "./home/_components/home-header";
 import HomeFooter from "./home/_components/home-footer";
 import Services from "./our-services/page";
 import Works from "./works/page";
-import HomeSmoothScroll from "./home/_components/home-smooth-scroll";
 
 function ScrollToTop() {
   const location = useLocation();
