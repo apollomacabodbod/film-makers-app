@@ -50,7 +50,16 @@ export default function HomeHeader(){
 
               <div className="flex items-center">
 
-                <img src="/home-header-logo.svg" alt="" width={170} height={0} className="min-w-[10.625em] cursor-pointer"/>
+
+                <Link to={"/"} >
+
+                  <img src="/home-header-logo.svg" alt="" width={170} height={0} className="min-w-[10.625em] cursor-pointer"/>
+                
+              
+                </Link>
+               
+
+               
 
               </div>
 
