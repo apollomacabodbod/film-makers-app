@@ -26,5 +26,5 @@
   },
   "include": [
     "src"
-, "lib", "components/ui/button.tsx"  ]
+, "lib", "components/ui/button.tsx"   ]
 }
