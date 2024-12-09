@@ -1,4 +1,3 @@
-import BlogDetail from "./_components/blog-detail";
 import BlogDetailHeroSection from "./_components/blog-hero-section";
 
 
