@@ -9,10 +9,10 @@ export default function HomefooterFilmina(){
   return (<>
 
 
-    <div className="flex flex-col  mt-[6.5em] ">
+    <div className="flex flex-col  mt-[6.5em] transition-all duration-1000 ease-in-out">
 
 
-      <div className="lg:flex lg:items-center lg:gap-[2.2em] xl:gap-[3.125em]  w-full ">
+      <div className="lg:flex lg:items-center lg:gap-[2.2em] xl:gap-[3.125em]  w-full  transition-all duration-1000 ease-in-out">
 
 
 

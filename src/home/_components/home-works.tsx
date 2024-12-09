@@ -8,7 +8,7 @@ export default function HomeWorks(){
   return (<>
 
 
-    <div className="flex flex-col ">
+    <div className="flex flex-col transition-all duration-1000 ease-in-out ">
 
 
 

@@ -9,7 +9,7 @@ export default function HomeBlogCards(){
 
 
 
-    <div className="flex flex-col ">
+    <div className="flex flex-col transition-all duration-1000 ease-in-out">
 
 
       <div className="lg:flex lg:items-center lg:gap-[1.875em] w-full">

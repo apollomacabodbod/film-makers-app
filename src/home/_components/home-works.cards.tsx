@@ -30,7 +30,7 @@ export default function HomeWorksCards(){
    return (<>
 
 
-     <div className="grid grid-cols-1 lg:grid-cols-2  gap-[1.875em] mt-[3.125em]">
+     <div className="grid grid-cols-1 lg:grid-cols-2  gap-[1.875em] mt-[3.125em] transition-all duration-1000 ease-in-out">
 
       
        {data.map((item) => (

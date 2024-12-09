@@ -7,7 +7,7 @@ export default function AboutTestimontials(){
   return (<>
 
 
-    <div className="flex flex-col  lg:max-w-[35em] xl:max-w-[40.625em] ">
+    <div className="flex flex-col  lg:max-w-[35em] xl:max-w-[40.625em]  transition-all duration-1000 ease-in-out">
 
       <motion.div className="flex items-center  gap-[0.625em] transiton-all duration-1000 ease-in-out"
             

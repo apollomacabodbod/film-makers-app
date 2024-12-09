@@ -8,7 +8,7 @@ export default function WorksOurWorks(){
   return (<>
 
 
-    <div className="flex flex-col mt-[9em]">
+    <div className="flex flex-col mt-[9em]  transition-all duration-1000 ease-in-out">
 
 
 

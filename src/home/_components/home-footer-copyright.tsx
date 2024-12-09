@@ -8,10 +8,10 @@ export default function HomeFooterCopyright(){
 
   return (<>
 
-    <div className="flex flex-col mt-[1.5em] lg:mt-[4.9375em] ">
+    <div className="flex flex-col mt-[1.5em] lg:mt-[4.9375em] transition-all duration-1000 ease-in-out">
 
 
-      <div className="lg:flex lg:items-center lg:justify-between">
+      <div className="lg:flex lg:items-center lg:justify-between  transition-all duration-1000 ease-in-out">
 
 
         <div className="flex flex-col mt-[1.5em] lg:mt-[0em]">

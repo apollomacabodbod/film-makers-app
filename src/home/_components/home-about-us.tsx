@@ -9,7 +9,7 @@ export default function HomeAboutUs(){
     
     <>
 
-      <div className="flex flex-col lg:mt-[6.25em] md:mt-[3em]  ">
+      <div className="flex flex-col lg:mt-[6.25em] md:mt-[3em] transition-all duration-1000 ease-in-out ">
 
         <div className="md:flex md:item-center md:justify-between xl:gap-[3.125em] lg:gap-[3em] md:gap-[1.2em]  ">
 

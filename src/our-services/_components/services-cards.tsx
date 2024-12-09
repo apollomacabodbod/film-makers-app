@@ -45,7 +45,7 @@ export default function ServicesCards(){
 
 
 
-      <div className="grid grid-cols-1 sm3:grid-cols-2 lg:grid-cols-3  gap-[1.875em] mt-[3.125em]">
+      <div className="grid grid-cols-1 sm3:grid-cols-2 lg:grid-cols-3  gap-[1.875em] mt-[3.125em]  transition-all duration-1000 ease-in-out">
 
         {cards.map((item) => (
 

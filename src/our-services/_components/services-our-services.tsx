@@ -7,7 +7,7 @@ export default function ServicesOurServices(){
 
   return (<>
 
-    <div className="flex flex-col  mt-[6.25em]">
+    <div className="flex flex-col  mt-[6.25em]  transition-all duration-1000 ease-in-out">
 
       <motion.div className="flex items-center  gap-[0.625em] transiton-all duration-1000 ease-in-out"
             

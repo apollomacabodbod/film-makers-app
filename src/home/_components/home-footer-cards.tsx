@@ -6,9 +6,9 @@ export default function HomeFooterCards(){
   return (<>
 
 
-    <div className="flex flex-col ">
+    <div className="flex flex-col transition-all duration-1000 ease-in-out">
 
-      <div className="md:flex md:items-baseline md:justify-between gap-[3.125em] w-full">
+      <div className="md:flex md:items-baseline md:justify-between gap-[3.125em] w-full  transition-all duration-1000 ease-in-out">
 
 
 

@@ -8,7 +8,7 @@ export default function AboutTestimontialCards(){
 
 
 
-    <div className="z-30 flex flex-col ">
+    <div className="z-30 flex flex-col  transition-all duration-1000 ease-in-out">
 
 
       <div className="lg:flex lg:items-center lg:gap-[1.875em] lg:max-w-[82%]">

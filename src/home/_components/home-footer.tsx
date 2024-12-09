@@ -8,7 +8,7 @@ export default function HomeFooter(){
 
   return (<>
 
-    <div className="z-10 flex flex-col mt-[3.375em] mb-[2em] ">
+    <div className="z-10 flex flex-col mt-[3.375em] mb-[2em] transition-all duration-1000 ease-in-out">
 
 
       <div className="lg:flex lg:items-center">

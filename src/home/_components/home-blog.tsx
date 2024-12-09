@@ -10,7 +10,7 @@ export default function HomeBlog(){
   return (<>
 
 
-    <div className="flex flex-col  ">
+    <div className="flex flex-col  transition-all duration-1000 ease-in-out">
 
 
       <div className='lg:flex lg:items-center'>

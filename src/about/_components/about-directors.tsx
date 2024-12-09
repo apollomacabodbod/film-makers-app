@@ -8,7 +8,7 @@ export default function AboutDirectors(){
 
   return (<>
 
-    <div className="flex flex-col mt-[6.25em] mb-[22em]  md:mb-[15em] lg:mb-[10em] ">
+    <div className="flex flex-col mt-[6.25em] mb-[22em]  md:mb-[15em] lg:mb-[10em]  transition-all duration-1000 ease-in-out">
 
 
       <motion.div className="bg-right sm:bg-center bg-no-repeat bg-cover w-full md:h-[31.25em] h-[25.25em] pr-[6.25em] transiton-all duration-1000 ease-in-out rounded-[0.3125em]"
