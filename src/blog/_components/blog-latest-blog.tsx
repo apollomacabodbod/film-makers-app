@@ -3,6 +3,7 @@
 
 import { motion } from 'framer-motion'
 import { useState } from 'react'
+import { Link } from 'react-router-dom';
 
 export default function LatestBlogCards(){
 
@@ -35,7 +36,7 @@ export default function LatestBlogCards(){
 
       {latestcards.map((data) => (
 
-        <div key={data.id} className='flex flex-col '>
+        <Link key={data.id} to={`/blog/${data.id}`} className="flex flex-col">
 
 
           <motion.div className="flex items-center  transiton-all duration-1000 ease-in-out "
@@ -93,7 +94,7 @@ export default function LatestBlogCards(){
           >{data.date}</motion.p>
 
 
-        </div>
+        </Link>
 
 
       ))}
