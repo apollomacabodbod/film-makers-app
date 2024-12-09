@@ -14,7 +14,7 @@ export default function LatestBlogCards(){
   }
 
 
-  const [cards] = useState<cards[]>([
+  const [latestcards] = useState<cards[]>([
 
     {id: 1, title: 'John Wick Chapter 4 Packs A Fast And Furious Punch', date: 'March 27, 2023 No Comments', image: '/home-blog-image1.webp'},
     {id: 2, title: 'John Wick Chapter 4 Packs A Fast And Furious Punch', date: 'March 27, 2023 No Comments', image: '/home-blog-image1.webp'},
@@ -33,7 +33,7 @@ export default function LatestBlogCards(){
 
     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-[1.875em] mb-[6.25em] border border-[#50B498] green'>
 
-      {cards.map((data) => (
+      {latestcards.map((data) => (
 
         <div key={data.id} className='flex flex-col border border-[#50B498] green'>
 
