@@ -8,6 +8,7 @@ import Services from "./our-services/page";
 import Works from "./works/page";
 import { LenisProvider } from "./context/lenis";
 import ScrollToTop from "./components/scroll-top";
+import Blog from "./blog/page";
 
 function App() {
   
@@ -26,6 +27,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/services" element={<Services />} />
           <Route path="/works" element={<Works />} />
+          <Route path="/blog" element={<Blog />} />
         </Routes>
         <div key={location.pathname} className="flex flex-col bg-[#11121E] xl:px-[5.5em] lg:px-[2.75em] px-[1.25em]">
           <HomeFooter />
