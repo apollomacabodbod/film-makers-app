@@ -2,7 +2,7 @@ import { Routes, Route, useLocation } from "react-router-dom";
 import Home from "./home/page";
 import About from "./about/page";
 import Contact from "./contact/page";
-import HomeHeader from "./home/_components/home-header";
+import HomeHeader from "./components/home-header";
 import HomeFooter from "./home/_components/home-footer";
 import Services from "./our-services/page";
 import Works from "./works/page";
