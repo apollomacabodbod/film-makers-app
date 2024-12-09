@@ -1,4 +1,3 @@
-
 import { FC, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 
@@ -67,13 +66,24 @@ const Sidebar: FC<SidebarProps> = ({ sidebarOpen, setSidebarOpen }) => {
           className="lg:hidden w-full bg-cover bg-center max-w-[2em] self-end cursor-pointer opacity-70 hover:opacity-100 transition-all duration-1000 ease-in-out"
         />
 
-        <Link to={"/"} className="font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap text-[#FFF] opacity-70 hover:opacity-100 transition-opacity duration-1000 ease-in-out">Home</Link>
-        <Link to={"/about"} className="font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap text-[#FFF] opacity-70 hover:opacity-100 transition-opacity duration-1000 ease-in-out">About</Link>
-        <Link to={"/services"} className="font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap text-[#FFF] opacity-70 hover:opacity-100 transition-opacity duration-1000 ease-in-out">Services</Link>
-        <Link to={"/works"} className="font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap text-[#FFF] opacity-70 hover:opacity-100 transition-opacity duration-1000 ease-in-out">Works</Link>
-        <Link to={"/blog"} className="font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap text-[#FFF] opacity-70 hover:opacity-100 transition-opacity duration-1000 ease-in-out">Blog</Link>
-        <Link to={"#"} className="font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap text-[#FFF] opacity-70 hover:opacity-100 transition-opacity duration-1000 ease-in-out">Testimontials</Link>
-
+        {/* Sidebar links */}
+        {[
+          { to: "/", label: "Home" },
+          { to: "/about", label: "About" },
+          { to: "/services", label: "Services" },
+          { to: "/works", label: "Works" },
+          { to: "/blog", label: "Blog" },
+          { to: "#", label: "Testimonials" },
+        ].map((link) => (
+          <Link
+            key={link.to}
+            to={link.to}
+            onClick={() => setSidebarOpen(false)}
+            className="font-roboto text-[1.25rem] leading-[2em] font-light whitespace-nowrap text-[#FFF] opacity-70 hover:opacity-100 transition-opacity duration-1000 ease-in-out"
+          >
+            {link.label}
+          </Link>
+        ))}
       </div>
     </div>
   );
