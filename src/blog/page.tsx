@@ -1,4 +1,3 @@
-import AboutHeroSection from "../about/_components/about-hero-section"
 import BlogCards from "./_components/blog"
 import BlogHeroSection from "./_components/blog-hero-section"
 import LatestBlogCards from "./_components/blog-latest-blog"
