@@ -1,5 +1,6 @@
 import AboutHeroSection from "../about/_components/about-hero-section"
 import BlogCards from "./_components/blog"
+import BlogHeroSection from "./_components/blog-hero-section"
 import LatestBlogCards from "./_components/blog-latest-blog"
 
 
@@ -23,8 +24,7 @@ export default function Blog(){
       <div className="absolute inset-0 bg-black opacity-20"></div>
 
       
-      <AboutHeroSection/>
-
+      <BlogHeroSection/>
 
     </div>
 
