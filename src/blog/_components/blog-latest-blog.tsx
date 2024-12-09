@@ -31,11 +31,11 @@ export default function LatestBlogCards(){
 
   return (<>
 
-    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-[1.875em] mb-[6.25em] border border-[#50B498] green'>
+    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-[1.875em] mb-[6.25em] '>
 
       {latestcards.map((data) => (
 
-        <div key={data.id} className='flex flex-col border border-[#50B498] green'>
+        <div key={data.id} className='flex flex-col '>
 
 
           <motion.div className="flex items-center  transiton-all duration-1000 ease-in-out "
