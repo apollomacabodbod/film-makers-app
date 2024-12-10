@@ -219,6 +219,85 @@ export default function BlogDetail() {
 
 
 
+            <div className="flex items-center gap-[1.25em] mt-[1.25em]">
+
+
+              <img src="/blog-latest-post.svg" alt="" width={100} height={100}/>
+
+
+              <div className="flex flex-col">
+
+                <p className="text-white font-roboto-condensed text-[1.25rem] not-italic font-bold ">John Wick Chapter 4 Packs A Fast And Furious Punch</p>
+
+                <p className="text-[#82869A] font-roboto-condensed text-[1rem] not-italic font-normal ">March 27, 2023</p>
+
+
+              </div>
+
+
+            </div>
+
+
+
+            <div className="flex items-center gap-[1.25em] mt-[1.25em]">
+
+
+              <img src="/blog-latest-post.svg" alt="" width={100} height={100}/>
+
+
+              <div className="flex flex-col">
+
+                <p className="text-white font-roboto-condensed text-[1.25rem] not-italic font-bold ">John Wick Chapter 4 Packs A Fast And Furious Punch</p>
+
+                <p className="text-[#82869A] font-roboto-condensed text-[1rem] not-italic font-normal ">March 27, 2023</p>
+
+
+              </div>
+
+
+            </div>
+
+
+
+            <div className="flex items-center gap-[1.25em] mt-[1.25em]">
+
+
+              <img src="/blog-latest-post.svg" alt="" width={100} height={100}/>
+
+
+              <div className="flex flex-col">
+
+                <p className="text-white font-roboto-condensed text-[1.25rem] not-italic font-bold ">John Wick Chapter 4 Packs A Fast And Furious Punch</p>
+
+                <p className="text-[#82869A] font-roboto-condensed text-[1rem] not-italic font-normal ">March 27, 2023</p>
+
+
+              </div>
+
+
+            </div>
+
+
+            <div className="flex items-center gap-[1.25em] mt-[1.25em]">
+
+
+              <img src="/blog-latest-post.svg" alt="" width={100} height={100}/>
+
+
+              <div className="flex flex-col">
+
+                <p className="text-white font-roboto-condensed text-[1.25rem] not-italic font-bold ">John Wick Chapter 4 Packs A Fast And Furious Punch</p>
+
+                <p className="text-[#82869A] font-roboto-condensed text-[1rem] not-italic font-normal ">March 27, 2023</p>
+
+
+              </div>
+
+
+            </div>
+
+
+
   
 
 
