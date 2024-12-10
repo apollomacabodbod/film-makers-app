@@ -175,7 +175,7 @@ export default function BlogDetail() {
 
           <div className="flex items-center lg:bg-white w-full">
 
-            <input type="text" className="outline-none py-[0.625em] px-[1.5em] border border-[#50B498] green text-[#82869A]  text-[1rem] not-italic font-normal  "/>
+            <input type="text" className="outline-none py-[0.625em] px-[1.5em] border border-[#50B498] green text-[#82869A]  text-[1rem] not-italic font-normal  w-[15.4em] sm3:w-[18.75em]"/>
 
             {/* <img src="/blog-sidebar-searchbar.svg" alt="" width={14} height={16} className="bg-[#FF5E3A] py-[0.875em] px-[1.75em]  "/> */}
 
