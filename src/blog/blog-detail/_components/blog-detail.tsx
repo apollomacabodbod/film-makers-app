@@ -14,7 +14,7 @@ export default function BlogDetail() {
     <div className="flex flex-col border border-[#50B498] green">
 
 
-      <div className="lg:flex lg:items-center border border-[#50B498] green ">
+      <div className="lg:flex lg:items-center border border-[#50B498] green gap-[1.875em] justify-between">
 
 
 
@@ -169,11 +169,11 @@ export default function BlogDetail() {
 
         {/* Blog SideBar */}
 
-        <div className="flex flex-col border border-[#50B498] green w-full">
+        <div className="flex flex-col border border-[#50B498] green  lg:mt-[-81.8em] lg-4:mt-[-82em] lg-1:mt-[-80.5em] lg-9:mt-[-78.5em] lg-10:mt-[-77em] lg-11:mt-[-75.5em] lg-12:mt-[-74em] lg-13:mt-[-72.5em] lg-14:mt-[-71em]  xl:mt-[-74.1em]">
 
   
 
-          <div className="flex items-center bg-white ">
+          <div className="flex items-center lg:bg-white w-full">
 
             <input type="text" className="outline-none py-[0.625em] px-[1.5em] border border-[#50B498] green text-[#82869A]  text-[1rem] not-italic font-normal  "/>
 
