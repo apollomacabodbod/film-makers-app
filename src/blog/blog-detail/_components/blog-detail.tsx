@@ -116,8 +116,43 @@ export default function BlogDetail() {
 
       <p className="text-white font-roboto-condensed text-[4.5rem] not-italic font-bold leading-[1em] ">Leave a Reply</p>
 
-      <p className="text-[#82869A] mt-[1.875em]">Your email address will not be published. Required fields are marked *</p>
+      <p className="text-[#82869A] mt-[1.875em] font-roboto-condensed text-[1rem] font-normal">Your email address will not be published. Required fields are marked *</p>
  
+      <textarea placeholder="Comment" name="" id="" className="mt-[1.25em] px-[1.5em] pt-[0.625em] pb-[6.25em] outline-none rounded-[0.1875em] text-[#82869A] font-roboto-condensed text-[1rem] not-italic font-normal"></textarea>
+      <input placeholder="Name" type="text"  className="mt-[1.25em] px-[1.5em] py-[0.625em] outline-none rounded-[0.1875em] text-[#82869A] font-roboto-condensed text-[1rem] not-italic font-normal"/>
+      <input placeholder="Email Address" type="text"  className="mt-[1.25em] px-[1.5em] py-[0.625em] outline-none rounded-[0.1875em] text-[#82869A] font-roboto-condensed text-[1rem] not-italic font-normal"/>
+      <input placeholder="Website" type="text"  className="mt-[1.25em] px-[1.5em] py-[0.625em] outline-none rounded-[0.1875em] text-[#82869A] font-roboto-condensed text-[1rem] not-italic font-normal"/>
+   
+      <div className="flex items-center">
+
+ 
+
+        <motion.button className="mt-[1.25em] py-[0.9em] px-[1.5625em] bg-[#FF5E3A] text-white rounded-[0.1875em] font-roboto-condensed text-[1rem] not-italic font-bold uppercase transtion-all duration-1000 ease-in-out"
+
+
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.5 }}
+          variants={{
+            hidden: { opacity: 0, y: 10 },
+            visible: { 
+              opacity: 1, 
+              y: 0,
+              transition: { duration: 0, ease: "easeInOut" }, // Applying duration and easing
+            },
+          }}
+
+
+        >subscribe</motion.button>
+
+
+
+      </div>
+
+
+
+
+
     </div>
 
   
