@@ -29,10 +29,10 @@ export default function BlogDetail() {
           <p className="text-[#FF5E3A] font-roboto-condensed text-[0.875rem] not-italic font-bold uppercase leading-[1.2em] mt-[2em]">AI,  Machine Enginer,  Computer Vision,  3D Vision</p>
 
 
-          <div className="flex items-center border border-[#50B498] green gap-[0.625em] mt-[2em]">
+          <div className="lg:flex lg:items-center border border-[#50B498] green gap-[0.625em] mt-[2em]">
 
 
-            <div className="flex flex-col w-full">
+            <div className="flex flex-col w-[11.5625em] lg:w-full ">
 
               <div className="flex items-center bg-[#82869A] py-[0.625em] px-[0.9375em] border border-[#50B498] green gap-[0.9375em]">
 
@@ -48,7 +48,7 @@ export default function BlogDetail() {
 
 
 
-            <div className="flex flex-col w-full">
+            <div className="flex flex-col w-[11.5625em] lg:w-full mt-[1em] lg:mt-[0em]">
 
               <div className="flex items-center bg-[#82869A] py-[0.625em] px-[0.9375em] border border-[#50B498] green gap-[0.9375em]">
 
@@ -63,7 +63,7 @@ export default function BlogDetail() {
 
 
 
-            <div className="flex flex-col w-full">
+            <div className="flex flex-col w-[11.5625em] lg:w-full mt-[1em] lg:mt-[0em]">
 
               <div className="flex items-center bg-[#82869A] py-[0.625em] px-[0.9375em] border border-[#50B498] green gap-[0.9375em]">
 
@@ -78,7 +78,7 @@ export default function BlogDetail() {
 
 
 
-            <div className="flex flex-col w-full ">
+            <div className="flex flex-col w-[11.5625em] lg:w-full mt-[1em] lg:mt-[0em]">
 
               <div className="flex items-center bg-[#82869A] py-[0.625em] px-[0.9375em] border border-[#50B498] green gap-[0.9375em]">
 
@@ -169,17 +169,17 @@ export default function BlogDetail() {
 
         {/* Blog SideBar */}
 
-        <div className="flex flex-col border border-[#50B498] green  lg:mt-[-81.8em] lg-4:mt-[-82em] lg-1:mt-[-80.5em] lg-9:mt-[-78.5em] lg-10:mt-[-77em] lg-11:mt-[-75.5em] lg-12:mt-[-74em] lg-13:mt-[-72.5em] lg-14:mt-[-71em]  xl:mt-[-74.1em]">
+        <div className="flex flex-col border border-[#50B498] green  lg:mt-[-81.8em] lg-4:mt-[-82em]  lg-1:mt-[-82em] lg-9:mt-[-82em] lg-15:mt-[-80.5em] lg-16:mt-[-78.5em] lg-17:mt-[-77em] lg-10:mt-[-78.5em] lg-11:mt-[-77em] lg-2:mt-[-75.5em]  lg-12:mt-[-75.5em] lg-18:mt-[-74em]    lg-13:mt-[-74em] lg-14:mt-[-74em]  lg-19:mt-[-72.5em] lg-20:mt-[-71em]     xl:mt-[-74.1em] transition-all duration-1000 ease-in-out">
 
   
 
           <div className="flex items-center lg:bg-white w-full">
 
-            <input type="text" className="outline-none py-[0.625em] px-[1.5em] border border-[#50B498] green text-[#82869A]  text-[1rem] not-italic font-normal  w-[15.4em] sm3:w-[18.75em]"/>
+            <input type="text" className="outline-none py-[0.625em] px-[1.5em] border border-[#50B498] green text-[#82869A]  text-[1rem] not-italic font-normal  w-[14.8em] sm3:w-[18.75em]"/>
 
             {/* <img src="/blog-sidebar-searchbar.svg" alt="" width={14} height={16} className="bg-[#FF5E3A] py-[0.875em] px-[1.75em]  "/> */}
 
-            <div className="bg-center  bg-no-repeat  bg-[#FF5E3A] py-[1.5em] px-[1.75em] w-14px h-16px"
+            <div className="bg-center  bg-no-repeat  bg-[#FF5E3A] py-[1.5em] px-[2em] w-14px h-16px"
               style={{
                 backgroundImage: "url('/blog-sidebar-searchbar.svg')"
               }}
