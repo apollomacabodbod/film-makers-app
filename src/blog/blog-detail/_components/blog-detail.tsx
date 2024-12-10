@@ -173,13 +173,13 @@ export default function BlogDetail() {
 
   
 
-          <div className="flex items-center lg:bg-white w-full rounded-[0.2em]">
+          <div className="flex items-center lg:bg-white w-full rounded-[0.1875em]">
 
             <input type="text" className="outline-none py-[0.625em] px-[1.5em]  text-[#82869A]  text-[1rem] not-italic font-normal  w-[14.8em] sm3:w-[18.75em]"/>
 
             {/* <img src="/blog-sidebar-searchbar.svg" alt="" width={14} height={16} className="bg-[#FF5E3A] py-[0.875em] px-[1.75em]  "/> */}
 
-            <div className="rounded-r-[0.2em] bg-center  bg-no-repeat  bg-[#FF5E3A] py-[1.5em] px-[2em] w-14px h-16px"
+            <div className="rounded-r-[0.1875em] bg-center  bg-no-repeat  bg-[#FF5E3A] py-[1.5em] px-[2em] w-14px h-16px"
               style={{
                 backgroundImage: "url('/blog-sidebar-searchbar.svg')"
               }}
