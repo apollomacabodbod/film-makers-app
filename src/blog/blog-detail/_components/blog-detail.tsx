@@ -169,7 +169,7 @@ export default function BlogDetail() {
 
         {/* Blog SideBar */}
 
-        <div className="flex flex-col   lg:mt-[-81.8em] lg-4:mt-[-82em]  lg-1:mt-[-82em] lg-9:mt-[-82em] lg-15:mt-[-80.5em] lg-16:mt-[-78.5em] lg-17:mt-[-77em] lg-10:mt-[-78.5em] lg-11:mt-[-77em] lg-2:mt-[-75.5em]  lg-12:mt-[-75.5em] lg-18:mt-[-74em]    lg-13:mt-[-74em] lg-14:mt-[-74em]  lg-19:mt-[-72.5em] lg-20:mt-[-71em]     xl:mt-[-74.1em] transition-all duration-1000 ease-in-out">
+        <div className="flex flex-col border border-[#50B498] green  lg:mt-[-81.8em] lg-4:mt-[-82em]  lg-1:mt-[-82em] lg-9:mt-[-82em] lg-15:mt-[-80.5em] lg-16:mt-[-78.5em] lg-17:mt-[-77em] lg-10:mt-[-78.5em] lg-11:mt-[-77em] lg-2:mt-[-75.5em]  lg-12:mt-[-75.5em] lg-18:mt-[-74em]    lg-13:mt-[-74em] lg-14:mt-[-74em]  lg-19:mt-[-72.5em] lg-20:mt-[-71em]     xl:mt-[-29em] transition-all duration-1000 ease-in-out">
 
   
 
@@ -190,6 +190,40 @@ export default function BlogDetail() {
             </div>
 
           </div>
+
+          <p className="text-white font-roboto-condensed text-[2.25rem] font-bold leading-[1em] mt-[1.875em]">Latest Post</p>
+
+
+
+          <div className="flex flex-col mt-[1.875em] border border-[#50B498] green">
+
+ 
+
+            <div className="flex items-center gap-[1.25em]">
+
+
+              <img src="/blog-latest-post.svg" alt="" width={100} height={100}/>
+
+
+              <div className="flex flex-col">
+
+                <p className="text-white font-roboto-condensed text-[1.25rem] not-italic font-bold ">John Wick Chapter 4 Packs A Fast And Furious Punch</p>
+
+                <p className="text-[#82869A] font-roboto-condensed text-[1rem] not-italic font-normal ">March 27, 2023</p>
+
+
+              </div>
+
+
+            </div>
+
+
+
+  
+
+
+          </div>
+
 
 
 
