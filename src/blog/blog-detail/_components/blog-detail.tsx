@@ -169,7 +169,7 @@ export default function BlogDetail() {
 
         {/* Blog SideBar */}
 
-        <div className="flex flex-col border border-[#50B498] green  lg:mt-[-37.2em]  lg-4:mt-[-35.7em] lg-5:mt-[-33.9em]  lg-6:mt-[-32.5em] lg-7:mt-[-31em] lg-8:mt-[-29.5em] lg-9:mt-[-28em] lg-10:mt-[-26.4em]     xl:mt-[-29em] transition-all duration-1000 ease-in-out">
+        <div className="flex flex-col border border-[#50B498] green  lg:mt-[-27em]  lg-4:mt-[-25.5em] lg-5:mt-[-23.5em]  lg-6:mt-[-22em] lg-7:mt-[-20.5em] lg-8:mt-[-19em] lg-9:mt-[-17.6em] lg-10:mt-[-16em]     xl:mt-[-19em] xl-1:mt-[-17.5em] xl-2:mt-[-16em]   transition-all duration-1000 ease-in-out">
 
   
 
