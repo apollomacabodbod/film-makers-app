@@ -55,7 +55,7 @@ export default function LatestBlogCards(){
         
           >
 
-            <img src={data.image} alt="" width={0} height={0} className="w-[258px] h-[258px]  object-top object-cover rounded-[0.3125em] "/>
+            <img src={data.image} alt="" width={0} height={0} className="w-[258px] h-[258px] lg:w-full object-top object-cover rounded-[0.3125em] "/>
 
           </motion.div>
 
