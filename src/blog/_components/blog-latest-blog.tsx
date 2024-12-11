@@ -32,14 +32,14 @@ export default function LatestBlogCards(){
 
   return (<>
 
-    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-[1.875em] mb-[6.25em] '>
+    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-[1.875em]  mb-[6.25em] '>
 
       {latestcards.map((data) => (
 
-        <Link key={data.id} to={`/blog/${data.id}`} className="flex flex-col">
+        <Link key={data.id} to={`/blog/${data.id}`} className="flex flex-col ">
 
 
-          <motion.div className="flex items-center  transiton-all duration-1000 ease-in-out "
+          <motion.div className="flex items-center   transiton-all duration-1000 ease-in-out  "
           
             initial="hidden"
             whileInView="visible"
@@ -55,7 +55,7 @@ export default function LatestBlogCards(){
         
           >
 
-            <img src={data.image} alt="" width={0} height={0} className="w-[258px] h-[258px] object-cover rounded-[0.3125em] "/>
+            <img src={data.image} alt="" width={0} height={0} className="w-[258px] h-[258px]  object-top object-cover rounded-[0.3125em] "/>
 
           </motion.div>
 

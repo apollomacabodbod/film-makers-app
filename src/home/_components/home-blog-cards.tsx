@@ -33,7 +33,7 @@ export default function HomeBlogCards(){
           
           >
 
-            <img src="/home-blog-image1.webp" alt="" width={0} height={0} className="w-[258px] h-[258px] object-cover rounded-[0.3125em]"/>
+            <img src="/home-blog-image1.webp" alt="" width={0} height={0} className="w-[258px] h-[258px] object-top object-cover rounded-[0.3125em]"/>
   
           </motion.div>
 
@@ -94,7 +94,7 @@ export default function HomeBlogCards(){
           
           >
 
-            <img src="/home-blog-image4.jpeg" alt="" width={0} height={0} className="w-[258px] h-[258px] object-cover rounded-[0.3125em]"/>
+            <img src="/home-blog-image4.jpeg" alt="" width={0} height={0} className="w-[258px] h-[258px] object-top object-cover rounded-[0.3125em]"/>
   
           </motion.div>
 
@@ -156,7 +156,7 @@ export default function HomeBlogCards(){
           
           >
 
-            <img src="/home-blog-image2.webp" alt="" width={0} height={0} className="w-[258px] h-[258px] object-cover rounded-[0.3125em]"/>
+            <img src="/home-blog-image2.webp" alt="" width={0} height={0} className="w-[258px] h-[258px] object-top object-cover rounded-[0.3125em]"/>
   
           </motion.div>
 

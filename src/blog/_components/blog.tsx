@@ -10,7 +10,7 @@ export default function BlogCards(){
   return (<>
 
 
-    <div className="flex flex-col  transition-all duration-1000 ease-in-out my-[6.25em]">
+    <div className="flex flex-col  transition-all duration-1000 ease-in-out my-[6.25em] ">
 
 
       <div className='lg:flex lg:items-center'>
