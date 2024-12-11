@@ -202,7 +202,7 @@ export default function BlogDetail() {
             <div className="flex items-center gap-[1.25em]">
 
 
-              <img src="/blog-latest-post.svg" alt="" width={100} height={100}/>
+              <img src="/home-blog-image1.webp" alt="" width={100} height={100} />
 
 
               <div className="flex flex-col">
@@ -222,7 +222,7 @@ export default function BlogDetail() {
             <div className="flex items-center gap-[1.25em] mt-[1.25em]">
 
 
-              <img src="/blog-latest-post.svg" alt="" width={100} height={100}/>
+              <img src="/home-blog-image1.webp" alt="" width={100} height={100} />
 
 
               <div className="flex flex-col">
@@ -242,7 +242,7 @@ export default function BlogDetail() {
             <div className="flex items-center gap-[1.25em] mt-[1.25em]">
 
 
-              <img src="/blog-latest-post.svg" alt="" width={100} height={100}/>
+              <img src="/home-blog-image1.webp" alt="" width={100} height={100} />
 
 
               <div className="flex flex-col">
@@ -262,7 +262,7 @@ export default function BlogDetail() {
             <div className="flex items-center gap-[1.25em] mt-[1.25em]">
 
 
-              <img src="/blog-latest-post.svg" alt="" width={100} height={100}/>
+              <img src="/home-blog-image1.webp" alt="" width={100} height={100} />
 
 
               <div className="flex flex-col">
@@ -281,7 +281,7 @@ export default function BlogDetail() {
             <div className="flex items-center gap-[1.25em] mt-[1.25em]">
 
 
-              <img src="/blog-latest-post.svg" alt="" width={100} height={100}/>
+              <img src="/home-blog-image1.webp" alt="" width={100} height={100} />
 
 
               <div className="flex flex-col">
