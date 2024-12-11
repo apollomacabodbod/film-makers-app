@@ -1,10 +1,8 @@
-import { useParams } from "react-router-dom";
 import { motion } from 'framer-motion'
 
 
 
 export default function BlogDetail() {
-  const { id } = useParams();
 
   return (<>
 
