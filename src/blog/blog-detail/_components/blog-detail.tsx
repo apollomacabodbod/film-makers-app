@@ -169,17 +169,17 @@ export default function BlogDetail() {
 
         {/* Blog SideBar */}
 
-        <div className="flex flex-col border border-[#50B498] green  lg:mt-[-81.8em] lg-4:mt-[-82em]  lg-1:mt-[-82em] lg-9:mt-[-82em] lg-15:mt-[-80.5em] lg-16:mt-[-78.5em] lg-17:mt-[-77em] lg-10:mt-[-78.5em] lg-11:mt-[-77em] lg-2:mt-[-75.5em]  lg-12:mt-[-75.5em] lg-18:mt-[-74em]    lg-13:mt-[-74em] lg-14:mt-[-74em]  lg-19:mt-[-72.5em] lg-20:mt-[-71em]     xl:mt-[-29em] transition-all duration-1000 ease-in-out">
+        <div className="flex flex-col border border-[#50B498] green  lg:mt-[-37.2em]  lg-4:mt-[-35.7em] lg-5:mt-[-33.9em]  lg-6:mt-[-32.5em] lg-7:mt-[-31em] lg-8:mt-[-29.5em] lg-9:mt-[-28em] lg-10:mt-[-26.4em]     xl:mt-[-29em] transition-all duration-1000 ease-in-out">
 
   
 
-          <div className="flex items-center lg:bg-white w-full rounded-[0.1875em]">
+          <div className="flex items-center lg:justify-between lg:bg-white  rounded-[0.1875em]">
 
             <input type="text" className="outline-none py-[0.625em] px-[1.5em]  text-[#82869A]  text-[1rem] not-italic font-normal  w-[14.8em] sm3:w-[18.75em]"/>
 
             {/* <img src="/blog-sidebar-searchbar.svg" alt="" width={14} height={16} className="bg-[#FF5E3A] py-[0.875em] px-[1.75em]  "/> */}
 
-            <div className="rounded-r-[0.1875em] bg-center  bg-no-repeat  bg-[#FF5E3A] py-[1.5em] px-[2em] w-14px h-16px"
+            <div className="rounded-r-[0.1875em] bg-center  bg-no-repeat  bg-[#FF5E3A] py-[1.41em] lg:py-[1.5em] px-[2em] w-14px h-16px"
               style={{
                 backgroundImage: "url('/blog-sidebar-searchbar.svg')"
               }}
