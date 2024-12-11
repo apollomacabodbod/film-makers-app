@@ -1,4 +1,6 @@
 
+import { motion } from 'framer-motion'
+
 
 export default function BlogDetailHeroSection(){
 
@@ -6,7 +8,23 @@ export default function BlogDetailHeroSection(){
 
     <div className="z-20 lex flex-col mt-[20em] mb-[6.875em]  transition-all duration-1000 ease-in-out">
 
-      <p className="text-white font-roboto-condensed text-[6rem] not-italic font-bold leading-[1em]">John Wick Chapter 4 Packs A Fast And Furious Punch</p>
+      <motion.p className="text-white font-roboto-condensed text-[6rem] not-italic font-bold leading-[1em] transition-all duration-1000 ease-in-out"
+      
+      
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.5 }}
+        variants={{
+          hidden: { opacity: 0, y: 10 },
+          visible: { 
+            opacity: 1, 
+            y: 0,
+            transition: { duration: 0, ease: "easeInOut" }, // Applying duration and easing
+          },
+        }}
+      
+      
+      >John Wick Chapter 4 Packs A Fast And Furious Punch</motion.p>
 
       <div className="flex items-baseline gap-[2.5625em] mt-[1.875em] mb-[3.125em]">
 
@@ -15,9 +33,38 @@ export default function BlogDetailHeroSection(){
 
           <div className="flex items-baseline gap-[0.625em]">
 
-            <img src="/blog-detail-calendar.svg" alt="" width={13} height={16}/>
+            <motion.img src="/blog-detail-calendar.svg" alt="" width={13} height={16} className='transition-all duration-1000 ease-in-out'
+            
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.5 }}
+              variants={{
+                hidden: { opacity: 0, y: 10 },
+                visible: { 
+                  opacity: 1, 
+                  y: 0,
+                  transition: { duration: 0, ease: "easeInOut" }, // Applying duration and easing
+                },
+              }}
+            
+            
+            />
 
-            <p className="text-white">March 27, 2023</p>
+            <motion.p className="text-white transition-all duration-1000 ease-in-out"
+            
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.5 }}
+              variants={{
+                hidden: { opacity: 0, y: 10 },
+                visible: { 
+                  opacity: 1, 
+                  y: 0,
+                  transition: { duration: 0, ease: "easeInOut" }, // Applying duration and easing
+                },
+              }}
+            
+            >March 27, 2023</motion.p>
 
 
           </div>
@@ -32,9 +79,41 @@ export default function BlogDetailHeroSection(){
 
           <div className="flex items-baseline gap-[0.625em]">
 
-            <img src="/blog-detail-calendar.svg" alt="" width={13} height={16}/>
+            <motion.img src="/blog-detail-calendar.svg" alt="" width={13} height={16} className='transition-all duration-1000 ease-in-out'
+            
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.5 }}
+              variants={{
+                hidden: { opacity: 0, y: 10 },
+                visible: { 
+                  opacity: 1, 
+                  y: 0,
+                  transition: { duration: 0, ease: "easeInOut" }, // Applying duration and easing
+                },
+              }}
+            
+            
+            
+            />
 
-            <p className="text-white">March 27, 2023</p>
+            <motion.p className="text-white transition-all duration-1000 ease-in-out"
+            
+            
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.5 }}
+              variants={{
+                hidden: { opacity: 0, y: 10 },
+                visible: { 
+                  opacity: 1, 
+                  y: 0,
+                  transition: { duration: 0, ease: "easeInOut" }, // Applying duration and easing
+                },
+              }}
+            
+            
+            >March 27, 2023</motion.p>
 
 
           </div>
