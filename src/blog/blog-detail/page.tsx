@@ -13,7 +13,7 @@ export default function BlogDetails(){
     <div className="relative flex flex-col bg-top bg-cover bg-no-repeat xl:px-[5.5em] lg:px-[2.75em] px-[1.25em] transition-all duration-1000 ease-in-out"
       
       style={{
-        backgroundImage: 'url("/about-us.jpg")',
+        backgroundImage: 'url("/blog-cover.jpg")',
       }}
   
     >
