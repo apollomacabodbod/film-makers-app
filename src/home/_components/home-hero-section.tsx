@@ -8,7 +8,7 @@ export default function HomeHeroSection(){
   return (<>
 
 
-    <div className="border border-[#50B498] green max-w-[1200px] lg:mx-auto  px-[1.25em]  flex flex-col  z-10 my-[9em]  transition-all duration-1000 ease-in-out">
+    <div className=" max-w-[1200px] lg:mx-auto  px-[1.25em]  flex flex-col  z-10 my-[9em]  transition-all duration-1000 ease-in-out">
 
 
 
