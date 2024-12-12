@@ -34,7 +34,7 @@ export default function About() {
 
 
    
-    <div className="flex flex-col  bg-[#232639] xl:px-[5.5em] lg:px-[2.75em] px-[1.25em] transition-all duration-1000 ease-in-out">
+    <div className="max-w-[1200px] lg:mx-auto flex flex-col  bg-[#232639]  px-[1.25em] transition-all duration-1000 ease-in-out">
 
       <AboutAboutUs/>
       <AboutCinema/>
@@ -54,7 +54,7 @@ export default function About() {
 
     >
 
-      <div className="lg:relative flex flex-col bg-no-repeat h-auto xl:px-[5.5em] lg:px-[2.75em] px-[1.25em] transition-all duration-1000 ease-in-out py-[6.25em] "
+      <div className="lg:relative flex flex-col bg-no-repeat h-auto  px-[1.25em] transition-all duration-1000 ease-in-out py-[6.25em] "
 
         style={{
           backgroundImage: "url('/home-testimontials-vector2.svg')"
@@ -62,9 +62,14 @@ export default function About() {
 
       >
 
-        {/* components */}
-        <AboutTestimontials/>
-        <AboutTestimontialCards/>
+
+        <div className="max-w-[1200px] lg:mx-auto lg:px-[1.25em] ">
+
+          {/* components */}
+          <AboutTestimontials/>
+          <AboutTestimontialCards/>
+
+        </div>
 
 
         <div

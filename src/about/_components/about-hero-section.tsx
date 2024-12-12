@@ -6,7 +6,7 @@ export default function AboutHeroSection(){
 
   return(<>
 
-    <div className="z-20 lex flex-col mt-[13.0625em] mb-[6.875em]  transition-all duration-1000 ease-in-out">
+    <div className="max-w-[1200px] lg:mx-auto z-20 lex flex-col mt-[13.0625em] mb-[6.875em]  transition-all duration-1000 ease-in-out">
 
       <motion.div className="flex items-center justify-center gap-[0.625em] transiton-all duration-1000 ease-in-out"
             
