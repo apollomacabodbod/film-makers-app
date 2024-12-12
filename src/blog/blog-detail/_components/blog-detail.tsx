@@ -398,7 +398,7 @@ export default function BlogDetail() {
           
           >
 
-            <input type="text" className="rounded-l-[0.1875em] outline-none py-[0.660em] px-[1.5em]  text-[#82869A]  text-[1rem] not-italic font-normal  w-[14.8em] sm3:w-[18.75em] transition-all duration-1000 ease-in-out"/>
+            <input type="text" className="rounded-l-[0.1875em] rounded-r-[0em] outline-none py-[0.660em] px-[1.5em]  text-[#82869A]  text-[1rem] not-italic font-normal  w-[14.8em] sm3:w-[18.75em] transition-all duration-1000 ease-in-out"/>
 
             {/* <img src="/blog-sidebar-searchbar.svg" alt="" width={14} height={16} className="bg-[#FF5E3A] py-[0.875em] px-[1.75em]  "/> */}
 
