@@ -10,7 +10,7 @@ export default function BlogDetails(){
 
 
 
-    <div className="relative flex flex-col bg-top bg-cover bg-no-repeat xl:px-[5.5em] lg:px-[2.75em] px-[1.25em] transition-all duration-1000 ease-in-out"
+    <div className="relative flex flex-col bg-top bg-cover bg-no-repeat  transition-all duration-1000 ease-in-out"
       
       style={{
         backgroundImage: 'url("/blog-cover.jpg")',
@@ -27,7 +27,7 @@ export default function BlogDetails(){
     </div>
 
 
-    <div className="flex flex-col  bg-[#232639] xl:px-[5.5em] lg:px-[2.75em] px-[1.25em] transition-all duration-1000 ease-in-out">
+    <div className="max-w-[1200px] lg:mx-auto flex flex-col  bg-[#232639]  px-[1.25em] transition-all duration-1000 ease-in-out">
 
       <BlogDetail/>
       <BlogCollaborating/>

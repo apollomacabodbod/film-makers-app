@@ -6,7 +6,7 @@ export default function BlogDetailHeroSection(){
 
   return(<>
 
-    <div className="z-20 lex flex-col mt-[20em] mb-[6.875em]  transition-all duration-1000 ease-in-out">
+    <div className="max-w-[1200px] lg:mx-auto  px-[1.25em] z-20 lex flex-col mt-[20em] mb-[6.875em]  transition-all duration-1000 ease-in-out">
 
       <motion.p className="text-white font-roboto-condensed text-[6rem] not-italic font-bold leading-[1em] transition-all duration-1000 ease-in-out"
       
