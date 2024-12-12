@@ -9,7 +9,7 @@ export default function BlogDetail() {
 
 
 
-    <div className="flex flex-col border border-[#50B498] green">
+    <div className="flex flex-col ">
 
 
       <div className="lg:flex lg:items-center  gap-[1.875em] justify-between">
@@ -374,7 +374,7 @@ export default function BlogDetail() {
 
         {/* Blog SideBar */}
 
-        <div className="border border-[#50B498] green flex flex-col   lg:mt-[-21.9em]  lg-4:mt-[-21.9em] lg-5:mt-[-22em]  lg-6:mt-[-20.5em]  lg-7:mt-[-18.8em] lg-8:mt-[-17.5em]   transition-all duration-1000 ease-in-out">
+        <div className=" flex flex-col   lg:mt-[-21.9em]  lg-4:mt-[-21.9em] lg-5:mt-[-22em]  lg-6:mt-[-20.5em]  lg-7:mt-[-18.8em] lg-8:mt-[-17.5em] lg-9:mt-[-16em]  transition-all duration-1000 ease-in-out">
 
   
 
