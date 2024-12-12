@@ -227,7 +227,7 @@ export default function HomeFooterCards(){
 
         <div className="flex flex-col lg:max-w-[16.4375em] mt-[1em] lg:mt-[0em] ">
 
-          <motion.p className="text-white font-roboto-condensed text-[1.25rem] not-italic font-bold transition-all duration-1000 ease-in-out"
+          <motion.p className="text-white font-roboto-condensed text-[1.25rem] not-italic font-bold transition-all duration-1000 ease-in-out whitespace-nowrap"
           
           
             initial="hidden"
