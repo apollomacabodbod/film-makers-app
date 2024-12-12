@@ -77,7 +77,7 @@ export default function BlogDetail() {
           <div className="lg:flex lg:items-center  gap-[0.625em] mt-[2em]">
 
 
-            <motion.div className="flex flex-col w-[11.5625em] lg:w-full transition-all duration-1000 ease-in-out"
+            <motion.div className="flex flex-col w-[11.5625em] lg:w-full transition-all duration-1000 ease-in-out "
             
               initial="hidden"
               whileInView="visible"
@@ -93,7 +93,7 @@ export default function BlogDetail() {
             
             >
 
-              <div className="flex items-center bg-[#82869A] py-[0.625em] px-[0.9375em]  gap-[0.9375em]">
+              <div className="flex items-center bg-[#82869A] py-[0.625em] px-[0.9375em]  gap-[0.9375em] rounded-[0.1875em]">
 
                 <img src="/blog-facebook.svg" alt="" width={20} height={20}/>
 
@@ -109,7 +109,7 @@ export default function BlogDetail() {
 
             <div className="flex flex-col w-[11.5625em] lg:w-full mt-[1em] lg:mt-[0em]">
 
-              <motion.div className="flex items-center bg-[#82869A] py-[0.625em] px-[0.9375em]  gap-[0.9375em] transition-all duration-1000 ease-in-out"
+              <motion.div className="flex items-center bg-[#82869A] py-[0.625em] px-[0.9375em]  gap-[0.9375em] transition-all duration-1000 ease-in-out rounded-[0.1875em]"
               
               
                 initial="hidden"
@@ -140,7 +140,7 @@ export default function BlogDetail() {
 
             <div className="flex flex-col w-[11.5625em] lg:w-full mt-[1em] lg:mt-[0em]">
 
-              <motion.div className="flex items-center bg-[#82869A] py-[0.625em] px-[0.9375em]  gap-[0.9375em] transition-all duration-1000 ease-in-out"
+              <motion.div className="flex items-center bg-[#82869A] py-[0.625em] px-[0.9375em]  gap-[0.9375em] transition-all duration-1000 ease-in-out rounded-[0.1875em]"
               
               
                 initial="hidden"
@@ -170,9 +170,9 @@ export default function BlogDetail() {
 
 
 
-            <div className="flex flex-col w-[11.5625em] lg:w-full mt-[1em] lg:mt-[0em]">
+            <div className="flex flex-col w-[11.5625em] lg:w-full mt-[1em] lg:mt-[0em] rounded-[0.1875em]">
 
-              <motion.div className="flex items-center bg-[#82869A] py-[0.625em] px-[0.9375em]  gap-[0.9375em] transition-all duration-1000 ease-in-out "
+              <motion.div className="flex items-center bg-[#82869A] py-[0.625em] px-[0.9375em]  gap-[0.9375em] transition-all duration-1000 ease-in-out rounded-[0.1875em]"
               
               
                 initial="hidden"
