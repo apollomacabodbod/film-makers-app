@@ -9,14 +9,14 @@ export default function BlogDetail() {
 
 
 
-    <div className="flex flex-col ">
+    <div className="flex flex-col border border-[#50B498] green">
 
 
       <div className="lg:flex lg:items-center  gap-[1.875em] justify-between">
 
 
 
-        <div className="flex flex-col  mt-[3.125em] mb-[6.25em] max-w-[48.125em] ">
+        <div className="flex flex-col  mt-[3.125em] mb-[6.25em] max-w-[48.125em] border border-[#50B498] green">
 
           <motion.p className="text-[#82869A] font-roboto-condensed text-[1.5rem] not-italic font-bold leading-[1.2em] transition-all duration-1000 ease-in-out"
           
@@ -374,7 +374,7 @@ export default function BlogDetail() {
 
         {/* Blog SideBar */}
 
-        <div className="flex flex-col   lg:mt-[-27em]  lg-4:mt-[-25.5em] lg-5:mt-[-23.5em]  lg-6:mt-[-22em] lg-7:mt-[-20.5em] lg-8:mt-[-19em] lg-9:mt-[-17.6em] lg-10:mt-[-16em]     xl:mt-[-19em] xl-1:mt-[-17.5em] xl-2:mt-[-16em]   transition-all duration-1000 ease-in-out">
+        <div className="border border-[#50B498] green flex flex-col   lg:mt-[-21.9em]  lg-4:mt-[-21.9em] lg-5:mt-[-22em]  lg-6:mt-[-20.5em]  lg-7:mt-[-18.8em] lg-8:mt-[-17.5em]   transition-all duration-1000 ease-in-out">
 
   
 
