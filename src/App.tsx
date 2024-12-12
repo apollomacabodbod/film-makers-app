@@ -20,6 +20,9 @@ function App() {
     <>
       <LenisProvider>
         <ScrollToTop/>
+
+       
+
         <HomeHeader />
       
         <Routes > {/* Unique key for re-mounting */}
@@ -31,9 +34,11 @@ function App() {
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/:id" element={<BlogDetails />} /> {/* Dynamic route with ID */}
         </Routes>
-        <div key={location.pathname} className="flex flex-col bg-[#11121E] xl:px-[5.5em] lg:px-[2.75em] px-[1.25em]">
+        <div key={location.pathname} className=" flex flex-col bg-[#11121E] ">
           <HomeFooter />
         </div>
+          
+       
       </LenisProvider>
     </>
   );
