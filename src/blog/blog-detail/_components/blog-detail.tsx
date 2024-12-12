@@ -16,7 +16,7 @@ export default function BlogDetail() {
 
 
 
-        <div className="flex flex-col  mt-[3.125em] mb-[6.25em] max-w-[48.125em] border border-[#50B498] green">
+        <div className="flex flex-col  mt-[3.125em] mb-[6.25em] max-w-[48.125em] ">
 
           <motion.p className="text-[#82869A] font-roboto-condensed text-[1.5rem] not-italic font-bold leading-[1.2em] transition-all duration-1000 ease-in-out"
           
