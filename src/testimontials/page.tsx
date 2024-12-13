@@ -1,6 +1,7 @@
 import TestimontialCards from "./_components/testimontials-cards";
 import TestimontialsDetail from "./_components/testimontials-detail";
 import TestimontialsHeroSection from "./_components/testimontials-hero-section";
+import TestimontialsLatest from "./_components/testimontials-latest";
 
 
 
@@ -80,6 +81,18 @@ export default function Testimontials(){
     
     
     </div>
+
+
+
+
+    <div className="max-w-[1200px] lg:mx-auto flex flex-col  bg-[#232639]  px-[1.25em] pb-[5.875em] transition-all duration-1000 ease-in-out">
+          
+
+      <TestimontialsLatest/>
+        
+        
+    </div>
+    
 
 
 
