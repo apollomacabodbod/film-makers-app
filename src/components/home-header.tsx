@@ -79,7 +79,7 @@ export default function HomeHeader(){
                 <Link to={"/services"} className="font-roboto-condensed text-[0.875rem] not-italic font-bold text-white uppercase">Services </Link>
                 <Link to={"/works"} className="font-roboto-condensed text-[0.875rem] not-italic font-bold text-white uppercase">Works </Link>
                 <Link to={"/blog"} className="font-roboto-condensed text-[0.875rem] not-italic font-bold text-white uppercase">Blog </Link>
-                <Link to={"#"} className="font-roboto-condensed text-[0.875rem] not-italic font-bold text-white uppercase">Testimontials </Link>
+                <Link to={"/testimontials"} className="font-roboto-condensed text-[0.875rem] not-italic font-bold text-white uppercase">Testimontials </Link>
 
               </div>
 
