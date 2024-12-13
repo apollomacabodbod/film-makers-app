@@ -32,7 +32,7 @@ export default function TestimontialsHeroSection(){
       </motion.div>
 
 
-      <motion.p className="text-white font-roboto-condensed text-[6rem] text-center font-bold not-italic leading-[1em] transiton-all duration-1000 ease-in-out"
+      <motion.p className="text-white font-roboto-condensed text-[3.5rem] lg:text-[6rem] text-center font-bold not-italic leading-[1em] transiton-all duration-1000 ease-in-out"
       
       
         initial="hidden"

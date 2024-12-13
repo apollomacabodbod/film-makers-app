@@ -88,7 +88,7 @@ export default function Testimontials(){
     <div className="max-w-[1200px] lg:mx-auto flex flex-col  bg-[#232639]  px-[1.25em] pb-[5.875em] transition-all duration-1000 ease-in-out">
           
 
-      <TestimontialsLatest/>
+      {/* <TestimontialsLatest/> */}
         
         
     </div>
