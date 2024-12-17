@@ -15,7 +15,7 @@ export default function Testimontials(){
     <div className="relative flex flex-col  bg-center bg-cover bg-no-repeat transition-all duration-1000 ease-in-out"
           
       style={{
-        backgroundImage: 'url("professional-camera.jpg")',
+        backgroundImage: 'url("female-videographer.jpg")',
       }}
       
     >
