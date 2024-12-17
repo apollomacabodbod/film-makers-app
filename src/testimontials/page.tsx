@@ -12,10 +12,10 @@ export default function Testimontials(){
   return(<>
 
 
-    <div className="relative flex flex-col  bg-top bg-cover bg-no-repeat transition-all duration-1000 ease-in-out"
+    <div className="relative flex flex-col  bg-center bg-cover bg-no-repeat transition-all duration-1000 ease-in-out"
           
       style={{
-        backgroundImage: 'url("professional-camera3.jpg")',
+        backgroundImage: 'url("professional-camera.jpg")',
       }}
       
     >
