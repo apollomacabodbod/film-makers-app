@@ -12,10 +12,15 @@ import Blog from "./blog/page";
 import BlogDetails from "./blog/blog-detail/page";
 import Testimontials from "./testimontials/page";
 import NotFound from "./components/not-found";
+import { useEffect } from "react";
 
 function App() {
   
   const location = useLocation(); // Now safe to use because it's inside a Router
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
 
 
   return (
