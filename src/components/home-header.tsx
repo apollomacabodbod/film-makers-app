@@ -38,7 +38,7 @@ export default function HomeHeader(){
 
 
 
-        <div className="max-w-[1200px] lg:mx-auto relative flex flex-col py-[1.2em]   px-[1.25em]">
+        <div className="max-w-[1200px] lg:mx-auto relative flex flex-col py-[1.5em]   px-[1.25em]">
 
 
           <div className="flex items-center justify-between ">
