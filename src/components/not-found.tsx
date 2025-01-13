@@ -8,7 +8,11 @@ export default function NotFound(){
 
 
 
-    <div className="relative flex flex-col  bg-right bg-cover bg-no-repeat transition-all duration-1000 ease-in-out"
+
+
+
+
+    <div className="relative flex flex-col min-h-screen bg-right bg-cover bg-no-repeat transition-all duration-1000 ease-in-out"
               
       style={{
         backgroundImage: 'url("professional-camera3.jpg")',
@@ -20,7 +24,7 @@ export default function NotFound(){
       <div className="absolute inset-0 bg-black opacity-20"></div>
         
               
-      <div className="max-w-[1200px] lg:mx-auto z-20 lex flex-col mt-[13.0625em] mb-[6.875em]  transition-all duration-1000 ease-in-out">
+      <div className="max-w-[1200px] lg:mx-auto  px-[1.25em] z-20 lex flex-col  my-auto   transition-all duration-1000 ease-in-out">
 
         <motion.div className="flex items-center justify-center gap-[0.625em] transiton-all duration-1000 ease-in-out"
       
@@ -124,7 +128,6 @@ export default function NotFound(){
       </div>
         
     </div>
-
 
     
     
