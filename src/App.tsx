@@ -12,7 +12,6 @@ import Blog from "./blog/page";
 import BlogDetails from "./blog/blog-detail/page";
 import Testimontials from "./testimontials/page";
 import NotFound from "./components/not-found";
-import { useEffect } from "react";
 
 function App() {
   
