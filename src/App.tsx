@@ -22,11 +22,10 @@ function App() {
   return (
     <>
       <LenisProvider>
-        <ScrollToTop/>
-
-       
-
+     
         <HomeHeader />
+
+        <ScrollToTop/>
       
         <Routes > {/* Unique key for re-mounting */}
           <Route path="/" element={<Home />} />
