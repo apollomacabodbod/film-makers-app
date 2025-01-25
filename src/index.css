@@ -96,7 +96,7 @@
 /* Scrollbar for Light Mode */
 @media (prefers-color-scheme: light) {
   ::-webkit-scrollbar-track {
-    background-color: #e0e0e0; /* Light gray background */
+    background-color: hsl(var(--muted)); /* Matches light muted background */
   }
 
   ::-webkit-scrollbar-thumb {
