@@ -7,7 +7,6 @@ import HomeFooter from "./home/_components/home-footer";
 import Services from "./our-services/page";
 import Works from "./works/page";
 import { LenisProvider } from "./context/lenis";
-import ScrollToTop from "./components/scroll-top";
 import Blog from "./blog/page";
 import BlogDetails from "./blog/blog-detail/page";
 import Testimontials from "./testimontials/page";
