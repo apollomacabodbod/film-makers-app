@@ -25,7 +25,6 @@ function App() {
      
         <HomeHeader />
 
-        <ScrollToTop/>
       
         <Routes > {/* Unique key for re-mounting */}
           <Route path="/" element={<Home />} />
