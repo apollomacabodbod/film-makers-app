@@ -42,7 +42,6 @@ export const fetchPosts = createAsyncThunk(
       );
 
       const data = await response.json();
-      console.log(data.result)
       return data.result;
 
     } catch (error) {
