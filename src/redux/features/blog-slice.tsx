@@ -9,7 +9,7 @@ import { createSlice, createAsyncThunk} from "@reduxjs/toolkit";
 //   image: string;
 // };
 
-type Cards = {
+export type Cards = {
     id: number;
     title: string;
     date: string;
@@ -42,6 +42,7 @@ export const fetchPosts = createAsyncThunk(
       );
 
       const data = await response.json();
+      console.log(data.result)
       return data.result;
 
     } catch (error) {
