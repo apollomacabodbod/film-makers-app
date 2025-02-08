@@ -1,28 +1,41 @@
 
 
-
+// import { useState } from 'react';
 import { motion } from 'framer-motion'
-import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { useSelector } from "react-redux";
+import { RootState } from "src/redux/store";
+
+
+
+
 
 export default function BlogCardsItems(){
 
 
+  const { posts, loading, error } = useSelector((state: RootState) => state.posts) ;
 
-  type cards = {
-    id: number;
-    title: string;
-    date: string;
-    image: string;
-  }
+  if (loading) return <p>Loading...</p>;
+  if (error) return <p>Error</p>;
 
 
-  const [latestcards] = useState<cards[]>([
 
-    {id: 1, title: 'John Wick Chapter 4 Packs A Fast And Furious Punch', date: 'March 27, 2023 No Comments', image: '/home-blog-image4.jpeg'},
-    {id: 2, title: 'John Wick Chapter 4 Packs A Fast And Furious Punch', date: 'March 27, 2023 No Comments', image: '/home-blog-image1.webp'},
-    {id: 3, title: 'John Wick Chapter 4 Packs A Fast And Furious Punch', date: 'March 27, 2023 No Comments', image: '/home-blog-image2.webp'},
-  ])
+
+
+  // type cards = {
+  //   id: number;
+  //   title: string;
+  //   date: string;
+  //   image: string;
+  // }
+
+
+  // const [latestcards] = useState<cards[]>([
+
+  //   {id: 1, title: 'John Wick Chapter 4 Packs A Fast And Furious Punch', date: 'March 27, 2023 No Comments', image: '/home-blog-image4.jpeg'},
+  //   {id: 2, title: 'John Wick Chapter 4 Packs A Fast And Furious Punch', date: 'March 27, 2023 No Comments', image: '/home-blog-image1.webp'},
+  //   {id: 3, title: 'John Wick Chapter 4 Packs A Fast And Furious Punch', date: 'March 27, 2023 No Comments', image: '/home-blog-image2.webp'},
+  // ])
 
 
 
@@ -35,7 +48,7 @@ export default function BlogCardsItems(){
 
     <div className='grid grid-cols-1  lg:grid-cols-3  gap-[1.875em] mt-[1.5em] lg:mt-[0em]  '>
 
-      {latestcards.map((data) => (
+      {posts.map((data) => (
 
 
 
