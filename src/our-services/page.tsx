@@ -1,11 +1,24 @@
+import { useEffect } from "react";
 import ServicesCards from "./_components/services-cards";
 import ServicesCollaborating from "./_components/services-collaborating";
 import AboutHeroSection from "./_components/services-hero-section";
 import ServicesOurServices from "./_components/services-our-services";
+import { AppDispatch } from "@/src/redux/store";
+import { useDispatch } from "react-redux";
+import { fetchServices } from "src/redux/features/services-slice";
 
 
 
 export default function Services(){
+
+
+  const dispatch = useDispatch<AppDispatch>();
+  
+
+  useEffect(() => {
+    dispatch(fetchServices());
+  }, [dispatch]);
+
 
 
   return(

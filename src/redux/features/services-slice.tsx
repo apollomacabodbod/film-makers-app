@@ -1,44 +1,35 @@
 import { createSlice, createAsyncThunk} from "@reduxjs/toolkit";
 
-// Define the Post type
-// export type Post = {
-//   id: number;
-//   date: string;
-//   title: string;
-//   description: string;
-//   image: string;
-// };
 
-export type Cards = {
+type ServicesCards = {
     id: number;
     title: string;
-    date: string;
+    description: string;
     image: string;
-  }
-
+}
 
 // Define the state type
-type PostsState = {
-  posts: Cards[];
+type ServicesState = {
+   services: ServicesCards[];
   loading: boolean;
   error: string | null;
 };
 
 // Initial state
-const initialState: PostsState = {
-  posts: [], // This will be hydrated by Redux Persist
+const initialState: ServicesState = {
+  services: [], // This will be hydrated by Redux Persist
   loading: false,
   error: null,
 };
 
-export const fetchPosts = createAsyncThunk(
-  "posts/fetchPosts",
+export const fetchServices = createAsyncThunk(
+  "services/fetchServices",
   async (_, { rejectWithValue }) => {
    
     try {
       const response = await fetch(
         // "https://faux-api.com/api/v1/blogupdates_8415773995269211"
-        "https://faux-api.com/api/v1/blog_28785026016346116"
+        "https://faux-api.com/api/v1/services_28785026016346116"
       );
 
       const data = await response.json();
@@ -55,23 +46,23 @@ export const fetchPosts = createAsyncThunk(
 
 
 
-const postsSlice = createSlice({
-  name: "posts",
+const servicesSlice = createSlice({
+  name: "services",
   initialState,
   reducers: {},
   extraReducers: (builder) => {
     builder
-      .addCase(fetchPosts.pending, (state) => {
+      .addCase(fetchServices.pending, (state) => {
         state.loading = true;
       })
-      .addCase(fetchPosts.fulfilled, (state, action) => {
+      .addCase(fetchServices.fulfilled, (state, action) => {
         state.loading = false;
-        state.posts = action.payload; // Save fetched data
+        state.services = action.payload; // Save fetched data
         state.error = null;
       })
-      .addCase(fetchPosts.rejected, (state, action) => {
+      .addCase(fetchServices.rejected, (state, action) => {
         state.loading = false;
-        if (state.posts.length === 0) {
+        if (state.services.length === 0) {
           state.error = action.payload as string; // Only store error if no cached data
         }
       });
@@ -79,4 +70,4 @@ const postsSlice = createSlice({
   },
 });
 
-export default postsSlice.reducer;
+export default servicesSlice.reducer;
