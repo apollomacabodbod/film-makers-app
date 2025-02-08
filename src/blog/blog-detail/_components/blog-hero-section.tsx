@@ -1,8 +1,31 @@
 
 import { motion } from 'framer-motion'
+import { useEffect } from "react";
+import { useParams } from "react-router-dom";
+import { useDispatch, useSelector } from "react-redux";
+import type { AppDispatch, RootState } from "@/src/redux/store";
+import { fetchPosts } from "src/redux/features/single-blog-slice";
+
 
 
 export default function BlogDetailHeroSection(){
+
+
+  const { id } = useParams();
+  const blogId = Number(id); // Convert to a number for comparison
+
+  const dispatch = useDispatch<AppDispatch>();
+  const { posts, loading, error } = useSelector((state: RootState) => state.blog);
+
+  useEffect(() => {
+    dispatch(fetchPosts(blogId));
+  },[dispatch, blogId]);
+
+  // Find the specific post by ID
+  const post = posts.find((p) => p.id === blogId);
+
+  if (loading) return <p>Loading...</p>;
+  if (error) return <p className="text-white">Error: {error}</p>;
 
   return(<>
 
@@ -24,7 +47,7 @@ export default function BlogDetailHeroSection(){
         }}
       
       
-      >John Wick Chapter 4 Packs A Fast And Furious Punch</motion.p>
+      >{post?.title}</motion.p>
 
       <div className="flex items-baseline gap-[2.5625em] mt-[1.875em] mb-[3.125em]">
 

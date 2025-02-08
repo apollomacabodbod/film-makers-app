@@ -4,6 +4,7 @@ import { configureStore, combineReducers } from "@reduxjs/toolkit";
 import { persistStore, persistReducer } from "redux-persist";
 import storage from "redux-persist/lib/storage";
 import BlogReducer from 'src/redux/features/blog-slice'
+import SingleblogReducer from 'src/redux/features/single-blog-slice'
 
 // Persist Config with Whitelist
 const persistConfig = {
@@ -15,7 +16,7 @@ const persistConfig = {
 
 const rootReducer = combineReducers({
   posts: BlogReducer,   // ✅ Persists all posts
-//   blog: SingleblogReducer,
+ blog: SingleblogReducer,
 });
 
 // Persisted Reducer
