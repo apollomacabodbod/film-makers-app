@@ -15,16 +15,16 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
 
-<Provider store={store}>
-<PersistGate loading={null} persistor={persistor}>
+    <Provider store={store}>
+      <PersistGate loading={null} persistor={persistor}>
 
 
-    <Router> {/* Router is now wrapping the App */}
-      <App />
-    </Router>
+        <Router> {/* Router is now wrapping the App */}
+          <App />
+        </Router>
 
 
-    </PersistGate>
+      </PersistGate>
     </Provider>
 
   </React.StrictMode>

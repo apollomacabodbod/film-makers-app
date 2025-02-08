@@ -16,7 +16,7 @@ const persistConfig = {
 
 const rootReducer = combineReducers({
   posts: BlogReducer,   // ✅ Persists all posts
- blog: SingleblogReducer,
+  blog: SingleblogReducer,
 });
 
 // Persisted Reducer

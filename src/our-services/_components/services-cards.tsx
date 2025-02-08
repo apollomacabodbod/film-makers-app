@@ -10,34 +10,32 @@ export default function ServicesCards(){
         title: string;
         description: string;
         image: string;
-        iconOuter: string;
-        iconInner: string;
     }
 
 
     const [cards] = useState<ServicesCards[]>([
 
       {id: 1, title: 'Movie Production', description: 'Proin et magna blandit arcu pellent esque sceleri bandio wasikolo.'
-        ,image: '/professional-camera.jpg' , iconOuter: 'home-services-icon-outer.svg', iconInner: 'home-movie-production.svg'},
+        ,image: '/professional-camera.jpg' },
 
       {id: 2, title: 'Movie Directing', description: 'Proin et magna blandit arcu pellent esque sceleri bandio wasikolo.'
-        ,image: '/cameraman-shooting.jpg' , iconOuter: 'home-services-icon-outer.svg', iconInner: 'home-movie-directing.svg'},
+        ,image: '/cameraman-shooting.jpg' },
 
 
       {id: 3, title: 'High Quality Work', description: 'Proin et magna blandit arcu pellent esque sceleri bandio wasikolo.'
-        ,image: '/videographer-filming.jpeg' , iconOuter: 'home-services-icon-outer.svg', iconInner: 'home-high-quality.svg'},
+        ,image: '/videographer-filming.jpeg' },
 
 
 
       {id: 4, title: 'Sound Effects', description: 'Proin et magna blandit arcu pellent esque sceleri bandio wasikolo.'
-        ,image: '/professional-recording.jpg' , iconOuter: 'home-services-icon-outer.svg', iconInner: 'home-sound-effects.svg'},
+        ,image: '/professional-recording.jpg' },
 
       {id: 5, title: 'Live Streaming', description: 'Proin et magna blandit arcu pellent esque sceleri bandio wasikolo.'
-        ,image: '/body-part.jpg' , iconOuter: 'home-services-icon-outer.svg', iconInner: 'home-live-streaming.svg'},
+        ,image: '/body-part.jpg' },
 
 
       {id: 6, title: 'Video Converting', description: 'Proin et magna blandit arcu pellent esque sceleri bandio wasikolo.'
-        ,image: '/videographer-editing.JPG' , iconOuter: 'home-services-icon-outer.svg', iconInner: 'home-video-converting.svg'},
+        ,image: '/videographer-editing.JPG' },
     ])
 
 
@@ -85,7 +83,7 @@ export default function ServicesCards(){
 
                 style={{
 
-                  backgroundImage: `url(${item.iconOuter})`
+                  backgroundImage: `url(home-services-icon-outer.svg)`
                 }}
 
 
@@ -108,7 +106,7 @@ export default function ServicesCards(){
 
                   style={{
 
-                    backgroundImage: `url(${item.iconInner})`
+                    backgroundImage: `url(home-video-converting.svg)`
                   }}
 
                 >
