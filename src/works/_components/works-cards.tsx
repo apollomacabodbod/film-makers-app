@@ -42,11 +42,11 @@ export default function WorksCards() {
   ]);
 
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-[1.875em] mt-[3.125em] mb-[5.875em] transition-all duration-1000 ease-in-out">
+    <div className="grid grid-cols-1 lg:grid-cols-2  gap-[1.875em]  mt-[3.125em] mb-[5.875em] transition-all duration-1000 ease-in-out">
       {data.map((item) => (
         <motion.div
           key={item.id}
-          className="group relative bg-cover bg-center bg-no-repeat h-[20.0625em] transition-all duration-1000 ease-in-out rounded-[0.3125em]"
+          className="bg-cover bg-center bg-no-repeat  h-[20.0625em]  transition-all duration-1000 ease-in-out rounded-[0.3125em]"
           style={{
             backgroundImage: `url(${item.image})`,
           }}
@@ -58,23 +58,69 @@ export default function WorksCards() {
             visible: {
               opacity: 1,
               y: 0,
-              transition: { duration: 0, ease: "easeInOut" },
+              transition: { duration: 0, ease: "easeInOut" }, // Applying duration and easing
             },
           }}
         >
-          {/* Gradient Overlay (Hidden by Default, Visible on Hover) */}
-          <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(17,18,30,0.7)_0%,rgba(17,18,30,1)_100%)]
- opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-
-          {/* Title (Hidden by Default, Visible on Hover) */}
-          <motion.p
-            className="absolute  left-4 text-white text-[2.25rem] font-bold leading-[1em] opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+          <div
+            className="relative flex flex-col top-[7.6em] sm0-0:top-[8.7em] 
+           
+           pt-[4.8125em] pb-[2em] px-[1.875em] bg-[linear-gradient(180deg,rgba(17,18,30,0)_0%,rgba(17,18,30,0.8)_100%)]"
           >
-            {item.title}
-          </motion.p>
+            <motion.p
+              className={`transition-all duration-1000 ease-in-out font-roboto-condensed text-white text-[2.25rem] not-italic font-bold leading-[1em] ${
+                item.title === "Company Profile" && "whitespace-nowrap"
+              }`}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.5 }}
+              variants={{
+                hidden: { opacity: 0, y: 10 },
+                visible: {
+                  opacity: 1,
+                  y: 0,
+                  transition: { duration: 0, ease: "easeInOut" }, // Applying duration and easing
+                },
+              }}
+            >
+              {item.title}
+            </motion.p>
 
-
-          
+            <div className="flex items-center justify-between mt-[0.5em]">
+              <motion.p
+                className="text-[1rem] text-white font-roboto-condensed  not-italic font-normal transition-all duration-1000 ease-in-out"
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, amount: 0.5 }}
+                variants={{
+                  hidden: { opacity: 0, y: 10 },
+                  visible: {
+                    opacity: 1,
+                    y: 0,
+                    transition: { duration: 0, ease: "easeInOut" }, // Applying duration and easing
+                  },
+                }}
+              >
+                {item.description}
+              </motion.p>
+              <motion.p
+                className="font-roboto-condensed text-[1.25rem] not-italic font-bold text-white transition-all duration-1000 ease-in-out"
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, amount: 0.5 }}
+                variants={{
+                  hidden: { opacity: 0, y: 10 },
+                  visible: {
+                    opacity: 1,
+                    y: 0,
+                    transition: { duration: 0, ease: "easeInOut" }, // Applying duration and easing
+                  },
+                }}
+              >
+                {item.year}
+              </motion.p>
+            </div>
+          </div>
         </motion.div>
       ))}
     </div>
